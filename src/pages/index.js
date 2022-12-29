@@ -8,11 +8,10 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const samplePageLinks = [
   {
-    text: "Page 2",
-    url: "page-2",
+    text: "Biografia",
+    url: "biografia",
     badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
+    description: "Biografia di Margherita Graglia",
   },
   { text: "TypeScript", url: "using-typescript" },
   { text: "Server Side Rendering", url: "using-ssr" },
@@ -24,10 +23,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-
-      <h1>
-       MARGHERITA GRAGLIA
-      </h1>
+      <h1>MARGHERITA GRAGLIA</h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
