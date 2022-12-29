@@ -13,9 +13,18 @@ const samplePageLinks = [
     badge: false,
     description: "Biografia di Margherita Graglia",
   },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
+  {
+    text: "Libri",
+    url: "libri",
+    badge: false,
+    description: "Libri di Margherita Graglia",
+  },
+  {
+    text: "Psiocoterapia",
+    url: "psicoterapia",
+    badge: false,
+    description: "Psicoterapia di Margherita Graglia",
+  },
 ]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
