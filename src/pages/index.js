@@ -27,7 +27,27 @@ const samplePageLinks = [
   },
 ]
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+const bookPageLinks = [
+  {
+    text: "Libro 1",
+    url: "libri/book-one",
+    badge: false,
+    description: "Libro 1",
+  },
+  {
+    text: "Libro 2",
+    url: "libri/book-two",
+    badge: false,
+    description: "Libro 2",
+  },
+  {
+    text: "Libro 3",
+    url: "libri/book-three",
+    badge: false,
+    description: "Libro 3",
+  },
+]
+
 
 const IndexPage = () => (
   <Layout>
@@ -38,6 +58,15 @@ const IndexPage = () => (
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
+            {i !== samplePageLinks.length - 1 && <> · </>}
+          </React.Fragment>
+        ))}
+        <b>Example books:</b>{" "}
+        {bookPageLinks.map((link, i) => (
+          <React.Fragment key={link.url}>
+            <a href={link.url} target="_blank">
+              {link.text}
+            </a>
             {i !== samplePageLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
