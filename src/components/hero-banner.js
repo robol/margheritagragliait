@@ -11,6 +11,8 @@ const HeroBanner = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        maxHeight: "300px",
+        overflow: "hidden",
       }}
     >
       <StaticImage //TODO: EVALUATE THIS
