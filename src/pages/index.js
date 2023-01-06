@@ -1,6 +1,7 @@
 import * as React from "react"
 import * as styles from "../components/index.module.css"
 
+import HeroBanner from "../components/hero-banner"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Seo from "../components/seo"
@@ -30,7 +31,7 @@ const bookPageLinks = [
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-      <h1>MARGHERITA GRAGLIA</h1>
+      <HeroBanner />
       <p className={styles.intro}>
         <b>Example books:</b>{" "}
         {bookPageLinks.map((link, i) => (

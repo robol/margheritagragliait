@@ -30,8 +30,6 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
         }}
       >
         <main>{children}</main>
@@ -43,7 +41,9 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()} &middot; Built by
           {` `}
-          <a href="https://github.com/emirodriguezalc/">Emilia Rodriguez Gimenez</a>
+          <a href="https://github.com/emirodriguezalc/">
+            Emilia Rodriguez Gimenez
+          </a>
         </footer>
       </div>
     </>
