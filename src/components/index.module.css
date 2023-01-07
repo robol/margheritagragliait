@@ -5,10 +5,7 @@
   --w: 280px;
   --n: 2;
   gap: var(--size-gap);
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-  );
+  grid-template-columns: repeat(auto-fit, minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr));
   margin-bottom: var(--size-gap);
   margin-top: var(--size-gap);
 }
@@ -51,4 +48,7 @@
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
+  background-color: var(--color-primary);
+  font-size: var(--font-lg);
+  padding: var(--space-4) var(--space-5) var(--space-5) var(--space-5);
 }
