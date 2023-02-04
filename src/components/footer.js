@@ -41,7 +41,7 @@ const Footer = () => {
         marginTop: "var(--space-6)",
       }}
     >
-      <h2>Margherita Graglia</h2>
+      <h1 style={{ color: "white" }}>Margherita Graglia</h1>
       <h2>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry
