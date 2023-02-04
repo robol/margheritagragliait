@@ -6,12 +6,13 @@ import { StaticImage } from "gatsby-plugin-image"
 const HeroBanner = () => {
   return (
     <>
-      <h1 style={{ color: "black" }}>Featured Books</h1>
+      <h1>Featured Books</h1>
       <div
         style={{
           display: "flex",
           justifyContent: "space-around",
           marginTop: "50px",
+          flexWrap: "wrap",
         }}
       >
         <a href={"libri/book-one"} target="_blank" rel="noreferrer">

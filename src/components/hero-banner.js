@@ -26,7 +26,6 @@ const HeroBanner = () => {
       />
       <h1
         style={{
-          color: `black`,
           position: "absolute",
         }}
       >

@@ -1,9 +1,12 @@
-import * as React from "react"
+import * as styles from "./index.module.css"
+
+import React, { useState } from "react"
 
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => {
+  const [toggleMobileMenu, setToggleMobileMenu] = useState(false)
   const navigationLinks = [
     {
       text: "Biografia",
@@ -26,63 +29,91 @@ const Header = ({ siteTitle }) => {
   ]
 
   return (
-    <header
-      style={{
-        margin: `0 auto`,
-        padding: `var(--space-4) var(--size-gutter)`,
-        display: `flex`,
-        alignItems: `center`,
-        justifyContent: `space-between`,
-        backgroundColor: `var(--color-primary)`,
-        color: `var( --color-text)`,
-      }}
-    >
-      <Link
-        to="/"
+    <>
+      {toggleMobileMenu && (
+        <ul
+          style={{
+            position: "absolute",
+            width: "80vw",
+            backgroundColor: "white",
+            zIndex: 10000,
+            marginLeft: 0,
+            color: `var( --color-primary)`,
+            marginTop: 65,
+            left: "50%",
+            transform: "translate(-50%, 0)",
+            textAlign: "center",
+          }}
+        >
+          {navigationLinks?.map((link, i) => (
+            <li>
+              <Link
+                style={{
+                  textDecoration: `none`,
+                }}
+                key={link.url}
+                to={link.url}
+              >
+                {link.text.toUpperCase()}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+      <header
         style={{
-          fontSize: `var(--font-lg)`,
-          textDecoration: `none`,
-          color: `var( --color-text)`,
-          fontWeight: 400,
-        }}
-      >
-        {siteTitle.toUpperCase()}
-      </Link>
-      <div
-        style={{
+          margin: `0 auto`,
+          padding: `var(--space-4) var(--size-gutter)`,
           display: `flex`,
+          alignItems: `center`,
           justifyContent: `space-between`,
-          position: "absolute",
-          left: "50%",
-          transform: "translate(-50%, 0)",
+          backgroundColor: `var(--color-primary)`,
+          color: `var( --color-text)`,
         }}
       >
-        {navigationLinks.map((link, i) => (
+        <div className={styles.desktopOnly}>
           <Link
-            key={link.url}
-            to={link.url}
+            to="/"
             style={{
-              fontSize: `var(--font-md)`,
-              padding: `0 var(--space-4)`,
+              fontSize: `var(--font-lg)`,
               textDecoration: `none`,
               color: `var( --color-text)`,
-              fontWeight: 700,
+              fontWeight: 400,
             }}
           >
-            {link.text.toUpperCase()}
+            {siteTitle.toUpperCase()}
           </Link>
-        ))}
-      </div>
-      {/*     <StaticImage //TODO: EVALUATE THIS
-      src="../images/icon-m.png"
-      loading="eager"
-      width={64}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt=""
-      style={{ marginBottom: `var(--space-3)` }}
-    /> */}
-    </header>
+          <div>
+            {navigationLinks.map((link, i) => (
+              <Link
+                key={link.url}
+                to={link.url}
+                style={{
+                  fontSize: `var(--font-md)`,
+                  padding: `0 var(--space-4)`,
+                  textDecoration: `none`,
+                  color: `var( --color-text)`,
+                  fontWeight: 700,
+                }}
+              >
+                {link.text.toUpperCase()}
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div className={styles.mobileOnly}>
+          <div onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
+            <StaticImage
+              src="../images/hamburger.png"
+              loading="eager"
+              formats={["auto", "webp", "avif"]}
+              alt=""
+              style={{ width: 30 }}
+            />
+          </div>
+        </div>
+      </header>
+    </>
   )
 }
 
