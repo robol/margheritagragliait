@@ -60,17 +60,7 @@ const Header = ({ siteTitle }) => {
           ))}
         </ul>
       )}
-      <header
-        style={{
-          margin: `0 auto`,
-          padding: `var(--space-4) var(--size-gutter)`,
-          display: `flex`,
-          alignItems: `center`,
-          justifyContent: `space-between`,
-          backgroundColor: `var(--color-primary)`,
-          color: `var( --color-text)`,
-        }}
-      >
+      <header className={styles.headerContainer}>
         <div className={styles.desktopOnly}>
           <Link
             to="/"
@@ -83,7 +73,7 @@ const Header = ({ siteTitle }) => {
           >
             {siteTitle.toUpperCase()}
           </Link>
-          <div>
+          <div className={styles.sectionsContainer}>
             {navigationLinks.map((link, i) => (
               <Link
                 key={link.url}
