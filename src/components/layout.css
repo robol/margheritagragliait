@@ -1,6 +1,7 @@
 :root {
   --border-radius: 4px;
-  --color-text: #fff;
+  --color-text-white: #fff;
+  --color-text-gray: rgb(106, 106, 106);
   --color-primary: #8a9a5b;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
@@ -157,6 +158,7 @@ li {
 ol li,
 ul li {
   padding-left: 0;
+  list-style: none;
 }
 li > ol,
 li > ul {
@@ -245,7 +247,6 @@ a {
     border-bottom: 1px solid var(--color-primary);
     width: 100%;
     padding: 20px;
-    text-decoration: none;
     font-weight: 700;
     font-weight: 600;
     margin-bottom: 0;
