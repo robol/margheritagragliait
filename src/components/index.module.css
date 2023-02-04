@@ -52,12 +52,23 @@
   font-size: var(--font-lg);
   padding: var(--space-4) var(--space-5) var(--space-5) var(--space-5);
 }
-.desktopOnly {
+.sectionsContainer {
   display: flex;
   justify-content: space-between;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
+  top: 35px;
+}
+.headerContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-4) var(--size-gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  color: var(--color-text);
 }
 @media screen and (max-width: 480px) {
   .desktopOnly {
@@ -67,5 +78,8 @@
 @media screen and (min-width: 480px) {
   .mobileOnly {
     display: none !important;
+  }
+  .headerContainer {
+    height: 90px;
   }
 }
