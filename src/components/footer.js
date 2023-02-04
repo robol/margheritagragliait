@@ -42,7 +42,7 @@ const Footer = () => {
       }}
     >
       <h1 style={{ color: "white" }}>Margherita Graglia</h1>
-      <h2>
+      <h2 style={{ color: "white" }}>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry
       </h2>
@@ -61,7 +61,7 @@ const Footer = () => {
               fontSize: `var(--font-md)`,
               padding: `0 var(--space-4)`,
               textDecoration: `none`,
-              color: `var( --color-text)`,
+              color: `var( --color-text-white)`,
               fontWeight: 700,
             }}
           >

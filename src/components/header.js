@@ -67,7 +67,7 @@ const Header = ({ siteTitle }) => {
             style={{
               fontSize: `var(--font-lg)`,
               textDecoration: `none`,
-              color: `var( --color-text)`,
+              color: `var( --color-text-white)`,
               fontWeight: 400,
             }}
           >
@@ -82,7 +82,7 @@ const Header = ({ siteTitle }) => {
                   fontSize: `var(--font-md)`,
                   padding: `0 var(--space-4)`,
                   textDecoration: `none`,
-                  color: `var( --color-text)`,
+                  color: `var( --color-text-white)`,
                   fontWeight: 700,
                 }}
               >
