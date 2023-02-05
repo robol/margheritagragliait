@@ -113,7 +113,7 @@
   background-color: var(--color-code-bg);
   padding: 50px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 }
 .bookListItemContainer {
   max-width: 60vw;
