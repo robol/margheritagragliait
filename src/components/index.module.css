@@ -77,7 +77,7 @@
   justify-content: space-between;
 }
 .bioIndexer {
-  width: 100px;
+  width: 150px;
   height: 100%;
 }
 .bioParagraph {
@@ -92,6 +92,7 @@
 @media screen and (max-width: 480px) {
   .bioContainer {
     flex-wrap: wrap;
+    padding: 15px;
   }
   .desktopOnly {
     display: none !important;
