@@ -7,14 +7,22 @@ import { Link } from "gatsby"
 const BookListItem = ({ year, text, image, aboutLink }) => {
   console.log(year, text, image, aboutLink)
   return (
-    <div className={styles.bookListItemContainer}>
-      <span>{year}</span>
-      <span>{text}</span>
-      <img src={image} />
-      <a target="_blank" href={aboutLink}>
-        ABOUT
-      </a>
-    </div>
+    <>
+      <span className={styles.bookListItemYear}>{year}</span>
+      <div className={styles.bookListItemContainer}>
+        <img src={image} className={styles.bookListItemImage} />
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <span className={styles.bookListItemText}>{text}</span>
+          <a
+            target="_blank"
+            href={aboutLink}
+            className={styles.bookListItemAboutlink}
+          >
+            ABOUT
+          </a>
+        </div>
+      </div>
+    </>
   )
 }
 

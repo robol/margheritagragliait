@@ -1,8 +1,8 @@
 import * as React from "react"
+import * as styles from "../components/index.module.css"
 
 import BookListItem from "../components/book-list-item"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import Seo from "../components/seo"
 
 const Libri = () => {
@@ -47,15 +47,16 @@ const Libri = () => {
       >
         <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>LIBRI</h2>
       </div>
-
-      {books.map(el => (
-        <BookListItem
-          year={el.year}
-          text={el.text}
-          image={el.image}
-          aboutLink={el.aboutLink}
-        />
-      ))}
+      <div className={styles.booksPageContainer}>
+        {books.map(el => (
+          <BookListItem
+            year={el.year}
+            text={el.text}
+            image={el.image}
+            aboutLink={el.aboutLink}
+          />
+        ))}
+      </div>
     </Layout>
   )
 }
