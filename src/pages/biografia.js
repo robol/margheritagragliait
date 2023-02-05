@@ -1,6 +1,6 @@
 import * as styles from "../components/index.module.css"
 
-import React, { useRef } from "react"
+import React, { useRef, useState } from "react"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -11,19 +11,29 @@ const Biografia = () => {
   const shortBioRef = useRef()
   const longBioRef = useRef()
   const profilesRef = useRef()
+  const [bg, changeBGColor] = useState("short bio")
 
   const indexItems = [
     {
       label: "short bio",
-      fc: () => shortBioRef?.current?.scrollIntoView(),
+      fc: () => {
+        changeBGColor("short bio")
+        shortBioRef?.current?.scrollIntoView()
+      },
     },
     {
       label: "Long bio",
-      fc: () => longBioRef?.current?.scrollIntoView(),
+      fc: () => {
+        changeBGColor("Long bio")
+        longBioRef?.current?.scrollIntoView()
+      },
     },
     {
       label: "profiles and interviews",
-      fc: () => profilesRef?.current?.scrollIntoView(),
+      fc: () => {
+        changeBGColor("profiles and interviews")
+        profilesRef?.current?.scrollIntoView()
+      },
     },
   ]
   return (
@@ -42,8 +52,19 @@ const Biografia = () => {
       <div className={styles.bioContainer}>
         <ul className={styles.bioIndexer}>
           {indexItems.map(el => (
-            <li style={{ color: `var( --color-text-gray)` }}>
-              <button onClick={el.fc}>{el.label}</button>
+            <li
+              style={{
+                color: bg == el.label ? "white" : `var( --color-text-gray)`,
+                cursor: "pointer",
+                textTransform: "capitalize",
+                backgroundColor: bg == el.label ? `var(--color-primary)` : "",
+                padding: 5,
+                margin: 10,
+              }}
+            >
+              <h3 style={{ margin: 0 }} onClick={el.fc}>
+                {el.label} →
+              </h3>
             </li>
           ))}
         </ul>
