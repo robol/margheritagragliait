@@ -4,6 +4,26 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const HeroBanner = () => {
+  const bookPageLinks = [
+    {
+      text: "Libro 1",
+      url: "libri/book-one",
+      image: "/th_differenze.jpeg",
+      description: "Libro 1",
+    },
+    {
+      text: "Libro 2",
+      url: "libri/book-two",
+      image: "/th_omofobia.jpeg",
+      description: "Libro 2",
+    },
+    {
+      text: "Libro 3",
+      url: "libri/book-three",
+      image: "/th_psicoterapia.jpeg",
+      description: "Libro 3",
+    },
+  ]
   return (
     <>
       <h1>Featured Books</h1>
@@ -15,45 +35,11 @@ const HeroBanner = () => {
           flexWrap: "wrap",
         }}
       >
-        <a href={"libri/book-one"} target="_blank" rel="noreferrer">
-          <StaticImage //TODO: EVALUATE THIS
-            src={"../images/th_differenze.jpeg"}
-            loading="eager"
-            quality={95}
-            height=" 300px"
-            width="100%"
-            objectFit="contain"
-            formats={["auto", "webp", "avif"]}
-            alt=""
-            style={{ height: "300px" }}
-          />
-        </a>
-        <a href={"libri/book-two"} target="_blank" rel="noreferrer">
-          <StaticImage //TODO: EVALUATE THIS
-            src={"../images/th_omofobia.jpeg"}
-            loading="eager"
-            quality={95}
-            height=" 300px"
-            width="100%"
-            objectFit="contain"
-            formats={["auto", "webp", "avif"]}
-            alt=""
-            style={{ height: "300px" }}
-          />
-        </a>
-        <a href={"libri/book-three"} target="_blank" rel="noreferrer">
-          <StaticImage //TODO: EVALUATE THIS
-            src={"../images/th_psicoterapia.jpeg"}
-            loading="eager"
-            quality={95}
-            height=" 300px"
-            width="100%"
-            objectFit="contain"
-            formats={["auto", "webp", "avif"]}
-            alt=""
-            style={{ height: "300px" }}
-          />
-        </a>
+        {bookPageLinks.map(book => (
+          <a href={book.url} target="_blank" rel="noreferrer">
+            <img src={book.image} style={{ height: "300px" }} />
+          </a>
+        ))}
       </div>
     </>
   )
