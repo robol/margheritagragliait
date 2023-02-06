@@ -51,6 +51,14 @@
   background-color: var(--color-primary);
   font-size: var(--font-lg);
   padding: var(--space-4) var(--space-5) var(--space-5) var(--space-5);
+  color: var(--color-text-white);
+}
+
+.intro a {
+  color: var(--color-text-white);
+}
+.introInfo {
+  text-align: justify;
 }
 .sectionsContainer {
   display: flex;
