@@ -143,3 +143,18 @@
   margin-bottom: 0;
   margin-right: 50px;
 }
+.esperienzeContainer {
+  padding: 20px;
+}
+.esperienzeItem {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.esperienzeItemInfo {
+  display: flex;
+}
+.esperienzeItemTitle {
+  display: flex;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
