@@ -8,19 +8,19 @@ const Footer = () => {
   const navigationLinks = [
     {
       text: "Biografia",
-      url: "biografia",
+      url: "/biografia",
       badge: false,
       description: "Biografia di Margherita Graglia",
     },
     {
       text: "Libri",
-      url: "libri",
+      url: "/libri",
       badge: false,
       description: "Libri di Margherita Graglia",
     },
     {
       text: "Psiocoterapia",
-      url: "psicoterapia",
+      url: "/psicoterapia",
       badge: false,
       description: "Psicoterapia di Margherita Graglia",
     },
