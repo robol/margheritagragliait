@@ -26,6 +26,12 @@ const Header = ({ siteTitle }) => {
       badge: false,
       description: "Psicoterapia di Margherita Graglia",
     },
+    {
+      text: "ESPERIENZE PROFESSIONALI",
+      url: "/esperienze-professionali",
+      badge: false,
+      description: "ESPERIENZE PROFESSIONALI di Margherita Graglia",
+    },
   ]
 
   return (
