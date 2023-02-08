@@ -43,8 +43,7 @@ const Footer = () => {
     >
       <h1 style={{ color: "white" }}>Margherita Graglia</h1>
       <h2 style={{ color: "white" }}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry
+        Psicoterapeuta, formatrice e saggista
       </h2>
       <div
         className={styles.desktopOnly}
