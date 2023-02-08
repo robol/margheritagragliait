@@ -18,9 +18,9 @@ const Media = () => (
       </h2>
     </div>
     <div style={{ padding: 20, display: "flex", justifyContent: "center" }}>
-      <video controls>
+      {/*       <video controls>
         <source src={"/video1.mp4"} type="video/mp4" />
-      </video>
+      </video> */}
     </div>
   </Layout>
 )
