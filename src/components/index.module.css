@@ -52,12 +52,16 @@
   font-size: var(--font-lg);
   padding: var(--space-4) var(--space-5) var(--space-5) var(--space-5);
   color: var(--color-text-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro a {
   color: var(--color-text-white);
 }
 .introInfo {
+  max-width: 50%;
   text-align: justify;
 }
 .sectionsContainer {
@@ -82,7 +86,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .bioIndexer {
   width: 150px;
@@ -94,8 +98,8 @@
   max-width: 700px;
 }
 .bioImage {
-  width: 400px;
   height: 100%;
+  margin: var(--space-4)
 }
 @media screen and (max-width: 480px) {
   .bioContainer {
