@@ -51,14 +51,26 @@
   background-color: var(--color-primary);
   font-size: var(--font-lg);
   padding: var(--space-4) var(--space-5) var(--space-5) var(--space-5);
+  color: var(--color-text-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro a {
+  color: var(--color-text-white);
+}
+.introInfo {
+  max-width: 50%;
+  text-align: justify;
 }
 .sectionsContainer {
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  /*   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  top: 35px;
+  top: 35px; */
 }
 .headerContainer {
   width: 100%;
@@ -74,7 +86,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .bioIndexer {
   width: 150px;
@@ -86,8 +98,14 @@
   max-width: 700px;
 }
 .bioImage {
-  width: 400px;
   height: 100%;
+  margin: var(--space-4);
+}
+.desktopOnlyHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 @media screen and (max-width: 480px) {
   .bioContainer {
@@ -95,6 +113,9 @@
     padding: 15px;
   }
   .desktopOnly {
+    display: none !important;
+  }
+  .desktopOnlyHeader {
     display: none !important;
   }
   .bioIndexer {
@@ -108,4 +129,62 @@
   .headerContainer {
     height: 90px;
   }
+}
+.booksPageContainer {
+  background-color: var(--color-code-bg);
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.bookListItemContainer {
+  max-width: 60vw;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  padding: 50px 40px 20px 80px;
+  background-color: var(--color-text-white);
+}
+.bookListItemYear {
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0;
+  display: inline-block;
+  margin-top: 0;
+  position: relative;
+  padding: 10px 22px;
+  transform: translate(0px, 42px);
+  line-height: 20px;
+  width: fit-content;
+}
+
+.bookListItemImage {
+  height: 100px;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+.esperienzeContainer {
+  padding: 20px;
+}
+.esperienzeItem {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.esperienzeItemInfo {
+  display: flex;
+}
+.esperienzeItemTitle {
+  display: flex;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.dropdownItem {
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 15px;
+}
+.dropdownItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
