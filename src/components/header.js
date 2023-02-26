@@ -112,7 +112,8 @@ const Header = ({ siteTitle }) => {
       badge: false,
       description: "Formazione di Margherita Graglia",
       subsections: [
-        { text: "Proposte formative", url: "/formazione" },
+        { text: "Progetti formativi", url: "/progetti-formativi" },
+        { text: "Proposte formative", url: "/proposte-formative" },
         { text: "Approccio maieutico", url: "/approcio" },
       ],
       toggleDropdown: () => setToggleFormazione(!toggleFormazione),
