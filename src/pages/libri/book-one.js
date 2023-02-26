@@ -81,7 +81,7 @@ const BookOne = () => (
         </p>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h3 style={{ textTransform: "uppercase", fontSize: "14px" }}>
-            Titolo disponibile per la aquisizione su:{" "}
+            Titolo disponibile per l'acquisto su:{" "}
           </h3>
           <div style={{ display: "flex" }}>
             <a
