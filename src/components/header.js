@@ -86,7 +86,7 @@ const Header = ({ siteTitle }) => {
       subsections: null,
     },
     {
-      text: "articoli",
+      text: "Pubblicazioni",
       url: "/articoli",
       badge: false,
       description: "articoli di Margherita Graglia",
@@ -111,7 +111,10 @@ const Header = ({ siteTitle }) => {
       url: "/formazione",
       badge: false,
       description: "Formazione di Margherita Graglia",
-      subsections: [{ text: "Approccio mayeutico", url: "/approcio" }],
+      subsections: [
+        { text: "Proposte formative", url: "/formazione" },
+        { text: "Approccio maieutico", url: "/approcio" },
+      ],
       toggleDropdown: () => setToggleFormazione(!toggleFormazione),
       showKey: toggleFormazione,
     },
@@ -179,21 +182,24 @@ const Header = ({ siteTitle }) => {
             {navigationLinks.map((link, i) => (
               <>
                 {link.subsections ? (
-                  <div style={{ position: "relative" }}>
-                    <button
-                      onClick={() => link.toggleDropdown()}
+                  <div
+                    onMouseEnter={() => link.toggleDropdown()}
+                    onMouseLeave={() => link.toggleDropdown()}
+                    style={{ position: "relative" }}
+                  >
+                    <Link
+                      key={link.url}
+                      to={link.url}
                       style={{
                         fontSize: `var(--font-md)`,
                         padding: `0 var(--space-4)`,
                         textDecoration: `none`,
                         color: `var( --color-text-white)`,
                         fontWeight: 700,
-                        border: "none",
-                        backgroundColor: "inherit",
                       }}
                     >
                       {link.text.toUpperCase()}
-                    </button>
+                    </Link>
                     {link.subsections && link.showKey && (
                       <ul
                         style={{
