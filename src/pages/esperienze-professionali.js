@@ -21,7 +21,7 @@ const experienceData = [
     role: `docente`,
   },
   {
-    title: `Progetto europeo <i>Supporting Wellbeing and Integration of Transgender victims in Care environments with Holistic approach</i>”`,
+    title: `Progetto europeo &nbsp <i>"Supporting Wellbeing and Integration of Transgender victims in Care environments with Holistic approach</i>”`,
     entity: `<strong>Ausl di Reggio Emilia</strong>`,
     year: `2021-2022`,
     role: `consulente esperta sui temi dell’identità transgender (progettazione, formazione, autrice)`,
@@ -250,7 +250,7 @@ const Esperienze = () => {
           }}
           onClick={() => setReadMore(!readMore)}
         >
-          {readMore ? "Read Less" : "Read more"}
+          {readMore ? "...Read Less" : "...Read more"}
         </button>
         {readMore &&
           experienceDataReadMore.map(experienceItem => (

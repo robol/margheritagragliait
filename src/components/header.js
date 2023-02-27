@@ -73,7 +73,7 @@ const Header = ({ siteTitle }) => {
       description: "Biografia di Margherita Graglia",
       subsections: [
         { text: "ESPERIENZE PROFESSIONALI", url: "/esperienze-professionali" },
-        { text: "CONFERENZE E CONVEGNI", url: "/conferenze" },
+        { text: "CONFERENZE E CONVEGNI", url: "/conferenze-convegni" },
       ],
       toggleDropdown: () => setToggleBio(!toggleBio),
       showKey: toggleBio,
@@ -171,7 +171,7 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/"
             style={{
-              fontSize: `var(--font-lg)`,
+              fontSize: "20px",
               textDecoration: `none`,
               color: `var( --color-text-white)`,
               fontWeight: 400,

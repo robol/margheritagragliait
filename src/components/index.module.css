@@ -188,3 +188,13 @@
   padding-bottom: 0;
   margin-bottom: 0;
 }
+.listItemConferenze {
+  margin-bottom: 0;
+  padding: 10px;
+}
+.listItemConferenze:nth-child(odd) {
+  background: #d7dbcc;
+}
+.listConferenze {
+  margin: 0;
+}
