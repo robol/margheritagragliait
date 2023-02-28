@@ -30,7 +30,7 @@ const BookThree = () => (
           <h2
             style={{
               color: "#8a9a5b",
-              fontSize: "36px",
+              fontSize: "var(--font-lg)",
               fontWeight: 400,
               margin: 0,
             }}
@@ -41,7 +41,7 @@ const BookThree = () => (
           <h3
             style={{
               color: "#8a9a5b",
-              fontSize: "24px",
+              fontSize: "var(--font-md)",
               fontWeight: 400,
               margin: 0,
             }}
@@ -84,7 +84,9 @@ const BookThree = () => (
           stereotipi e pregiudizi .
         </p>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <h3 style={{ textTransform: "uppercase", fontSize: "14px" }}>
+          <h3
+            style={{ textTransform: "uppercase", fontSize: "var(--font-sm)" }}
+          >
             Titolo disponibile per la aquisizione su:{" "}
           </h3>
           <div style={{ display: "flex" }}>
