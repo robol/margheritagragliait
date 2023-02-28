@@ -17,9 +17,30 @@ const Contatto = () => (
     </div>
     <div style={{ padding: 20 }}>
       <p>
-        Sede Via Montefiorino 12, 42123 Reggio Emilia Email
-        graglia.margherita@gmail.com Social Linkedin Facebook Twitter Instagram
+        <strong>
+          <em>Sede</em>
+        </strong>
       </p>
+      <p>Via Montefiorino 12, 42123 Reggio Emilia</p>
+      <p>
+        <strong>
+          <em>Email</em>
+        </strong>
+      </p>
+      <p>
+        <a target="_blank" href="mailto:graglia.margherita@gmail.com">
+          graglia.margherita@gmail.com
+        </a>
+      </p>
+      <p>
+        <strong>
+          <em>Social</em>
+        </strong>
+      </p>
+      <p>Linkedin</p>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Instagram</p>
     </div>
   </Layout>
 )

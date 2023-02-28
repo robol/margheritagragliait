@@ -224,7 +224,7 @@ const Contatto = () => (
           . Convegno &ldquo;Per la dignit&agrave; delle persone. Contro la
           violenza omotransfobica&rdquo;, <strong>Camera dei deputati</strong>,
           Roma. LINK
-          <a href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
+          <a target="_blank" href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
             https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662
           </a>
           (Video da scaricare, grazie)

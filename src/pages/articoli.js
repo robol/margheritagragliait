@@ -71,7 +71,10 @@ const Articoli = () => {
             sessuale,{" "}
             <strong>Commissione Giustizia della Camera dei Deputati</strong>,
             Roma.&nbsp;
-            <a href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf">
+            <a
+              target="_blank"
+              href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf"
+            >
               LINK
             </a>
           </li>
@@ -156,7 +159,10 @@ const Articoli = () => {
               La legge sull&rsquo;omofobia e l&rsquo;esperienza di Reggio Emilia
             </em>
             , La Repubblica, 21/05/2018 LINK
-            <a href="https://ricerca.repubblica.it/repubblica/archivio/repubblica/2018/05/21/la-legge-sullomofobia-e-lesperienza-di-reggio-emiliaBologna03.html">
+            <a
+              target="_blank"
+              href="https://ricerca.repubblica.it/repubblica/archivio/repubblica/2018/05/21/la-legge-sullomofobia-e-lesperienza-di-reggio-emiliaBologna03.html"
+            >
               LINK
             </a>
           </li>
@@ -232,7 +238,10 @@ const Articoli = () => {
               l'omogenitorialit&agrave;.
             </em>
             &nbsp;Rivista di Freniatria, CXXXVIII (2), pp. 59-83&nbsp;
-            <a href="https://www.academia.edu/30440987/Omofobia_contemporanea_la_pressione_sociale_allinvisibilità_e_la_contrarietà_verso_lomogenitorialità ">
+            <a
+              target="_blank"
+              href="https://www.academia.edu/30440987/Omofobia_contemporanea_la_pressione_sociale_allinvisibilità_e_la_contrarietà_verso_lomogenitorialità "
+            >
               LINK
             </a>
           </li>
@@ -273,7 +282,10 @@ const Articoli = () => {
               con le Pubbliche Amministrazioni e i Sindacati,{" "}
             </em>
             LLL - Focus on Lifelong Lifewide Learning, 8 (19)&nbsp;
-            <a href="http://rivista.edaforum.it/numero19/buonepratiche_graglia.html">
+            <a
+              target="_blank"
+              href="http://rivista.edaforum.it/numero19/buonepratiche_graglia.html"
+            >
               LINK
             </a>
           </li>
@@ -283,7 +295,10 @@ const Articoli = () => {
             <em>Homosexuels en psychoth&eacute;rapie</em>, De Boeck, Bruxelles -
             Traduzione di Rigliano P., Graglia M, (2006),&nbsp;
             <em>Psicoterapia con gay e lesbiche</em>, Raffello Cortina, Milano
-            <a href="https://www.deboecksuperieur.com/ouvrage/9782804169206-l-homosexualite-dans-les-psychotherapies">
+            <a
+              target="_blank"
+              href="https://www.deboecksuperieur.com/ouvrage/9782804169206-l-homosexualite-dans-les-psychotherapies"
+            >
               LINK
             </a>
           </li>
@@ -358,6 +373,7 @@ const Articoli = () => {
             , in "Lesbian d bisexual women's health: common concerns, local
             issues", Ilga, Brussels, 121, p. 48-49
             <a
+              target="_blank"
               href="
           https://www.coe.int/t/Commissioner/Source/LGBT/LGBTStudy2011_en.pdf"
             >
@@ -479,7 +495,10 @@ const Articoli = () => {
               L&rsquo;omofobia istituzionalizzata: il caso della psicoterapia
             </em>
             , in "Psychomedia Telematic Review" LINK
-            <a href="http://www.psychomedia.it/pm/lifecycle/gender/graglia.htm">
+            <a
+              target="_blank"
+              href="http://www.psychomedia.it/pm/lifecycle/gender/graglia.htm"
+            >
               LINK
             </a>
           </li>

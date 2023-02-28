@@ -55,7 +55,7 @@ const HeroBanner = () => {
                 style={{ height: "300px", border: "1px solid black" }}
               />
             </a>
-            <a href={book.amazonLink}>
+            <a href={book.amazonLink} target="_blank">
               <img src="/amazon-button.png" style={{ height: "50px" }} />
             </a>
           </div>

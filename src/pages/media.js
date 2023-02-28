@@ -35,7 +35,7 @@ const Media = () => (
           Convegno “Per la dignità delle persone. Contro la violenza
           omotransfobica”, Roma, 16/12/2019{" "}
         </h3>
-        <a href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
+        <a target="_blank" href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
           LINK TO VIDEO
         </a>
       </li>
@@ -47,7 +47,7 @@ const Media = () => (
           orientamento sessuale, identità di genere, “razza” ed origine etnica
           nella società e nell’avvocatura”, Roma
         </h3>
-        <a href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
+        <a target="_blank" href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
           MANCA VIDEO TODO:
         </a>
       </li>

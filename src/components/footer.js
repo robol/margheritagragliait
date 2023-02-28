@@ -106,6 +106,7 @@ const Footer = () => {
       <a
         style={{ color: "white", marginTop: 20, textAlign: "center" }}
         href="https://github.com/emirodriguezalc/"
+        target="_blank"
       >
         Made with ♡ by Emilia Rodriguez Gimenez
       </a>
