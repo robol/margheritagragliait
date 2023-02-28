@@ -9,62 +9,7 @@ const Header = ({ siteTitle }) => {
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false)
   const [toggleBio, setToggleBio] = useState(false)
   const [toggleFormazione, setToggleFormazione] = useState(false)
-  /*   const navigationLinks = [
-    {
-      text: "Biografia",
-      url: "/biografia",
-      badge: false,
-      description: "Biografia di Margherita Graglia",
-    },
-    {
-      text: "Libri",
-      url: "/libri",
-      badge: false,
-      description: "Libri di Margherita Graglia",
-    },
-    {
-      text: "Psiocoterapia",
-      url: "/psicoterapia",
-      badge: false,
-      description: "Psicoterapia di Margherita Graglia",
-    },
-    {
-      text: "ESPERIENZE PROFESSIONALI",
-      url: "/esperienze-professionali",
-      badge: false,
-      description: "ESPERIENZE PROFESSIONALI di Margherita Graglia",
-    },
-    {
-      text: "CONFERENZE E CONVEGNI",
-      url: "/conferenze",
-      badge: false,
-      description: "CONFERENZE E CONVEGNI di Margherita Graglia",
-    },
-    {
-      text: "CAPITOLI E ARTICOLI",
-      url: "/capitoli",
-      badge: false,
-      description: "CAPITOLI E ARTICOLI di Margherita Graglia",
-    },
-    {
-      text: "VIDEOS",
-      url: "/media",
-      badge: false,
-      description: "VIDEOS di Margherita Graglia",
-    },
-    {
-      text: "CONTATTO",
-      url: "/contatto",
-      badge: false,
-      description: "CONTATTO di Margherita Graglia",
-    },
-    {
-      text: "NEWS",
-      url: "/news",
-      badge: false,
-      description: "NEWS di Margherita Graglia",
-    },
-  ] */
+
   const navigationLinks = [
     {
       text: "Biografia",
@@ -77,13 +22,6 @@ const Header = ({ siteTitle }) => {
       ],
       toggleDropdown: () => setToggleBio(!toggleBio),
       showKey: toggleBio,
-    },
-    {
-      text: "Libri",
-      url: "/libri",
-      badge: false,
-      description: "Libri di Margherita Graglia",
-      subsections: null,
     },
     {
       text: "Pubblicazioni",

@@ -7,7 +7,7 @@ const HeroBanner = () => {
   const bookPageLinks = [
     {
       text: "Libro 1",
-      url: "libri/book-one",
+      url: "/libri/book-one",
       image: "/th_differenze.jpeg",
       description: "Libro 1",
       amazonLink:
@@ -15,7 +15,7 @@ const HeroBanner = () => {
     },
     {
       text: "Libro 2",
-      url: "libri/book-two",
+      url: "/libri/book-two",
       image: "/th_omofobia.jpeg",
       description: "Libro 2",
       amazonLink:
@@ -23,7 +23,7 @@ const HeroBanner = () => {
     },
     {
       text: "Libro 3",
-      url: "libri/book-three",
+      url: "/libri/book-three",
       image: "/th_psicoterapia.jpeg",
       description: "Libro 3",
       amazonLink:
@@ -50,7 +50,10 @@ const HeroBanner = () => {
         {bookPageLinks.map(book => (
           <div style={{ display: "flex", flexDirection: "column" }}>
             <a href={book.url} target="_blank" rel="noreferrer">
-              <img src={book.image} style={{ height: "300px" }} />
+              <img
+                src={book.image}
+                style={{ height: "300px", border: "1px solid black" }}
+              />
             </a>
             <a href={book.amazonLink}>
               <img src="/amazon-button.png" style={{ height: "50px" }} />
