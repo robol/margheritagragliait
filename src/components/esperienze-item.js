@@ -1,29 +1,40 @@
 import * as React from "react"
 import * as styles from "./index.module.css"
 
-import { GatsbyImage } from "gatsby-plugin-image"
-import { Link } from "gatsby"
-
-const EsperienzeItem = ({ title, year, entity, role }) => {
+const EsperienzeItem = ({ title, year, entity, role, description }) => {
   return (
     <>
       <div className={styles.esperienzeItem}>
-        <h3 className={styles.esperienzeItemTitle}>{title} </h3>
+        <h3
+          className={styles.esperienzeItemTitle}
+          dangerouslySetInnerHTML={{ __html: title }}
+        ></h3>
         {year && (
           <span className={styles.esperienzeItemInfo}>
-            <strong>Anno:&nbsp;</strong> {year}
+            <strong>Anno:&nbsp;</strong>
+            <p dangerouslySetInnerHTML={{ __html: year }}></p>
           </span>
         )}
         {entity && (
           <span className={styles.esperienzeItemInfo}>
             <strong>Instituto:&nbsp;</strong>
-            {entity}
+            <p dangerouslySetInnerHTML={{ __html: entity }}></p>
           </span>
         )}
         {role && (
           <span className={styles.esperienzeItemInfo}>
-            <strong>Ruolo:&nbsp;</strong> {role}
+            <strong>Ruolo:&nbsp;</strong>{" "}
+            <p dangerouslySetInnerHTML={{ __html: role }}></p>
           </span>
+        )}
+        {description && (
+          <>
+            <br />
+            <p
+              className={styles.esperienzeItemInfo}
+              dangerouslySetInnerHTML={{ __html: description }}
+            ></p>
+          </>
         )}
       </div>
     </>

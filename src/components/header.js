@@ -9,62 +9,7 @@ const Header = ({ siteTitle }) => {
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false)
   const [toggleBio, setToggleBio] = useState(false)
   const [toggleFormazione, setToggleFormazione] = useState(false)
-  /*   const navigationLinks = [
-    {
-      text: "Biografia",
-      url: "/biografia",
-      badge: false,
-      description: "Biografia di Margherita Graglia",
-    },
-    {
-      text: "Libri",
-      url: "/libri",
-      badge: false,
-      description: "Libri di Margherita Graglia",
-    },
-    {
-      text: "Psiocoterapia",
-      url: "/psicoterapia",
-      badge: false,
-      description: "Psicoterapia di Margherita Graglia",
-    },
-    {
-      text: "ESPERIENZE PROFESSIONALI",
-      url: "/esperienze-professionali",
-      badge: false,
-      description: "ESPERIENZE PROFESSIONALI di Margherita Graglia",
-    },
-    {
-      text: "CONFERENZE E CONVEGNI",
-      url: "/conferenze",
-      badge: false,
-      description: "CONFERENZE E CONVEGNI di Margherita Graglia",
-    },
-    {
-      text: "CAPITOLI E ARTICOLI",
-      url: "/capitoli",
-      badge: false,
-      description: "CAPITOLI E ARTICOLI di Margherita Graglia",
-    },
-    {
-      text: "VIDEOS",
-      url: "/media",
-      badge: false,
-      description: "VIDEOS di Margherita Graglia",
-    },
-    {
-      text: "CONTATTO",
-      url: "/contatto",
-      badge: false,
-      description: "CONTATTO di Margherita Graglia",
-    },
-    {
-      text: "NEWS",
-      url: "/news",
-      badge: false,
-      description: "NEWS di Margherita Graglia",
-    },
-  ] */
+
   const navigationLinks = [
     {
       text: "Biografia",
@@ -73,17 +18,10 @@ const Header = ({ siteTitle }) => {
       description: "Biografia di Margherita Graglia",
       subsections: [
         { text: "ESPERIENZE PROFESSIONALI", url: "/esperienze-professionali" },
-        { text: "CONFERENZE E CONVEGNI", url: "/conferenze" },
+        { text: "CONFERENZE E CONVEGNI", url: "/conferenze-convegni" },
       ],
       toggleDropdown: () => setToggleBio(!toggleBio),
       showKey: toggleBio,
-    },
-    {
-      text: "Libri",
-      url: "/libri",
-      badge: false,
-      description: "Libri di Margherita Graglia",
-      subsections: null,
     },
     {
       text: "Pubblicazioni",
@@ -112,7 +50,8 @@ const Header = ({ siteTitle }) => {
       badge: false,
       description: "Formazione di Margherita Graglia",
       subsections: [
-        { text: "Proposte formative", url: "/formazione" },
+        { text: "Progetti formativi", url: "/progetti-formativi" },
+        { text: "Proposte formative", url: "/proposte-formative" },
         { text: "Approccio maieutico", url: "/approcio" },
       ],
       toggleDropdown: () => setToggleFormazione(!toggleFormazione),
@@ -170,7 +109,7 @@ const Header = ({ siteTitle }) => {
           <Link
             to="/"
             style={{
-              fontSize: `var(--font-lg)`,
+              fontSize: "20px",
               textDecoration: `none`,
               color: `var( --color-text-white)`,
               fontWeight: 400,
