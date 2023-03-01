@@ -43,17 +43,19 @@ const Psicoterapia = () => {
           </p>
           <p>
             L&rsquo;obiettivo della psicoterapia,...
-            <button
-              style={{
-                color: "green",
-                textTransform: "uppercase",
-                border: "none",
-                backgroundColor: "inherit",
-              }}
-              onClick={() => setReadMore1(!readMore1)}
-            >
-              {readMore1 ? "Read Less" : "Read more"}
-            </button>
+            {!readMore1 && (
+              <button
+                style={{
+                  color: "green",
+                  textTransform: "uppercase",
+                  border: "none",
+                  backgroundColor: "inherit",
+                }}
+                onClick={() => setReadMore1(!readMore1)}
+              >
+                {"Scopri di più"}
+              </button>
+            )}
             {readMore1 && (
               <>
                 <p>
@@ -92,17 +94,19 @@ const Psicoterapia = () => {
           </p>
           <p>
             Disagio psicologico ...
-            <button
-              style={{
-                color: "green",
-                textTransform: "uppercase",
-                border: "none",
-                backgroundColor: "inherit",
-              }}
-              onClick={() => setReadMore2(!readMore2)}
-            >
-              {readMore2 ? "Read Less" : "Read more"}
-            </button>
+            {!readMore2 && (
+              <button
+                style={{
+                  color: "green",
+                  textTransform: "uppercase",
+                  border: "none",
+                  backgroundColor: "inherit",
+                }}
+                onClick={() => setReadMore2(!readMore2)}
+              >
+                {"Scopri di più"}
+              </button>
+            )}
           </p>
           {readMore2 && (
             <>
@@ -135,17 +139,19 @@ const Psicoterapia = () => {
           )}
           <p>
             Consulenza e terapia sessuologica&nbsp; ...
-            <button
-              style={{
-                color: "green",
-                textTransform: "uppercase",
-                border: "none",
-                backgroundColor: "inherit",
-              }}
-              onClick={() => setReadMore3(!readMore3)}
-            >
-              {readMore3 ? "Read Less" : "Read more"}
-            </button>
+            {!readMore3 && (
+              <button
+                style={{
+                  color: "green",
+                  textTransform: "uppercase",
+                  border: "none",
+                  backgroundColor: "inherit",
+                }}
+                onClick={() => setReadMore3(!readMore3)}
+              >
+                {"Scopri di più"}
+              </button>
+            )}
           </p>
           {readMore3 && (
             <>
@@ -230,17 +236,19 @@ const Psicoterapia = () => {
           )}
           <p>
             Psicoterapia e consulenza per le persone LGBTQUIA+ ...
-            <button
-              style={{
-                color: "green",
-                textTransform: "uppercase",
-                border: "none",
-                backgroundColor: "inherit",
-              }}
-              onClick={() => setReadMore4(!readMore4)}
-            >
-              {readMore4 ? "Read Less" : "Read more"}
-            </button>
+            {!readMore4 && (
+              <button
+                style={{
+                  color: "green",
+                  textTransform: "uppercase",
+                  border: "none",
+                  backgroundColor: "inherit",
+                }}
+                onClick={() => setReadMore4(!readMore4)}
+              >
+                {"Scopri di più"}
+              </button>
+            )}
           </p>
           {readMore4 && (
             <>
@@ -380,17 +388,19 @@ const Psicoterapia = () => {
           <p>
             <em>Supervisione clinica </em>
           </p>
-          <button
-            style={{
-              color: "green",
-              textTransform: "uppercase",
-              border: "none",
-              backgroundColor: "inherit",
-            }}
-            onClick={() => setReadMore5(!readMore5)}
-          >
-            {readMore5 ? "Read Less" : "Read more"}
-          </button>
+          {!readMore5 && (
+            <button
+              style={{
+                color: "green",
+                textTransform: "uppercase",
+                border: "none",
+                backgroundColor: "inherit",
+              }}
+              onClick={() => setReadMore5(!readMore5)}
+            >
+              {"Scopri di più"}
+            </button>
+          )}
           {readMore5 && (
             <>
               <p>
@@ -413,17 +423,19 @@ const Psicoterapia = () => {
                 <li>Omogenitorialit&agrave;</li>
               </ul>
               <h3>Consulenza istituzionale </h3>{" "}
-              <button
-                style={{
-                  color: "green",
-                  textTransform: "uppercase",
-                  border: "none",
-                  backgroundColor: "inherit",
-                }}
-                onClick={() => setReadMore6(!readMore6)}
-              >
-                {readMore6 ? "Read Less" : "Read more"}
-              </button>
+              {!readMore6 && (
+                <button
+                  style={{
+                    color: "green",
+                    textTransform: "uppercase",
+                    border: "none",
+                    backgroundColor: "inherit",
+                  }}
+                  onClick={() => setReadMore6(!readMore6)}
+                >
+                  {"Scopri di più"}
+                </button>
+              )}
               {readMore6 && (
                 <>
                   <p>

@@ -88,12 +88,9 @@ const Biografia = () => {
 
             <p>
               Affianca all&apos;attivit&agrave; clinica quella di&nbsp;
-              <a
-                target="_blank"
-                href="http://www.margheritagraglia.it/psicoterapia.html"
-              >
+              <Link target="_blank" to="/psicoterapia">
                 formatrice e consulente
-              </a>
+              </Link>
               &nbsp;presso universit&agrave;, aziende USL, enti pubblici,
               istituzioni, Forze dell&rsquo;ordine, scuole di specialit&agrave;,
               scuole di ogni ordine e grado, aziende private e associazioni sui

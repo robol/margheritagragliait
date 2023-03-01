@@ -216,7 +216,7 @@ const experienceDataReadMore = [
 ]
 
 const Esperienze = () => {
-  const [readMore, setReadMore] = useState(false)
+  const [readMore1, setReadMore1] = useState(false)
 
   return (
     <Layout>
@@ -241,18 +241,20 @@ const Esperienze = () => {
             description={experienceItem.description}
           />
         ))}
-        <button
-          style={{
-            color: "green",
-            textTransform: "uppercase",
-            border: "none",
-            backgroundColor: "inherit",
-          }}
-          onClick={() => setReadMore(!readMore)}
-        >
-          {readMore ? "...Read Less" : "...Read more"}
-        </button>
-        {readMore &&
+        {!readMore1 && (
+          <button
+            style={{
+              color: "green",
+              textTransform: "uppercase",
+              border: "none",
+              backgroundColor: "inherit",
+            }}
+            onClick={() => setReadMore1(!readMore1)}
+          >
+            {"Scopri di più"}
+          </button>
+        )}
+        {readMore1 &&
           experienceDataReadMore.map(experienceItem => (
             <EsperienzeItem
               title={experienceItem.title}
@@ -263,37 +265,64 @@ const Esperienze = () => {
             />
           ))}
         <p>
-          Ha partecipato a vari progetti europei sui temi dell'inclusione e
-          delle differenze di orientamento sessuale e di identità di genere, ad
-          esempio nel 2021 a SWITCH (Supporting Wellbeing and Integration of
-          Transgender victims in Care environments with Holistic approach); nel
-          2014 a JCVG (Youth can end gender violence); nel 2010 ad AHEAD
-          (Against Homophobia European local Administration Devices); nel 2006 a
-          Schoolmates (Train the trainers to address and prevent violence
-          against homosexual adolescents in school); nel 2002 a Triangle
-          (Transfer of information to combat discrimination against gays and
-          lesbians in Europe); nel 2000 a Be Equal Be Different
-          sull'applicazione dell'art. 13 del Trattato di Amsterdam.
-          <br />
-          <br />
-          Dalla fine degli anni '90 ha organizzato e condotto in varie sedi
-          italiane i seguenti corsi di formazione: "La presa in carico degli
-          utenti con varianza di genere e orientamento sessuale" rivolto agli
-          operatori psico-socio-sanitari delle aziende sanitarie; "L'identità
-          sessuale in età evolutiva" rivolto ai pediatri e medici di base;
-          "Educare al rispetto" rivolto agli insegnanti per contrastare il
-          bullismo omofobico; "Le Nuove Famiglie: la scuola, le famiglie, gli
-          insegnanti" rivolto agli educatori della scuola primaria per
-          promuovere l'integrazione dei bambini che crescono in famiglie
-          omogenitoriali; "Stereotipi di genere e contrasto alla violenza sulle
-          donne" rivolto agli educatori della scuola primaria; "I contesti
-          lavorativi: come creare luoghi di lavoro inclusivi" rivolto ai
-          dipendenti delle Pubbliche amministrazioni e delle aziende private.
-          <br />
-          <br />A partire dalla fine degli anni '90 ha organizzato e condotto i
-          corsi di formazione rivolti agli insegnanti dal titolo Educazione
-          socio-affettiva sui temi dell'identità sessuale, autorizzati dal MIUR
-          ai sensi della Direttiva n. 90 del 1° Dicembre 2003.
+          <p>
+            Ha partecipato a vari <strong>progetti europei</strong> sui temi
+            dell'inclusione e delle differenze di orientamento sessuale e di
+            identit&agrave; di genere, ad esempio nel 2021 a <em>SWITCH</em>
+            <strong>(</strong>
+            <em>
+              Supporting Wellbeing and Integration of Transgender victims in
+              Care environments with Holistic approach
+            </em>
+            );nel 2014 a <em>JCVG</em> (<em>Youth can end gender violence</em>);
+            nel 2010 ad <em>AHEAD</em> (
+            <em>Against Homophobia European local Administration Devices</em>);
+            nel 2006 a <em>Schoolmates </em>(
+            <em>
+              Train the trainers to address and prevent violence against
+              homosexual adolescents in school
+            </em>
+            ); nel 2002 a <em>Triangle</em> (
+            <em>
+              Transfer of information to combat discrimination against gays and
+              lesbians in Europe
+            </em>
+            ); nel 2000 a <em>Be Equal Be Different</em> sull'applicazione
+            dell'art. 13 del Trattato di Amsterdam.&nbsp;
+          </p>
+          <p>
+            Dalla fine degli anni '90 ha organizzato e condotto in varie sedi
+            italiane i seguenti <strong>corsi di formazione: </strong>
+            <em>
+              "La presa in carico degli utenti con varianza di genere e
+              orientamento sessuale"
+            </em>{" "}
+            rivolto agli operatori psico-socio-sanitari delle aziende sanitarie;{" "}
+            <em>"L'identit&agrave; sessuale in et&agrave; evolutiva"</em>{" "}
+            rivolto ai pediatri e medici di base; <em>"Educare al rispetto"</em>{" "}
+            rivolto agli insegnanti per contrastare il bullismo omofobico;{" "}
+            <em>"Le Nuove Famiglie: la scuola, le famiglie, gli insegnanti"</em>{" "}
+            rivolto agli educatori della scuola primaria per promuovere
+            l'integrazione dei bambini che crescono in famiglie omogenitoriali;{" "}
+            <em>
+              "Stereotipi di genere e contrasto alla violenza sulle donne"
+            </em>{" "}
+            rivolto agli educatori della scuola primaria;{" "}
+            <em>
+              "I contesti lavorativi: come creare luoghi di lavoro inclusivi"
+            </em>{" "}
+            rivolto ai dipendenti delle Pubbliche amministrazioni e delle
+            aziende private.
+          </p>
+          <p>
+            A partire dalla fine degli anni '90 ha organizzato e condotto i
+            corsi di formazione rivolti agli insegnanti dal titolo{" "}
+            <em>
+              Educazione socio-affettiva sui temi dell'identit&agrave; sessuale
+            </em>
+            , autorizzati dal MIUR ai sensi della Direttiva n. 90 del 1&deg;
+            Dicembre 2003.
+          </p>
         </p>
       </div>
     </Layout>

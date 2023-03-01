@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => {
       subsections: null,
     },
     {
-      text: "Psiocoterapia",
+      text: "Psicoterapia",
       url: "/psicoterapia",
       badge: false,
       description: "Psicoterapia di Margherita Graglia",

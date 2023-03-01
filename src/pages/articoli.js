@@ -85,17 +85,19 @@ const Articoli = () => {
             genere nell&rsquo;infanzia: una prospettiva psicologica,{" "}
             <em>Infanzia</em>, n.1, pp. 10-15.
           </li>
-          <button
-            style={{
-              color: "green",
-              textTransform: "uppercase",
-              border: "none",
-              backgroundColor: "inherit",
-            }}
-            onClick={() => setReadMore1(!readMore1)}
-          >
-            {readMore1 ? "Read Less" : "Read more"}
-          </button>
+          {!readMore1 && (
+            <button
+              style={{
+                color: "green",
+                textTransform: "uppercase",
+                border: "none",
+                backgroundColor: "inherit",
+              }}
+              onClick={() => setReadMore1(!readMore1)}
+            >
+              {"Scopri di più"}
+            </button>
+          )}
           {readMore1 && (
             <>
               <li className={style.listItemConferenze}>

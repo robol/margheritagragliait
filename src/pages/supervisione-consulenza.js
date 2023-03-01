@@ -28,17 +28,19 @@ const Supervisione = () => {
           <p>
             <em>Supervisione clinica </em>
           </p>
-          <button
-            style={{
-              color: "green",
-              textTransform: "uppercase",
-              border: "none",
-              backgroundColor: "inherit",
-            }}
-            onClick={() => setReadMore1(!readMore1)}
-          >
-            {readMore1 ? "Read Less" : "Read more"}
-          </button>
+          {!readMore1 && (
+            <button
+              style={{
+                color: "green",
+                textTransform: "uppercase",
+                border: "none",
+                backgroundColor: "inherit",
+              }}
+              onClick={() => setReadMore1(!readMore1)}
+            >
+              {"Scopri di più"}
+            </button>
+          )}
           {readMore1 && (
             <>
               <p>
@@ -61,17 +63,19 @@ const Supervisione = () => {
                 <li>Omogenitorialit&agrave;</li>
               </ul>
               <h3>Consulenza istituzionale </h3>{" "}
-              <button
-                style={{
-                  color: "green",
-                  textTransform: "uppercase",
-                  border: "none",
-                  backgroundColor: "inherit",
-                }}
-                onClick={() => setReadMore2(!readMore2)}
-              >
-                {readMore2 ? "Read Less" : "Read more"}
-              </button>
+              {!readMore2 && (
+                <button
+                  style={{
+                    color: "green",
+                    textTransform: "uppercase",
+                    border: "none",
+                    backgroundColor: "inherit",
+                  }}
+                  onClick={() => setReadMore2(!readMore2)}
+                >
+                  {"Scopri di più"}
+                </button>
+              )}
               {readMore2 && (
                 <>
                   <p>
