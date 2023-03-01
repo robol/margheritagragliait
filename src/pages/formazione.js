@@ -24,7 +24,6 @@ const Supervisione = () => {
       </div>
       <div style={{ padding: 20 }}>
         <>
-          <h2>Formazione</h2>
           <>
             <h3>Obiettivi</h3>
             <p>
@@ -105,11 +104,11 @@ const Supervisione = () => {
                   fontSize: `var(--font-md)`,
                   padding: `0 var(--space-4)`,
                   textDecoration: `none`,
-                  color: `var( --color-text-white)`,
+                  color: `var( --color-primary)`,
                   fontWeight: 700,
                 }}
               >
-                LINKSEZIONE Approccio
+                Approccio Maieutico
               </Link>{" "}
               che consente di attivare un coinvolgimento personale e un
               confronto collaborativo fra tutti i partecipanti.
@@ -149,7 +148,7 @@ const Supervisione = () => {
                   fontSize: `var(--font-md)`,
                   padding: `0 var(--space-4)`,
                   textDecoration: `none`,
-                  color: `var( --color-text-white)`,
+                  color: `var( --color-primary)`,
                   fontWeight: 700,
                 }}
               >
