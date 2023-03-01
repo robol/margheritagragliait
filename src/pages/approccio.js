@@ -44,17 +44,19 @@ const Approccio = () => {
           conoscenze, partendo da s&eacute; e non da punti di vista prestabiliti
           e imposti.{" "}
         </p>
-        <button
-          style={{
-            color: "green",
-            textTransform: "uppercase",
-            border: "none",
-            backgroundColor: "inherit",
-          }}
-          onClick={() => setReadMore1(!readMore1)}
-        >
-          {readMore1 ? "Read Less" : "Read more"}
-        </button>
+        {!readMore1 && (
+          <button
+            style={{
+              color: "green",
+              textTransform: "uppercase",
+              border: "none",
+              backgroundColor: "inherit",
+            }}
+            onClick={() => setReadMore1(!readMore1)}
+          >
+            {"Scopri di più"}
+          </button>
+        )}
         {readMore1 && (
           <>
             <p>
@@ -153,17 +155,19 @@ const Approccio = () => {
           questo metodo &egrave; stato sperimentato e messo a punto in vari
           ambiti{" "}
         </p>
-        <button
-          style={{
-            color: "green",
-            textTransform: "uppercase",
-            border: "none",
-            backgroundColor: "inherit",
-          }}
-          onClick={() => setReadMore2(!readMore2)}
-        >
-          {readMore2 ? "Read Less" : "Read more"}
-        </button>{" "}
+        {!readMore2 && (
+          <button
+            style={{
+              color: "green",
+              textTransform: "uppercase",
+              border: "none",
+              backgroundColor: "inherit",
+            }}
+            onClick={() => setReadMore2(!readMore2)}
+          >
+            {"Scopri di più"}
+          </button>
+        )}
         {readMore2 && (
           <>
             <p>

@@ -45,7 +45,7 @@ const News = () => {
           }}
         >
           <h2>Evento: {newItem.title}</h2>
-          <h3>{newItem.entity && `Ente: ${newItem.entity}`}</h3>
+          <h3>{newItem.entity && `Instituto: ${newItem.entity}`}</h3>
           <h3>Dove: {newItem.location}</h3>
           <h3>Quando: {newItem.data}</h3>
           {newItem.images.map(url => (
