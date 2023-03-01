@@ -50,12 +50,18 @@ const Header = ({ siteTitle }) => {
       badge: false,
       description: "Formazione di Margherita Graglia",
       subsections: [
-        { text: "Progetti formativi", url: "/progetti-formativi" },
-        { text: "Proposte formative", url: "/proposte-formative" },
-        { text: "Approccio maieutico", url: "/approccio" },
+        /*         { text: "Proposte formative", url: "/proposte-formative" },
+         */ { text: "Approccio maieutico", url: "/approccio" },
       ],
       toggleDropdown: () => setToggleFormazione(!toggleFormazione),
       showKey: toggleFormazione,
+    },
+    {
+      text: "Media",
+      url: "/media",
+      badge: false,
+      description: "Media di Margherita Graglia",
+      subsections: null,
     },
     {
       text: "News",

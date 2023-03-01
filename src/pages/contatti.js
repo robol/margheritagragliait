@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Seo from "../components/seo"
 
-const Contatto = () => (
+const Contatti = () => (
   <Layout>
     <div
       style={{
@@ -13,7 +13,7 @@ const Contatto = () => (
         textAlign: "center",
       }}
     >
-      <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>Contatto</h2>
+      <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>Contatti</h2>
     </div>
     <div style={{ padding: 20 }}>
       <p>
@@ -45,6 +45,6 @@ const Contatto = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Contatto" />
+export const Head = () => <Seo title="Contatti" />
 
-export default Contatto
+export default Contatti
