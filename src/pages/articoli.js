@@ -4,8 +4,10 @@ import * as style from "../components/index.module.css"
 import FeaturedBooks from "../components/featured-books"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { useState } from "react"
 
 const Articoli = () => {
+  const [readMore1, setReadMore1] = useState(false)
   return (
     <Layout>
       <div
@@ -75,40 +77,56 @@ const Articoli = () => {
               target="_blank"
               href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf"
             >
-              LINK
+              LINK TO PDF
             </a>
           </li>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong> (2020). Contrastare gli stereotipi di
             genere nell&rsquo;infanzia: una prospettiva psicologica,{" "}
-            <em>Infanzia</em>, n.1, pp. 10-15. METTERE QUI IL LINK: leggi di
-            pi&ugrave;&hellip;
+            <em>Infanzia</em>, n.1, pp. 10-15.
           </li>
-          <li className={style.listItemConferenze}>
-            <strong>Graglia M.</strong> (a cura) (2020). Introduzione in
-            &ldquo;Prospettive sui generis. Sguardi psicosociali sulle varianze
-            di genere&rdquo;, (44) 1, pp-5-9, <em>Rivista di Sessuologia</em>.
-          </li>
-          <li className={style.listItemConferenze}>
-            <strong>
-              <strong>Graglia M.</strong> (2020). Costruire l&rsquo;inclusione
-              per le persone LGBT: l&rsquo;esperienza del{" "}
-              <em>
-                Tavolo interistituzionale per il contrasto
-                all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione
-                delle persone LGBT
-              </em>{" "}
-              del Comune di Reggio Emilia,in&ldquo;Prospettive sui generis.
-              Sguardi psicosociali sulle varianze di genere&rdquo;, Graglia M.
-              (a cura), 44 (1), pp. 61-73, <em>Rivista di Sessuologia</em>.
-            </strong>
-          </li>
-          <li className={style.listItemConferenze}>
-            <strong>Graglia M.</strong> (2020). &ldquo;L&rsquo;orientamento
-            sessuale&rdquo;, in{" "}
-            <em>La sessualit&agrave; ai tempi dei Millennials</em>, a cura di
-            M.C. Florini e G. Rifelli, pp. 83-85, Scione Editore, Roma.
-          </li>
+          <button
+            style={{
+              color: "green",
+              textTransform: "uppercase",
+              border: "none",
+              backgroundColor: "inherit",
+            }}
+            onClick={() => setReadMore1(!readMore1)}
+          >
+            {readMore1 ? "Read Less" : "Read more"}
+          </button>
+          {readMore1 && (
+            <>
+              <li className={style.listItemConferenze}>
+                <strong>Graglia M.</strong> (a cura) (2020). Introduzione in
+                &ldquo;Prospettive sui generis. Sguardi psicosociali sulle
+                varianze di genere&rdquo;, (44) 1, pp-5-9,{" "}
+                <em>Rivista di Sessuologia</em>.
+              </li>
+              <li className={style.listItemConferenze}>
+                <strong>
+                  <strong>Graglia M.</strong> (2020). Costruire
+                  l&rsquo;inclusione per le persone LGBT: l&rsquo;esperienza del{" "}
+                  <em>
+                    Tavolo interistituzionale per il contrasto
+                    all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione
+                    delle persone LGBT
+                  </em>{" "}
+                  del Comune di Reggio Emilia,in&ldquo;Prospettive sui generis.
+                  Sguardi psicosociali sulle varianze di genere&rdquo;, Graglia
+                  M. (a cura), 44 (1), pp. 61-73,{" "}
+                  <em>Rivista di Sessuologia</em>.
+                </strong>
+              </li>
+              <li className={style.listItemConferenze}>
+                <strong>Graglia M.</strong> (2020). &ldquo;L&rsquo;orientamento
+                sessuale&rdquo;, in{" "}
+                <em>La sessualit&agrave; ai tempi dei Millennials</em>, a cura
+                di M.C. Florini e G. Rifelli, pp. 83-85, Scione Editore, Roma.
+              </li>
+            </>
+          )}
         </ul>
         <h2>Anno 2019</h2>
         <ul className={style.listConferenze}>
@@ -131,15 +149,20 @@ const Articoli = () => {
             , in "Protocollo operativo del Tavolo interistituzionale per il
             contrasto all&rsquo;omotransnegativit&agrave; e per
             l&rsquo;inclusione delle persone LGBT", Comune di Reggio Emilia,
-            19/04/2019 LINK PDF 4
+            19/04/2019{" "}
+            <a href="/4_protocollo-operativo-LGBT.pdf" download>
+              <button> Download PDF </button>
+            </a>
           </li>
         </ul>
         <h2>Anno 2018</h2>
         <ul className={style.listConferenze}>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2018),&nbsp;
-            <em>De-omofobina. Pillole di conoscenza</em>, Geco, Torino&nbsp;LINK
-            PDF 3
+            <em>De-omofobina. Pillole di conoscenza</em>, Geco, Torino&nbsp;{" "}
+            <a href="/3_DE-OMOFOBINA.jpg" download>
+              <button> Download Image </button>
+            </a>
           </li>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2018),&nbsp;
@@ -193,8 +216,11 @@ const Articoli = () => {
             </em>
             , in "Tavolo interistituzionale per il contrasto
             all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione delle
-            persone LGBT", Comune di Reggio Emilia, 17/05/2017&nbsp;LINK5
+            persone LGBT", Comune di Reggio Emilia, 17/05/2017&nbsp;
           </li>
+          <a href="/5_Protocollo-per-LGBT.pdf" download>
+            <button> Download PDF </button>
+          </a>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2017),&nbsp;
             <em>
@@ -406,7 +432,9 @@ const Articoli = () => {
               Modidi: sesso e salute di lesbiche, gay e bisessuali oggi in
               Italia. Principali risultati sociosanitari
             </em>
-            . LINKPDF20
+            <a href="/2_convegno-CSG-trento-2020-Graglia.pdf" download>
+              <button> Download PDF </button>
+            </a>
           </li>
         </ul>
         <h2>Anno 2004</h2>
@@ -510,8 +538,11 @@ const Articoli = () => {
               trascurato
             </em>
             , Psichiatria dell'Infanzia e dell'Adolescenza, 67(2),
-            p.195-200)&nbsp;LINK PDF 7
+            p.195-200)&nbsp;
           </li>
+          <a href="/7_disordini-alimentari_graglia.pdf" download>
+            <button> Download PDF </button>
+          </a>
           <li className={style.listItemConferenze}>
             <strong>Pietrantoni L., Sommantico M., Graglia M.</strong>
             &nbsp;(2000),&nbsp;

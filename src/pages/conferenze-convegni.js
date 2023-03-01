@@ -181,8 +181,20 @@ const Contatto = () => (
           basate sull&rsquo;identit&agrave; di genere e l&rsquo;orientamento
           sessuale,{" "}
           <strong>Commissione Giustizia della Camera dei Deputati</strong>,
-          Roma. LINKSEZIONE VIDEO
+          Roma.
         </li>
+        <Link
+          to={"/media"}
+          style={{
+            fontSize: `var(--font-md)`,
+            padding: `0 var(--space-4)`,
+            textDecoration: `none`,
+            color: `var( --color-text-white)`,
+            fontWeight: 700,
+          }}
+        >
+          LINKSEZIONE VIDEO
+        </Link>
         <li className={style.listItemConferenze}>
           Graglia M. (2020).
           <em>
@@ -210,8 +222,11 @@ const Contatto = () => (
           del Comune di Reggio Emilia, convegno "Genere e R-Esistenze in
           Movimento. Soggettivit&agrave;, Azioni, Prospettive",{" "}
           <strong>Centro Interdipartimentale Studi di Genere</strong>,{" "}
-          <strong>Universit&agrave; di Trento, </strong>Trento. LINKAL PDF 2
+          <strong>Universit&agrave; di Trento, </strong>
         </li>
+        <a href="/2_convegno-CSG-trento-2020-Graglia.pdf" download>
+          <button> Download PDF </button>
+        </a>
       </ul>
       <h2>Anno 2019</h2>
       <ul className={style.listConferenze}>
@@ -223,8 +238,11 @@ const Contatto = () => (
           </em>
           . Convegno &ldquo;Per la dignit&agrave; delle persone. Contro la
           violenza omotransfobica&rdquo;, <strong>Camera dei deputati</strong>,
-          Roma. LINK
-          <a target="_blank" href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662">
+          Roma.
+          <a
+            target="_blank"
+            href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
+          >
             https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662
           </a>
           (Video da scaricare, grazie)
@@ -273,8 +291,11 @@ const Contatto = () => (
         <li className={style.listItemConferenze}>
           Graglia M. (2019). <em>Il lavoro del Tavolo interistituzionale</em>,
           Sottoscrizione del Protocollo operativo,{" "}
-          <strong>Comune di Reggio Emilia</strong>. LINK PDF 4
+          <strong>Comune di Reggio Emilia</strong>.
         </li>
+        <a href="/4_protocollo-operativo-LGBT.pdf" download>
+          <button> Download PDF </button>
+        </a>
         <li className={style.listItemConferenze}>
           Graglia M. (2019).
           <em>Fuori! Come &egrave; cambiato il movimento LGBT</em>
@@ -326,8 +347,11 @@ const Contatto = () => (
           Graglia M. (2018). &ldquo;L&rsquo;omotransfobia &egrave; il problema.
           Vuoi far parte del rimedio?&rdquo;, Presentazione di{" "}
           <strong>DE-OMOFOBINA</strong>, Associazione Geco, Fiorfood Coop,
-          Torino. LINK PDF 3
+          Torino
         </li>
+        <a href="/3_DE-OMOFOBINA.jpg" download>
+          <button> Download Image </button>
+        </a>
         <li className={style.listItemConferenze}>
           Graglia M. (2018). <em>L&rsquo;omotransnegativit&agrave;</em>,
           presentazione &ldquo;Guida Arcobaleno&rdquo;,{" "}
@@ -401,8 +425,11 @@ const Contatto = () => (
           Graglia M. (2017). Sottoscrizione del Protocollo di Intesa
           Interistituzionale per il contrasto
           all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione delle
-          persone LGBT, Comune di Reggio Emilia, 17 maggio. LINK PDF 5
+          persone LGBT, Comune di Reggio Emilia, 17 maggio.
         </li>
+        <a href="/5_Protocollo-per-LGBT.pdf" download>
+          <button> Download PDF </button>
+        </a>
       </ul>
       <h2>Anno 2016</h2>
       <ul className={style.listConferenze}>
