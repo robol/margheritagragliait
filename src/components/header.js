@@ -113,6 +113,7 @@ const Header = ({ siteTitle }) => {
               textDecoration: `none`,
               color: `var( --color-text-white)`,
               fontWeight: 400,
+              whiteSpace: "nowrap",
             }}
           >
             {siteTitle.toUpperCase()}
@@ -124,7 +125,13 @@ const Header = ({ siteTitle }) => {
                   <div
                     onMouseEnter={() => link.toggleDropdown()}
                     onMouseLeave={() => link.toggleDropdown()}
-                    style={{ position: "relative" }}
+                    style={{
+                      position: "relative",
+                      width: "auto",
+                      height: "100%",
+                      display: "flex",
+                      alignItems: "center",
+                    }}
                   >
                     <Link
                       key={link.url}
