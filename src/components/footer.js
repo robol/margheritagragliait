@@ -7,22 +7,22 @@ import { StaticImage } from "gatsby-plugin-image"
 const Footer = () => {
   const navigationLinks = [
     {
-      text: "Biografia",
-      url: "/biografia",
-      badge: false,
-      description: "Biografia di Margherita Graglia",
-    },
-    {
-      text: "Libri",
-      url: "/libri",
+      text: "Pubblicazioni",
+      url: "/articoli",
       badge: false,
       description: "Libri di Margherita Graglia",
     },
     {
-      text: "Psiocoterapia",
+      text: "Psicoterapia",
       url: "/psicoterapia",
       badge: false,
       description: "Psicoterapia di Margherita Graglia",
+    },
+    {
+      text: "Formazione",
+      url: "/formazione",
+      badge: false,
+      description: "Formazione di Margherita Graglia",
     },
   ]
 
@@ -42,9 +42,7 @@ const Footer = () => {
       }}
     >
       <h1 style={{ color: "white" }}>Margherita Graglia</h1>
-      <h2 style={{ color: "white" }}>
-        Psicoterapeuta, formatrice e saggista
-      </h2>
+      <h2 style={{ color: "white" }}>Psicoterapeuta – Formatrice – Saggista</h2>
       <div
         className={styles.desktopOnly}
         style={{
@@ -102,13 +100,24 @@ const Footer = () => {
           </text>
         </div>
       </a>
-
       <a
         style={{ color: "white", marginTop: 20, textAlign: "center" }}
-        href="https://github.com/emirodriguezalc/"
+        href="https://www.linkedin.com/in/emiliarg/"
         target="_blank"
       >
         Made with ♡ by Emilia Rodriguez Gimenez
+      </a>
+      <a
+        style={{
+          color: "white",
+          marginTop: 20,
+          textAlign: "center",
+          fontSize: 10,
+        }}
+        target="_blank"
+        href="https://icons8.com"
+      >
+        Icons by Icons8
       </a>
     </div>
   )

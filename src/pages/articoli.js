@@ -24,7 +24,7 @@ const Articoli = () => {
       <div style={{ padding: "20px" }}>
         <FeaturedBooks />
 
-        <h1>Capitoli</h1>
+        <h1>Capitoli e articoli</h1>
         <h2>Anno 2022</h2>
         <ul className={style.listConferenze}>
           <li className={style.listItemConferenze}>
@@ -85,17 +85,19 @@ const Articoli = () => {
             genere nell&rsquo;infanzia: una prospettiva psicologica,{" "}
             <em>Infanzia</em>, n.1, pp. 10-15.
           </li>
-          <button
-            style={{
-              color: "green",
-              textTransform: "uppercase",
-              border: "none",
-              backgroundColor: "inherit",
-            }}
-            onClick={() => setReadMore1(!readMore1)}
-          >
-            {readMore1 ? "Read Less" : "Read more"}
-          </button>
+          {!readMore1 && (
+            <button
+              style={{
+                color: "green",
+                textTransform: "uppercase",
+                border: "none",
+                backgroundColor: "inherit",
+              }}
+              onClick={() => setReadMore1(!readMore1)}
+            >
+              {"Scopri di più"}
+            </button>
+          )}
           {readMore1 && (
             <>
               <li className={style.listItemConferenze}>
@@ -181,7 +183,7 @@ const Articoli = () => {
             <em>
               La legge sull&rsquo;omofobia e l&rsquo;esperienza di Reggio Emilia
             </em>
-            , La Repubblica, 21/05/2018 LINK
+            , La Repubblica, 21/05/2018
             <a
               target="_blank"
               href="https://ricerca.repubblica.it/repubblica/archivio/repubblica/2018/05/21/la-legge-sullomofobia-e-lesperienza-di-reggio-emiliaBologna03.html"
@@ -469,7 +471,7 @@ const Articoli = () => {
             <strong>Pietrantoni L., Graglia M., Lelleri R.</strong>
             &nbsp;(2003),&nbsp;
             <em>Pazienti imprevisti: pratica medica e orientamento sessuale</em>
-            , Progetto finanziato dall'Ente Superiore di Sanit&agrave;.
+            , Progetto finanziato dall'Instituto Superiore di Sanit&agrave;.
             (CD-room)&nbsp;
           </li>
         </ul>

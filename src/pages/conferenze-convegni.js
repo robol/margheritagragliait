@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Seo from "../components/seo"
 
-const Contatto = () => (
+const Contatti = () => (
   <Layout>
     <div
       style={{
@@ -243,9 +243,8 @@ const Contatto = () => (
             target="_blank"
             href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
           >
-            https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662
+            LINK TO VIDEO{" "}
           </a>
-          (Video da scaricare, grazie)
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2019).{" "}
@@ -796,6 +795,6 @@ const Contatto = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Contatto" />
+export const Head = () => <Seo title="Contatti" />
 
-export default Contatto
+export default Contatti
