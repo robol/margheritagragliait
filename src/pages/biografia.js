@@ -116,7 +116,9 @@ const Biografia = () => {
                 Le discriminazioni basate sull&rsquo;identit&agrave; di genere e
                 sull&rsquo;orientamento sessuale. La prospettiva psico-sociale
               </em>
-              . &nbsp;(LINK 1 PDF).&nbsp;
+              <a href="/1_Audizione-Camera-deputati.pdf" download>
+                <button> Download PDF </button>
+              </a>
             </p>
             <p>
               Nel 2019 ha partecipato al Convegno &ldquo;Per la dignit&agrave;
@@ -139,10 +141,20 @@ const Biografia = () => {
               orientamento sessuale, identit&agrave; di genere,
               &ldquo;razza&rdquo; ed origine etnica nella societ&agrave; e
               nell&rsquo;avvocatura&rdquo;,
-              <strong>Consiglio Nazionale Forense</strong>, Roma. LINK SEZIONE
-              VIDEO 2 al minuto 1.52.08
+              <strong>Consiglio Nazionale Forense</strong>, Roma.
             </p>
-
+            <Link
+              to={"/media"}
+              style={{
+                fontSize: `var(--font-md)`,
+                padding: `0 var(--space-4)`,
+                textDecoration: `none`,
+                color: `var( --color-text-white)`,
+                fontWeight: 700,
+              }}
+            >
+              LINK SEZIONE VIDEO 2 al minuto 1.52.08
+            </Link>
             <p>
               &Egrave; coordinatrice, dal 2015, del &quot;Tavolo
               interistituzionale per il contrasto

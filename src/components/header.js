@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => {
       subsections: [
         { text: "Progetti formativi", url: "/progetti-formativi" },
         { text: "Proposte formative", url: "/proposte-formative" },
-        { text: "Approccio maieutico", url: "/approcio" },
+        { text: "Approccio maieutico", url: "/approccio" },
       ],
       toggleDropdown: () => setToggleFormazione(!toggleFormazione),
       showKey: toggleFormazione,
