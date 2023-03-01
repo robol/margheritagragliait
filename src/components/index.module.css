@@ -67,10 +67,11 @@
 .sectionsContainer {
   display: flex;
   justify-content: space-between;
-  /*   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 35px; */
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  margin-left: 20px;
+  text-align: center;
 }
 .headerContainer {
   width: 100%;
