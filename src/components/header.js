@@ -57,10 +57,10 @@ const Header = ({ siteTitle }) => {
       showKey: toggleFormazione,
     },
     {
-      text: "Media",
-      url: "/media",
+      text: "Video",
+      url: "/video",
       badge: false,
-      description: "Media di Margherita Graglia",
+      description: "Video di Margherita Graglia",
       subsections: null,
     },
     {

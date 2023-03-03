@@ -18,7 +18,7 @@ const Contatti = () => (
         Conferenze e convegni
       </h2>
     </div>
-     <div style={{ padding: 45, paddingBottom: 0 }}>
+    <div style={{ padding: 45, paddingBottom: 0 }}>
       <h2>Anno 2022</h2>
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>
@@ -177,7 +177,7 @@ const Contatti = () => (
               fontWeight: 700,
             }}
           >
-            LINK A MEDIA
+            LINK
           </Link>
         </li>
         <li className={style.listItemConferenze}>
@@ -204,7 +204,7 @@ const Contatti = () => (
             fontWeight: 700,
           }}
         >
-          LINK A MEDIA
+          LINK
         </Link>
         <li className={style.listItemConferenze}>
           Graglia M. (2020).
@@ -234,18 +234,18 @@ const Contatti = () => (
           Movimento. Soggettivit&agrave;, Azioni, Prospettive",{" "}
           <strong>Centro Interdipartimentale Studi di Genere</strong>,{" "}
           <strong>Universit&agrave; di Trento, </strong>
+          <button
+            onClick={() =>
+              window.open(
+                "/2_convegno-CSG-trento-2020-Graglia.pdf",
+                "_blank",
+                "fullscreen=yes"
+              )
+            }
+          >
+            LINK
+          </button>
         </li>
-        <button
-          onClick={() =>
-            window.open(
-              "/2_convegno-CSG-trento-2020-Graglia.pdf",
-              "_blank",
-              "fullscreen=yes"
-            )
-          }
-        >
-          LINK
-        </button>
       </ul>
       <h2>Anno 2019</h2>
       <ul className={style.listConferenze}>
@@ -262,7 +262,7 @@ const Contatti = () => (
             target="_blank"
             href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
           >
-            LINK TO VIDEO{" "}
+            LINK
           </a>
         </li>
         <li className={style.listItemConferenze}>
@@ -310,18 +310,18 @@ const Contatti = () => (
           Graglia M. (2019). <em>Il lavoro del Tavolo interistituzionale</em>,
           Sottoscrizione del Protocollo operativo,{" "}
           <strong>Comune di Reggio Emilia</strong>.
+          <button
+            onClick={() =>
+              window.open(
+                "/4_protocollo-operativo-LGBT.pdf",
+                "_blank",
+                "fullscreen=yes"
+              )
+            }
+          >
+            LINK
+          </button>
         </li>
-        <button
-          onClick={() =>
-            window.open(
-              "/4_protocollo-operativo-LGBT.pdf",
-              "_blank",
-              "fullscreen=yes"
-            )
-          }
-        >
-          LINK
-        </button>
         <li className={style.listItemConferenze}>
           Graglia M. (2019).
           <em>Fuori! Come &egrave; cambiato il movimento LGBT</em>
@@ -374,14 +374,14 @@ const Contatti = () => (
           Vuoi far parte del rimedio?&rdquo;, Presentazione di{" "}
           <strong>DE-OMOFOBINA</strong>, Associazione Geco, Fiorfood Coop,
           Torino
+          <button
+            onClick={() =>
+              window.open("/3_DE-OMOFOBINA.jpg", "_blank", "fullscreen=yes")
+            }
+          >
+            LINK
+          </button>
         </li>
-        <button
-          onClick={() =>
-            window.open("/3_DE-OMOFOBINA.jpg", "_blank", "fullscreen=yes")
-          }
-        >
-          LINK
-        </button>
         <li className={style.listItemConferenze}>
           Graglia M. (2018). <em>L&rsquo;omotransnegativit&agrave;</em>,
           presentazione &ldquo;Guida Arcobaleno&rdquo;,{" "}

@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Seo from "../components/seo"
 
-const Media = () => (
+const Video = () => (
   <Layout>
     <div
       style={{
@@ -42,7 +42,7 @@ const Media = () => (
           target="_blank"
           href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
         >
-          LINK TO VIDEO
+          LINK
         </a>
         <br />
         <br />
@@ -142,6 +142,6 @@ const Media = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Media" />
+export const Head = () => <Seo title="Video" />
 
-export default Media
+export default Video
