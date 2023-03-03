@@ -11,7 +11,7 @@ const News = () => {
       entity: "",
       location: "Brescia",
       data: "7 marzo",
-      images: ["/news_1.jpeg"],
+      images: ["/news_1.jpg"],
     },
     {
       title:
@@ -19,7 +19,7 @@ const News = () => {
       entity: "Consiglio della provincia autonoma di Trento",
       location: "Trento",
       data: "4 marzo",
-      images: ["/news_2a.jpeg", "/news_2b.jpeg"],
+      images: ["/news_2a.jpg", "/news_2b.jpg"],
     },
   ]
   const toggleFullScreen = e => {
@@ -37,22 +37,37 @@ const News = () => {
       >
         <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>News</h2>
       </div>
-      {news.map(newItem => (
-        <div
-          style={{
-            padding: 20,
-            borderBottom: "1px solid var(--color-primary)",
-          }}
-        >
-          <h2>Evento: {newItem.title}</h2>
-          <h3>{newItem.entity && `Instituto: ${newItem.entity}`}</h3>
-          <h3>Dove: {newItem.location}</h3>
-          <h3>Quando: {newItem.data}</h3>
-          {newItem.images.map(url => (
-            <img src={url} onClick={e => toggleFullScreen(e)} />
-          ))}
-        </div>
-      ))}
+      <div style={{ display: "flex" }}>
+        {news.map(newItem => (
+          <div
+            style={{
+              padding: 20,
+              borderLeft: "1px solid var(--color-primary)",
+              borderBottom: "1px solid var(--color-primary)",
+            }}
+          >
+            <h2>Evento: {newItem.title}</h2>
+            <h3>{newItem.entity && `Instituto: ${newItem.entity}`}</h3>
+            <h3>Dove: {newItem.location}</h3>
+            <h3>Quando: {newItem.data}</h3>
+            <ul style={{ display: "flex", flexDirection: "column" }}>
+              {newItem.images.map(url => (
+                <li>
+                  <img
+                    style={{
+                      width: 400,
+                      cursor: "pointer",
+                      border: "1px solid black",
+                    }}
+                    src={url}
+                    onClick={e => toggleFullScreen(e)}
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </Layout>
   )
 }
