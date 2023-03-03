@@ -22,13 +22,14 @@ const Supervisione = () => {
           Supervisione e consulenza
         </h2>
       </div>
-      <div style={{ padding: 20 }}>
+      <div style={{ padding: 45, paddingBottom: 0 }}>
         <>
           <>
-            <h2>Supervisione e consulenza</h2>
-            <p>
-              <em>Supervisione clinica </em>
-            </p>
+            <h3
+              style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}
+            >
+              Supervisione clinica
+            </h3>
             {!readMore1 && (
               <button
                 style={{
@@ -53,19 +54,26 @@ const Supervisione = () => {
                   sui temi dell&rsquo;identit&agrave; sessuale:
                 </p>
                 <ul>
-                  <li>Intersessualit&agrave;</li>
+                  <li> • Intersessualit&agrave;</li>
                   <li>
-                    Varianza di genere nell&rsquo;et&agrave; evolutiva e adulta
+                    • Varianza di genere nell&rsquo;et&agrave; evolutiva e
+                    adulta
                   </li>
                   <li>
-                    Incongruenza di genere e percorso di affermazione di genere
+                    {" "}
+                    • Incongruenza di genere e percorso di affermazione di
+                    genere
                   </li>
-                  <li>Orientamento sessuale</li>
-                  <li>Omogenitorialit&agrave;</li>
+                  <li> • Orientamento sessuale</li>
+                  <li> • Omogenitorialit&agrave;</li>
                 </ul>
               </>
             )}{" "}
-            <h3>Consulenza istituzionale </h3>{" "}
+            <h3
+              style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}
+            >
+              Consulenza istituzionale{" "}
+            </h3>{" "}
             {!readMore2 && (
               <button
                 style={{
@@ -116,11 +124,11 @@ const Supervisione = () => {
                       fontSize: `var(--font-md)`,
                       padding: `0 var(--space-4)`,
                       textDecoration: `none`,
-                      color: `var( --color-text-white)`,
+                      color: `var( --color-primary)`,
                       fontWeight: 700,
                     }}
                   >
-                    LINKSEZIONE CONTATTI
+                    CONTATTAMI
                   </Link>
                 </p>
               </>

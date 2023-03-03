@@ -22,7 +22,7 @@ const Supervisione = () => {
           Formazione
         </h2>
       </div>
-      <div style={{ padding: 20 }}>
+       <div style={{ padding: 45, paddingBottom: 0 }}>
         <>
           <>
             <h3>Obiettivi</h3>

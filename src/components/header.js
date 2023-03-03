@@ -131,20 +131,13 @@ const Header = ({ siteTitle }) => {
                   <div
                     onMouseEnter={() => link.toggleDropdown()}
                     onMouseLeave={() => link.toggleDropdown()}
-                    style={{
-                      position: "relative",
-                      width: "auto",
-                      height: "100%",
-                      display: "flex",
-                      alignItems: "center",
-                    }}
+                    className={styles.headerItems}
                   >
                     <Link
                       key={link.url}
                       to={link.url}
                       style={{
                         fontSize: `var(--font-md)`,
-                        padding: `0 var(--space-4)`,
                         textDecoration: `none`,
                         color: `var( --color-text-white)`,
                         fontWeight: 700,
@@ -158,6 +151,7 @@ const Header = ({ siteTitle }) => {
                           backgroundColor: "white",
                           position: "absolute",
                           top: "40px",
+                          left: "-25px",
                           zIndex: 2,
                           padding: "20px",
                         }}

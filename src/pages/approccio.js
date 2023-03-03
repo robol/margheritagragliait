@@ -21,15 +21,12 @@ const Approccio = () => {
           Approccio maieutico
         </h2>
       </div>
-      <div style={{ padding: 20 }}>
+      <div style={{ padding: 45, paddingBottom: 0 }}>
         <p>
           L&rsquo;approccio maieutico crea le condizioni per l&rsquo;incontro ed
           &egrave; centrato sull&rsquo;<strong>ascolto</strong> e sull&rsquo;
           <strong>interazione</strong>. Il suo principale strumento &egrave; la
           domanda che instaura una dimensione paritetica e dialogica{" "}
-          <a href="/media">
-            <button> GO TO MEDIA </button>
-          </a>
         </p>
         <p>
           Il termine &ldquo;maieutica&rdquo; origina dal greco antico
@@ -146,9 +143,9 @@ const Approccio = () => {
             </p>
           </>
         )}
-        <p>
-          <em>L&rsquo;approccio maieutico in pratica</em>
-        </p>
+        <h3 style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}>
+          L&rsquo;approccio maieutico in pratica
+        </h3>
         <p>
           L&rsquo;approccio maieutico fin qui delineato trae spunto dalla mia
           pratica di psicoterapeuta e di formatrice. A livello istituzionale
@@ -171,7 +168,7 @@ const Approccio = () => {
         {readMore2 && (
           <>
             <p>
-              a partire dalla fine degli anni &rsquo;90 nei contesti scolastici
+              A partire dalla fine degli anni &rsquo;90 nei contesti scolastici
               di secondo grado con i corsi &ldquo;Educare al rispetto.
               Educazione socio-affettiva sui temi dell'identit&agrave;
               sessuale&rdquo;, autorizzati inizialmente dai Provveditorati agli
@@ -195,7 +192,6 @@ const Approccio = () => {
               formativa.
             </p>
             <p>
-              <br />
               Testo tratto da <strong>Graglia M.</strong> (2020). &ldquo;
               <strong>
                 Fare formazione sui temi LGBT nelle istituzioni pubbliche
@@ -214,9 +210,17 @@ const Approccio = () => {
               , a cura di Coppola M.M., Don&agrave; A., Poggio B., Tuselli A.,
               pp. 141-153, Universit&agrave; degli studi di Trento. ISBN:
               978-88-8443-894-2.{" "}
-              <a href="/2_convegno-CSG-trento-2020-Graglia.pdf" download>
-                <button> Download PDF </button>
-              </a>
+              <button
+                onClick={() =>
+                  window.open(
+                    "/2_convegno-CSG-trento-2020-Graglia.pdf",
+                    "_blank",
+                    "fullscreen=yes"
+                  )
+                }
+              >
+                LINK
+              </button>
             </p>
           </>
         )}
