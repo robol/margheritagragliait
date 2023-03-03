@@ -77,7 +77,7 @@ const Articoli = () => {
               target="_blank"
               href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf"
             >
-              LINK TO PDF
+              LINK
             </a>
           </li>
           <li className={style.listItemConferenze}>
@@ -185,7 +185,13 @@ const Articoli = () => {
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2018),&nbsp;
             <em>Omosessuale va bene, ma non troppo</em>, La Rivista il Mulino,
-            17/05/2018&nbsp;LINKhttps://www.rivistailmulino.it/news/newsitem/index/Item/News:NEWS_ITEM:4363?fbclid=IwAR0EbsVjl8hj_xbB0EiLFAnqtQElIj8QA8r4Zcbh5dUlsnaGmIjM9vKIuLI
+            17/05/2018&nbsp;
+            <button
+              href="https://www.rivistailmulino.it/news/newsitem/index/Item/News:NEWS_ITEM:4363?fbclid=IwAR0EbsVjl8hj_xbB0EiLFAnqtQElIj8QA8r4Zcbh5dUlsnaGmIjM9vKIuLI"
+              target="_blank"
+            >
+              LINK
+            </button>
           </li>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2018),&nbsp;
@@ -549,7 +555,7 @@ const Articoli = () => {
             <em>
               L&rsquo;omofobia istituzionalizzata: il caso della psicoterapia
             </em>
-            , in "Psychomedia Telematic Review" LINK
+            , in "Psychomedia Telematic Review"
             <a
               target="_blank"
               href="http://www.psychomedia.it/pm/lifecycle/gender/graglia.htm"

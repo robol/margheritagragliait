@@ -158,7 +158,7 @@ const Biografia = () => {
                 fontWeight: 700,
               }}
             >
-              LINK SEZIONE VIDEO 2 al minuto 1.52.08
+              LINK
             </Link>
             <p>
               &Egrave; coordinatrice, dal 2015, del &quot;Tavolo
