@@ -57,21 +57,15 @@ const Video = () => (
           orientamento sessuale, identità di genere, “razza” ed origine etnica
           nella società e nell’avvocatura”, Roma
         </p>
-        <a
-          target="_blank"
-          href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
-        >
-          <div
-            style={{ padding: 20, display: "flex", justifyContent: "center" }}
-          >
-            <video controls>
-              <source
-                src={"/inclusione e la non discriminazione delle persone.mp4"}
-                type="video/mp4"
-              />
-            </video>
-          </div>
-        </a>
+
+        <div style={{ padding: 20, display: "flex", justifyContent: "center" }}>
+          <video controls>
+            <source
+              src={"/inclusione e la non discriminazione delle persone.mp4"}
+              type="video/mp4"
+            />
+          </video>
+        </div>
         <br />
         <br />
         <div style={{ width: "100%", borderBottom: "1px solid black" }}></div>
