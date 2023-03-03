@@ -88,7 +88,7 @@ const Biografia = () => {
 
             <p>
               Affianca all&apos;attivit&agrave; clinica quella di&nbsp;
-              <Link target="_blank" to="/psicoterapia">
+              <Link target="_blank" to="/formazione">
                 formatrice e consulente
               </Link>
               &nbsp;presso universit&agrave;, aziende USL, enti pubblici,
@@ -113,9 +113,17 @@ const Biografia = () => {
                 Le discriminazioni basate sull&rsquo;identit&agrave; di genere e
                 sull&rsquo;orientamento sessuale. La prospettiva psico-sociale
               </em>
-              <a href="/1_Audizione-Camera-deputati.pdf" download>
-                <button> Download PDF </button>
-              </a>
+              <button
+                onClick={() =>
+                  window.open(
+                    "/1_Audizione-Camera-deputati.pdf",
+                    "_blank",
+                    "fullscreen=yes"
+                  )
+                }
+              >
+                LINK
+              </button>
             </p>
             <p>
               Nel 2019 ha partecipato al Convegno &ldquo;Per la dignit&agrave;

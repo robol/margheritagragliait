@@ -18,7 +18,7 @@ const Contatti = () => (
         Conferenze e convegni
       </h2>
     </div>
-    <div style={{ padding: 20 }}>
+     <div style={{ padding: 45, paddingBottom: 0 }}>
       <h2>Anno 2022</h2>
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>
@@ -166,8 +166,19 @@ const Contatti = () => (
           di orientamento sessuale, identit&agrave; di genere,
           &ldquo;razza&rdquo; ed origine etnica nella societ&agrave; e
           nell&rsquo;avvocatura&rdquo;.{" "}
-          <strong>Consiglio Nazionale Forense</strong>, Roma. LINKSEZIONE
-          VIDEO(al minuto 1.52.08)
+          <strong>Consiglio Nazionale Forense</strong>, Roma.
+          <Link
+            to={"/media"}
+            style={{
+              fontSize: `var(--font-md)`,
+              padding: `0 var(--space-4)`,
+              textDecoration: `none`,
+              color: `var( --color-primary)`,
+              fontWeight: 700,
+            }}
+          >
+            LINK A MEDIA
+          </Link>
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2020). VIII Commissione Consiliare Speciale &ldquo;Diritti
@@ -189,11 +200,11 @@ const Contatti = () => (
             fontSize: `var(--font-md)`,
             padding: `0 var(--space-4)`,
             textDecoration: `none`,
-            color: `var( --color-text-white)`,
+            color: `var( --color-primary)`,
             fontWeight: 700,
           }}
         >
-          LINKSEZIONE VIDEO
+          LINK A MEDIA
         </Link>
         <li className={style.listItemConferenze}>
           Graglia M. (2020).
@@ -224,9 +235,17 @@ const Contatti = () => (
           <strong>Centro Interdipartimentale Studi di Genere</strong>,{" "}
           <strong>Universit&agrave; di Trento, </strong>
         </li>
-        <a href="/2_convegno-CSG-trento-2020-Graglia.pdf" download>
-          <button> Download PDF </button>
-        </a>
+        <button
+          onClick={() =>
+            window.open(
+              "/2_convegno-CSG-trento-2020-Graglia.pdf",
+              "_blank",
+              "fullscreen=yes"
+            )
+          }
+        >
+          LINK
+        </button>
       </ul>
       <h2>Anno 2019</h2>
       <ul className={style.listConferenze}>
@@ -292,9 +311,17 @@ const Contatti = () => (
           Sottoscrizione del Protocollo operativo,{" "}
           <strong>Comune di Reggio Emilia</strong>.
         </li>
-        <a href="/4_protocollo-operativo-LGBT.pdf" download>
-          <button> Download PDF </button>
-        </a>
+        <button
+          onClick={() =>
+            window.open(
+              "/4_protocollo-operativo-LGBT.pdf",
+              "_blank",
+              "fullscreen=yes"
+            )
+          }
+        >
+          LINK
+        </button>
         <li className={style.listItemConferenze}>
           Graglia M. (2019).
           <em>Fuori! Come &egrave; cambiato il movimento LGBT</em>
@@ -348,9 +375,13 @@ const Contatti = () => (
           <strong>DE-OMOFOBINA</strong>, Associazione Geco, Fiorfood Coop,
           Torino
         </li>
-        <a href="/3_DE-OMOFOBINA.jpg" download>
-          <button> Download Image </button>
-        </a>
+        <button
+          onClick={() =>
+            window.open("/3_DE-OMOFOBINA.jpg", "_blank", "fullscreen=yes")
+          }
+        >
+          LINK
+        </button>
         <li className={style.listItemConferenze}>
           Graglia M. (2018). <em>L&rsquo;omotransnegativit&agrave;</em>,
           presentazione &ldquo;Guida Arcobaleno&rdquo;,{" "}
@@ -426,9 +457,17 @@ const Contatti = () => (
           all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione delle
           persone LGBT, Comune di Reggio Emilia, 17 maggio.
         </li>
-        <a href="/5_Protocollo-per-LGBT.pdf" download>
-          <button> Download PDF </button>
-        </a>
+        <button
+          onClick={() =>
+            window.open(
+              "/5_Protocollo-per-LGBT.pdf",
+              "_blank",
+              "fullscreen=yes"
+            )
+          }
+        >
+          LINK
+        </button>
       </ul>
       <h2>Anno 2016</h2>
       <ul className={style.listConferenze}>

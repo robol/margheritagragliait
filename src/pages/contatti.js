@@ -21,16 +21,18 @@ const Contatti = () => (
         display: "flex",
       }}
     >
-      <StaticImage //TODO: EVALUATE THIS
-        src="../images/placeholder-background.png"
-        loading="eager"
-        quality={95}
-        objectFit="cover"
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ width: "50%" }}
-      />
-      <div style={{ padding: 20 }}>
+      <div style={{ width: 300, alignSelf: "center", margin: 40 }}>
+        <StaticImage //TODO: EVALUATE THIS
+          src="../images/foto1.jpg"
+          loading="eager"
+          quality={95}
+          objectFit="cover"
+          formats={["auto", "webp", "avif"]}
+          alt=""
+          width={300}
+        />
+      </div>
+      <div style={{ padding: 45, paddingBottom: 0 }}>
         <p>
           <strong>
             <em>Sede</em>

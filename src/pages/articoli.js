@@ -107,19 +107,16 @@ const Articoli = () => {
                 <em>Rivista di Sessuologia</em>.
               </li>
               <li className={style.listItemConferenze}>
-                <strong>
-                  <strong>Graglia M.</strong> (2020). Costruire
-                  l&rsquo;inclusione per le persone LGBT: l&rsquo;esperienza del{" "}
-                  <em>
-                    Tavolo interistituzionale per il contrasto
-                    all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione
-                    delle persone LGBT
-                  </em>{" "}
-                  del Comune di Reggio Emilia,in&ldquo;Prospettive sui generis.
-                  Sguardi psicosociali sulle varianze di genere&rdquo;, Graglia
-                  M. (a cura), 44 (1), pp. 61-73,{" "}
-                  <em>Rivista di Sessuologia</em>.
-                </strong>
+                <strong>Graglia M.</strong> (2020). Costruire l&rsquo;inclusione
+                per le persone LGBT: l&rsquo;esperienza del{" "}
+                <em>
+                  Tavolo interistituzionale per il contrasto
+                  all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione
+                  delle persone LGBT
+                </em>{" "}
+                del Comune di Reggio Emilia,in&ldquo;Prospettive sui generis.
+                Sguardi psicosociali sulle varianze di genere&rdquo;, Graglia M.
+                (a cura), 44 (1), pp. 61-73, <em>Rivista di Sessuologia</em>.
               </li>
               <li className={style.listItemConferenze}>
                 <strong>Graglia M.</strong> (2020). &ldquo;L&rsquo;orientamento
@@ -152,9 +149,17 @@ const Articoli = () => {
             contrasto all&rsquo;omotransnegativit&agrave; e per
             l&rsquo;inclusione delle persone LGBT", Comune di Reggio Emilia,
             19/04/2019{" "}
-            <a href="/4_protocollo-operativo-LGBT.pdf" download>
-              <button> Download PDF </button>
-            </a>
+            <button
+              onClick={() =>
+                window.open(
+                  "/4_protocollo-operativo-LGBT.pdf",
+                  "_blank",
+                  "fullscreen=yes"
+                )
+              }
+            >
+              LINK
+            </button>
           </li>
         </ul>
         <h2>Anno 2018</h2>
@@ -162,9 +167,13 @@ const Articoli = () => {
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2018),&nbsp;
             <em>De-omofobina. Pillole di conoscenza</em>, Geco, Torino&nbsp;{" "}
-            <a href="/3_DE-OMOFOBINA.jpg" download>
-              <button> Download Image </button>
-            </a>
+            <button
+              onClick={() =>
+                window.open("/3_DE-OMOFOBINA.jpg", "_blank", "fullscreen=yes")
+              }
+            >
+              LINK
+            </button>
           </li>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2018),&nbsp;
@@ -219,10 +228,18 @@ const Articoli = () => {
             , in "Tavolo interistituzionale per il contrasto
             all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione delle
             persone LGBT", Comune di Reggio Emilia, 17/05/2017&nbsp;
+            <button
+              onClick={() =>
+                window.open(
+                  "/5_Protocollo-per-LGBT.pdf",
+                  "_blank",
+                  "fullscreen=yes"
+                )
+              }
+            >
+              LINK
+            </button>
           </li>
-          <a href="/5_Protocollo-per-LGBT.pdf" download>
-            <button> Download PDF </button>
-          </a>
           <li className={style.listItemConferenze}>
             <strong>Graglia M.</strong>&nbsp;(2017),&nbsp;
             <em>
@@ -434,9 +451,17 @@ const Articoli = () => {
               Modidi: sesso e salute di lesbiche, gay e bisessuali oggi in
               Italia. Principali risultati sociosanitari
             </em>
-            <a href="/2_convegno-CSG-trento-2020-Graglia.pdf" download>
-              <button> Download PDF </button>
-            </a>
+            <button
+              onClick={() =>
+                window.open(
+                  "/2_convegno-CSG-trento-2020-Graglia.pdf",
+                  "_blank",
+                  "fullscreen=yes"
+                )
+              }
+            >
+              LINK
+            </button>
           </li>
         </ul>
         <h2>Anno 2004</h2>
@@ -541,10 +566,18 @@ const Articoli = () => {
             </em>
             , Psichiatria dell'Infanzia e dell'Adolescenza, 67(2),
             p.195-200)&nbsp;
+            <button
+              onClick={() =>
+                window.open(
+                  "/7_disordini-alimentari_graglia.pdf",
+                  "_blank",
+                  "fullscreen=yes"
+                )
+              }
+            >
+              LINK
+            </button>
           </li>
-          <a href="/7_disordini-alimentari_graglia.pdf" download>
-            <button> Download PDF </button>
-          </a>
           <li className={style.listItemConferenze}>
             <strong>Pietrantoni L., Sommantico M., Graglia M.</strong>
             &nbsp;(2000),&nbsp;

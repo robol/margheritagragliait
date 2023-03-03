@@ -25,11 +25,14 @@ const Psicoterapia = () => {
           PSICOTERAPIA
         </h2>
       </div>
-      <div style={{ padding: 20 }}>
+      <div style={{ padding: 40, paddingBottom: 0 }}>
         <>
-          <h3>Approccio terapeutico</h3>
+          <h3
+            style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}
+          >
+            Approccio terapeutico
+          </h3>
           <p>
-            <br />
             Il riferimento teorico&nbsp;del modello terapeutico &egrave; quello
             del&nbsp;costruttivismo che mette al centro l&rsquo;esperienza
             soggettiva, ossia come ogni persona &ldquo;costruisce&rdquo; la
@@ -39,10 +42,7 @@ const Psicoterapia = () => {
             proprie esperienze intersoggettive.
           </p>
           <p>
-            <br />
-          </p>
-          <p>
-            L&rsquo;obiettivo della psicoterapia,...
+            L&rsquo;obiettivo della psicoterapia,
             {!readMore1 && (
               <button
                 style={{
@@ -65,7 +65,6 @@ const Psicoterapia = () => {
                   persona percepisce gli avvenimenti della propria vita e come
                   si rapporta ad essi.&nbsp;{" "}
                 </p>
-                <br />
                 <p>
                   In quest&rsquo;ottica l&rsquo;intervento terapeutico &egrave;
                   un processo in cui il terapeuta e la persona che chiede aiuto
@@ -76,24 +75,20 @@ const Psicoterapia = () => {
               </>
             )}
           </p>
-          <p>
-            <br />
-          </p>
         </>
         <>
-          <h3>Ambiti di intervento</h3>
-          <p>
-            <br />
-          </p>
+          <br />
+          <h3
+            style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}
+          >
+            Ambiti di intervento
+          </h3>
           <p>
             La psicoterapia e la consulenza clinica si rivolgono a&nbsp;singoli
             o coppie&nbsp;nelle varie fasi del ciclo di vita.
           </p>
           <p>
-            <br />
-          </p>
-          <p>
-            Disagio psicologico ...
+            <h4>Disagio psicologico</h4>
             {!readMore2 && (
               <button
                 style={{
@@ -114,9 +109,6 @@ const Psicoterapia = () => {
                 Gli interventi sono mirati alla presa in carico, sia
                 nell&rsquo;adulto sia nell&rsquo;adolescente, di molteplici
                 situazioni di sofferenza psicologica che possono riguardare:
-              </p>
-              <p>
-                <br />
               </p>
               <ul>
                 <li>
@@ -139,7 +131,7 @@ const Psicoterapia = () => {
             </>
           )}
           <p>
-            Consulenza e terapia sessuologica&nbsp; ...
+            <h4>Consulenza e terapia sessuologica&nbsp;</h4>
             {!readMore3 && (
               <button
                 style={{
@@ -164,15 +156,9 @@ const Psicoterapia = () => {
                 sessualit&agrave; piacevole e appagante.
               </p>
               <p>
-                <br />
-              </p>
-              <p>
                 L&rsquo;intervento sessuologico &egrave; mirato alla gestione
                 del disagio psicologico e relazionale nella sfera della
                 sessualit&agrave; e alla risoluzione delle disfunzioni sessuali:
-              </p>
-              <p>
-                <br />
               </p>
               <ul>
                 <li>
@@ -206,16 +192,10 @@ const Psicoterapia = () => {
                 </li>
               </ul>
               <p>
-                <br />
-              </p>
-              <p>
                 La tecnica sessuologica utilizzata prevede la terapia mansionale
                 integrata e si avvale del supporto multidisciplinare attraverso
                 la collaborazione con altri professionisti laddove si renda
                 necessaria una consultazione medica o un supporto farmacologico.
-              </p>
-              <p>
-                <br />
               </p>
               <p>
                 La&nbsp;terapia mansionale integrata&nbsp;&egrave; un intervento
@@ -226,9 +206,6 @@ const Psicoterapia = () => {
                 approccio alla sessualit&agrave;.&nbsp;
               </p>
               <p>
-                <br />
-              </p>
-              <p>
                 Margherita Graglia &egrave; didatta e consigliera del CIS
                 (Centro italiano di sessuologia) e iscritta alla FISS
                 (Federazione italiana di sessuologia scientifica).&nbsp;
@@ -236,7 +213,7 @@ const Psicoterapia = () => {
             </>
           )}
           <p>
-            Psicoterapia e consulenza per le persone LGBTQUIA+ ...
+            <h4>Psicoterapia e consulenza per le persone LGBTQUIA+</h4>
             {!readMore4 && (
               <button
                 style={{
@@ -253,17 +230,15 @@ const Psicoterapia = () => {
           </p>
           {readMore4 && (
             <>
-              <p>
-                <br />
-              </p>
-              <img src="/img_1.jpeg" style={{ height: "450px" }} />
+              {" "}
+              <img
+                src="/img_1.jpeg"
+                style={{ height: 300, float: "right", margin: "20px" }}
+              />
               <p>
                 Il sesso, il genere e l&rsquo;orientamento sessuale sono
                 dimensioni nucleari dell&rsquo;identit&agrave; umana e possono
                 manifestarsi in una molteplicit&agrave; di forme.&nbsp;
-              </p>
-              <p>
-                <br />
               </p>
               <p>
                 Gli interventi clinici sono mirati a supportare le persone con
@@ -272,119 +247,77 @@ const Psicoterapia = () => {
                 individuo.&nbsp;
               </p>
               <p>
-                <br />
-              </p>
-              <p>
                 In questo ambito gli interventi psicologici possono
                 riguardare&nbsp;l&rsquo;intersessualit&agrave;, le
                 identit&agrave; transgender e gli orientamenti omosessuali,
                 bisessuali e asessuali. Nello specifico sono indirizzati a
                 fornire:
               </p>
-              <p>
-                <br />
-              </p>
-              <ul>
-                <li>
-                  <p>Consulenza psicologica alle&nbsp;persone intersex</p>
-                </li>
-              </ul>
-              <p>
-                <br />
-              </p>
-              <p>
-                (esplorazione della propria identit&agrave;; coming out;
-                integrazione della propria immagine corporea; supporto ai
-                genitori)
-              </p>
-              <p>
-                <br />
-              </p>
               <ul>
                 <li>
                   <p>
-                    Consulenza psicologica alle&nbsp;persone transgender&nbsp;
+                    • Psicoterapia e consulenza per le persone LGBTQUIA+
+                    Consulenza psicologica alle&nbsp;persone intersex
+                    (esplorazione della propria identit&agrave;; coming out;
+                    integrazione della propria immagine corporea; supporto ai
+                    genitori)
                   </p>
                 </li>
               </ul>
-              <p>
-                <br />
-              </p>
-              <p>
-                (esplorazione dell&rsquo;identit&agrave; di genere nelle sue
-                varianti &ndash; ad esempio quelle non binarie &ndash;
-                nell&rsquo;et&agrave; adolescenziale e in quella adulta;
-                supporto nelle varie fasi del percorso di affermazione di
-                genere; redazione della certificazione per la rettificazione
-                anagrafica; sostegno ai genitori e ai familiari; supporto nei
-                vari contesti sociali, come ad esempio quello scolastico)
-              </p>
-              <p>
-                <br />
-              </p>
+              <ul>
+                <li>
+                  <p>
+                    • Consulenza psicologica alle&nbsp;persone transgender&nbsp;
+                    (esplorazione dell&rsquo;identit&agrave; di genere nelle sue
+                    varianti &ndash; ad esempio quelle non binarie &ndash;
+                    nell&rsquo;et&agrave; adolescenziale e in quella adulta;
+                    supporto nelle varie fasi del percorso di affermazione di
+                    genere; redazione della certificazione per la rettificazione
+                    anagrafica; sostegno ai genitori e ai familiari; supporto
+                    nei vari contesti sociali, come ad esempio quello
+                    scolastico)
+                  </p>
+                </li>
+              </ul>
               <p>
                 Margherita Graglia &egrave; componente della commissione
                 antidiscriminazione della societ&agrave; scientifica SIGIS
                 (Societ&agrave; italiana genere, identit&agrave; e salute)
               </p>
-              <p>
-                <br />
-              </p>
               <ul>
                 <li>
                   <p>
-                    Consulenza psicologica rivolta alle&nbsp;persone&nbsp;gay,
-                    lesbiche e bisessuali
+                    • Consulenza psicologica rivolta alle&nbsp;persone&nbsp;gay,
+                    lesbiche e bisessuali (esplorazione dell&rsquo;orientamento
+                    sessuale; sostegno nel processo del coming out; consulenza
+                    di coppia; sostegno alle coppie non monogame; consulenza
+                    sessuologica; consulenza sull&rsquo;omogenitorialit&agrave;,
+                    sostegno durante il percorso di procreazione medicalmente
+                    assistita)
                   </p>
                 </li>
               </ul>
-              <p>
-                <br />
-              </p>
-              <p>
-                (esplorazione dell&rsquo;orientamento sessuale; sostegno nel
-                processo del coming out; consulenza di coppia; sostegno alle
-                coppie non monogame; consulenza sessuologica; consulenza
-                sull&rsquo;omogenitorialit&agrave;, sostegno durante il percorso
-                di procreazione medicalmente assistita)
-              </p>
-              <p>
-                <br />
-              </p>
+              <h4>Percorso di gruppo per le persone LGBTQIA+</h4>
               <ul>
-                <li>
-                  <p>Percorso di gruppo per le persone LGBTQIA+</p>
-                </li>
+                <p>
+                  Il gruppo di incontro&nbsp;&egrave; un percorso in gruppo
+                  mirato a conoscere ed esprimere i propri bisogni, desideri ed
+                  emozioni.&nbsp;
+                </p>
+                <p>
+                  Il gruppo di incontro &egrave; rivolto a tutte le persone che
+                  vogliono esplorare il proprio orientamento sessuale e/o la
+                  propria identit&agrave; di genere e che vogliono condividere
+                  vissuti, esperienze e momenti di crescita. L&rsquo;obiettivo
+                  principale &egrave; lo sviluppo e l&apos;affermazione della
+                  propria identit&agrave;, l&apos;espressione delle emozioni,
+                  del proprio punto di vista e una maggiore consapevolezza delle
+                  dinamiche interne ed interpersonali.
+                </p>
               </ul>
-              <p>
-                <br />
-              </p>
-              <p>
-                Il gruppo di incontro&nbsp;&egrave; un percorso in gruppo mirato
-                a conoscere ed esprimere i propri bisogni, desideri ed
-                emozioni.&nbsp;
-              </p>
-              <p>
-                <br />
-              </p>
-              <p>
-                Il gruppo di incontro &egrave; rivolto a tutte le persone che
-                vogliono esplorare il proprio orientamento sessuale e/o la
-                propria identit&agrave; di genere e che vogliono condividere
-                vissuti, esperienze e momenti di crescita.
-              </p>
-              <p>
-                <br />
-                L&rsquo;obiettivo principale &egrave; lo sviluppo e
-                l&apos;affermazione della propria identit&agrave;,
-                l&apos;espressione delle emozioni, del proprio punto di vista e
-                una maggiore consapevolezza delle dinamiche interne ed
-                interpersonali.
-              </p>
             </>
           )}
         </>
-
       </div>
     </Layout>
   )
