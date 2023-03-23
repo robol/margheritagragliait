@@ -107,7 +107,10 @@ const Contatti = () => (
             alt="https://www.instagram.com/graglia_margherita/"
             style={{ marginRight: 7 }}
           />
-          <a href="" target="__blank">
+          <a
+            href="https://www.instagram.com/graglia_margherita"
+            target="__blank"
+          >
             Instagram
           </a>
         </div>

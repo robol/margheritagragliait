@@ -102,16 +102,17 @@ const Biografia = () => {
               Come esperta dei temi dell&rsquo;identit&agrave; sessuale e della
               promozione dell&rsquo;inclusione sociale &egrave; stata audita nel
               2020 in &nbsp;
-              <strong>
+              <Link to="/video">
                 Commissione Giustizia della Camera dei Deputati&nbsp;
-              </strong>
-              &nbsp; a Roma (LINK alla sezione video; Video n1) in merito alle
-              proposte di legge contro le discriminazioni basate
-              sull&rsquo;identit&agrave; di genere e sull&rsquo;orientamento
-              sessuale con una relazione dal titolo:
+              </Link>
+              a Roma in merito alle proposte di legge contro le discriminazioni
+              basate sull&rsquo;identit&agrave; di genere e
+              sull&rsquo;orientamento sessuale con una relazione dal
+              titolo:&nbsp;
               <em>
                 Le discriminazioni basate sull&rsquo;identit&agrave; di genere e
-                sull&rsquo;orientamento sessuale. La prospettiva psico-sociale
+                sull&rsquo;orientamento sessuale. La prospettiva
+                psico-sociale&nbsp;
               </em>
               <button
                 onClick={() =>
@@ -134,7 +135,7 @@ const Biografia = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <strong>Camera dei deputati</strong>&nbsp;
+                <strong>Camera dei deputati</strong>
               </a>
               &nbsp; di Roma&nbsp;
             </p>
@@ -145,41 +146,34 @@ const Biografia = () => {
               &ldquo;L&rsquo;inclusione e la non discriminazione per motivi di
               orientamento sessuale, identit&agrave; di genere,
               &ldquo;razza&rdquo; ed origine etnica nella societ&agrave; e
-              nell&rsquo;avvocatura&rdquo;,
-              <strong>Consiglio Nazionale Forense</strong>, Roma.
+              nell&rsquo;avvocatura&rdquo;,&nbsp;
+              <Link to={"/media"}>
+                <strong>Consiglio Nazionale Forense</strong>
+              </Link>
+              , Roma.
             </p>
-            <Link
-              to={"/media"}
-              style={{
-                fontSize: `var(--font-md)`,
-                padding: `0 var(--space-4)`,
-                textDecoration: `none`,
-                color: `var( --color-text-white)`,
-                fontWeight: 700,
-              }}
-            >
-              LINK
-            </Link>
+
             <p>
-              &Egrave; coordinatrice, dal 2015, del &quot;Tavolo
-              interistituzionale per il contrasto
-              all&apos;omotransnegativit&agrave; e per l&apos;inclusione delle
-              persone LGBT&quot; del&nbsp;
+              &Egrave; coordinatrice, dal 2015, del &quot;{" "}
               <a
                 href="https://www.comune.re.it/argomenti/pari-opportunita/tavoli-interistituzionali/tavolo-interistituzionale-per-il-contrasto-all2019omotransnegativita-e-per-l2019inclusione-delle-persone-lgbt"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <strong>Comune di Reggio Emilia</strong>
+                <strong>
+                  Tavolo interistituzionale per il contrasto
+                  all&apos;omotransnegativit&agrave; e per l&apos;inclusione
+                  delle persone LGBT&quot; del&nbsp; Comune di Reggio Emilia
+                </strong>
               </a>
             </p>
             <p>
               E&apos; autrice per le edizioni Carocci di{" "}
               <em>Le differenze di sesso, genere e orientamento</em> (2019)
-              (CAMBIARE COPERTINA, PDF 0),{" "}
-              <em>Omofobia. Strumenti di analisi e di intervento</em> (2012),{" "}
-              <em>Psicoterapia e omosessualit&agrave;</em> (2009) e di altre
-              pubblicazioni scientifiche.
+              <em>
+                Omofobia. Strumenti di analisi e di intervento
+              </em> (2012), <em>Psicoterapia e omosessualit&agrave;</em> (2009)
+              e di altre pubblicazioni scientifiche.
             </p>
             <p>
               E&rsquo; Componente della Commissione antidiscriminazione della

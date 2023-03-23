@@ -128,7 +128,7 @@ const Supervisione = () => {
                       fontWeight: 700,
                     }}
                   >
-                    CONTATTAMI
+                    CONTATTI
                   </Link>
                 </p>
               </>
