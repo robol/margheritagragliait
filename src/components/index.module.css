@@ -213,13 +213,13 @@
 }
 
 .typewriter h1 {
-  color: #d7dbcc;
+  color: white;
   padding-left: 15px;
   font-size: 42px;
 }
 ._typewriter h1 {
   padding-left: 10px;
-  color: #d7dbcc;
+  color: white;
   font-size: 42px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid var(--color-text-white); /* The typwriter cursor */
@@ -256,13 +256,13 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-image: url(../images/placeholder-background_1.png);
+  background-image: url(../images/placeholder-background_1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
   width: 100vw;
-  height: 400px;
+  height: 450px;
   filter: brightness(1.05);
 }
