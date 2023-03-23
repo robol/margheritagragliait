@@ -114,7 +114,7 @@ const Psicoterapia = () => {
                 <li>
                   <p>
                     • Problemi connessi all&rsquo;ansia, come ad esempio
-                    attacchi di panico, paure connesse a specifici situazioni e
+                    attacchi di panico, paure connesse a specifiche situazioni e
                     luoghi;
                   </p>
                 </li>
@@ -128,6 +128,8 @@ const Psicoterapia = () => {
                   <p>• Problemi&nbsp;relazionali&nbsp;e interpersonali</p>
                 </li>
               </ul>
+              <br />
+              <br />
             </>
           )}
           <p>
@@ -213,6 +215,7 @@ const Psicoterapia = () => {
             </>
           )}
           <p>
+            <br />
             <h4>Psicoterapia e consulenza per le persone LGBTQUIA+</h4>
             {!readMore4 && (
               <button
@@ -247,27 +250,31 @@ const Psicoterapia = () => {
                 individuo.&nbsp;
               </p>
               <p>
-                In questo ambito gli interventi psicologici possono
-                riguardare&nbsp;l&rsquo;intersessualit&agrave;, le
-                identit&agrave; transgender e gli orientamenti omosessuali,
-                bisessuali e asessuali. Nello specifico sono indirizzati a
-                fornire:
+                <p>
+                  In questo ambito gli interventi psicologici possono riguardare{" "}
+                  <strong>
+                    l&rsquo;intersessualit&agrave;, le identit&agrave;
+                    transgender e gli orientamenti omosessuali, bisessuali e
+                    asessuali
+                  </strong>
+                </p>
+                . Nello specifico gli interventi sono indirizzati a fornire:
               </p>
               <ul>
                 <li>
                   <p>
-                    • Psicoterapia e consulenza per le persone LGBTQUIA+
-                    Consulenza psicologica alle&nbsp;persone intersex
-                    (esplorazione della propria identit&agrave;; coming out;
-                    integrazione della propria immagine corporea; supporto ai
-                    genitori)
+                    • Consulenza psicologica alle&nbsp;
+                    <strong>persone intersex</strong>&nbsp; (esplorazione della
+                    propria identit&agrave;; coming out; integrazione della
+                    propria immagine corporea; supporto ai genitori)
                   </p>
                 </li>
               </ul>
               <ul>
                 <li>
                   <p>
-                    • Consulenza psicologica alle&nbsp;persone transgender&nbsp;
+                    • Consulenza psicologica alle&nbsp;
+                    <strong>persone transgender</strong>
                     (esplorazione dell&rsquo;identit&agrave; di genere nelle sue
                     varianti &ndash; ad esempio quelle non binarie &ndash;
                     nell&rsquo;et&agrave; adolescenziale e in quella adulta;
@@ -287,13 +294,16 @@ const Psicoterapia = () => {
               <ul>
                 <li>
                   <p>
-                    • Consulenza psicologica rivolta alle&nbsp;persone&nbsp;gay,
-                    lesbiche e bisessuali (esplorazione dell&rsquo;orientamento
-                    sessuale; sostegno nel processo del coming out; consulenza
-                    di coppia; sostegno alle coppie non monogame; consulenza
-                    sessuologica; consulenza sull&rsquo;omogenitorialit&agrave;,
-                    sostegno durante il percorso di procreazione medicalmente
-                    assistita)
+                    • Consulenza psicologica rivolta alle&nbsp;
+                    <strong>persone gay, lesbiche e bisessuali&nbsp;</strong>
+                    <p>
+                      (esplorazione dell&rsquo;orientamento sessuale; sostegno
+                      nel processo del coming out; consulenza di coppia;
+                      sostegno alle coppie non monogame; consulenza
+                      sessuologica; consulenza
+                      sull&rsquo;omogenitorialit&agrave;, sostegno durante il
+                      percorso di procreazione medicalmente assistita)
+                    </p>
                   </p>
                 </li>
               </ul>
@@ -312,7 +322,7 @@ const Psicoterapia = () => {
                   principale &egrave; lo sviluppo e l&apos;affermazione della
                   propria identit&agrave;, l&apos;espressione delle emozioni,
                   del proprio punto di vista e una maggiore consapevolezza delle
-                  dinamiche interne ed interpersonali.
+                  dinamiche interne e interpersonali.
                 </p>
               </ul>
             </>

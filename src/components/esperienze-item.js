@@ -17,7 +17,7 @@ const EsperienzeItem = ({ title, year, entity, role, description }) => {
         )}
         {entity && (
           <span className={styles.esperienzeItemInfo}>
-            <strong>Instituto:&nbsp;</strong>
+            <strong>Ente:&nbsp;</strong>
             <p dangerouslySetInnerHTML={{ __html: entity }}></p>
           </span>
         )}

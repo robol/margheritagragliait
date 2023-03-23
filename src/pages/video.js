@@ -20,7 +20,9 @@ const Video = () => (
         <h2>Commissione Giustizia della Camera dei Deputati</h2>
         <p style={{}}>
           Audizione in merito alle proposte di legge contro le discriminazioni
-          basate sull’identità di genere e l’orientamento sessuale, Roma
+          basate sull&rsquo;identit&agrave; di genere e l&rsquo;orientamento
+          sessuale,{" "}
+          <strong>Commissione Giustizia della Camera dei Deputati</strong>,Roma
           27/05/2020
         </p>
         <div style={{ padding: 20, display: "flex", justifyContent: "center" }}>
@@ -34,16 +36,20 @@ const Video = () => (
       </li>
       <li>
         <h2>Camera dei deputati</h2>
-        <p style={{}}>
-          Convegno “Per la dignità delle persone. Contro la violenza
-          omotransfobica”, Roma, 16/12/2019{" "}
+        <p>
+          Convegno &ldquo;Per la dignit&agrave; delle persone. Contro la
+          violenza omotransfobica&rdquo;,{" "}
+          <strong>Camera dei deputati,&nbsp;</strong>Roma, 16/12/2019&nbsp;
         </p>
-        <a
-          target="_blank"
-          href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
-        >
-          LINK
-        </a>
+        <button>
+          <a
+            href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            LINK
+          </a>
+        </button>
         <br />
         <br />
         <br />
@@ -52,10 +58,11 @@ const Video = () => (
       <li>
         <h2>Consiglio Nazionale Forense</h2>
         <p style={{}}>
-          Convegno di presentazione del progetto della Commissione diritti umani
-          del CNF. “L’inclusione e la non discriminazione per motivi di
-          orientamento sessuale, identità di genere, “razza” ed origine etnica
-          nella società e nell’avvocatura”, Roma
+          Convegno di presentazione del progetto &ldquo;L&rsquo;inclusione e la
+          non discriminazione per motivi di orientamento sessuale,
+          identit&agrave; di genere, &ldquo;razza&rdquo; ed origine etnica nella
+          societ&agrave; e nell&rsquo;avvocatura&rdquo;,{" "}
+          <strong>Consiglio Nazionale Forense</strong>, Roma, 06/11/2020
         </p>
 
         <div style={{ padding: 20, display: "flex", justifyContent: "center" }}>
@@ -73,8 +80,9 @@ const Video = () => (
       <li>
         <h2>Comune di Reggio Emilia</h2>
         <p style={{}}>
-          “Che cos’è l’identità di genere? Prima pillola di conoscenza LGBT"
-          (10/05/2020)
+          Prima pillola di conoscenza LGBT: &ldquo;Che cos&rsquo;&egrave;
+          l&rsquo;identit&agrave; di genere?{" "}
+          <strong>Comune di Reggio Emilia,</strong>10/05/2020
         </p>
         <br />
 
@@ -96,8 +104,9 @@ const Video = () => (
       <li>
         <h2>Comune di Reggio Emilia</h2>
         <p style={{}}>
-          "Che cos’è l’orientamento sessuale? Seconda pillola di conoscenza
-          LGBT" (16/06/2020)
+          Seconda pillola di conoscenza LGBT: Che cos&rsquo;&egrave;
+          l&rsquo;orientamento sessuale?{" "}
+          <strong>Comune di Reggio Emilia</strong>, 16/06/2020
         </p>
         <br />
 
@@ -118,7 +127,10 @@ const Video = () => (
       </li>
       <li>
         <h2>Comune di Reggio Emilia</h2>
-        <p style={{}}>"Coltivare la speranza attraverso le domande"</p>
+        <p style={{}}>
+          Eventi a casa tua: &ldquo;Coltivare la speranza attraverso le
+          domande&rdquo; <strong>Comune di Reggio Emilia</strong>, 16/04/2020
+        </p>
         <br />
 
         <iframe

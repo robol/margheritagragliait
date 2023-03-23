@@ -15,11 +15,25 @@ const News = () => {
     },
     {
       title:
-        "Tracciare i confini del rispetto. Le violenze psicologiche di generei",
+        "Tracciare i confini del rispetto. Le violenze psicologiche di genere",
       entity: "Consiglio della provincia autonoma di Trento",
       location: "Trento",
       data: "4 marzo",
       images: ["/news_2a.jpg", "/news_2b.jpg"],
+    },
+    {
+      title: "Intervista Telegiornale regionale",
+      entity: "Rai",
+      location: "Trento",
+      data: "4 marzo",
+      video: "/video3.mp4",
+    },
+    {
+      title: "Intervista gr1",
+      entity: "Radio1",
+      location: "Trento",
+      data: "2 marzo",
+      audio: "/audio1.mpeg",
     },
   ]
   const toggleFullScreen = e => {
@@ -37,13 +51,14 @@ const News = () => {
       >
         <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>News</h2>
       </div>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
         {news.map(newItem => (
           <div
             style={{
               padding: 20,
               borderLeft: "1px solid var(--color-primary)",
               borderBottom: "1px solid var(--color-primary)",
+              flex: "50%",
             }}
           >
             <h2>Evento: {newItem.title}</h2>
@@ -51,7 +66,7 @@ const News = () => {
             <h3>Dove: {newItem.location}</h3>
             <h3>Quando: {newItem.data}</h3>
             <ul style={{ display: "flex", flexDirection: "column" }}>
-              {newItem.images.map(url => (
+              {newItem.images?.map(url => (
                 <li>
                   <img
                     style={{
@@ -64,6 +79,30 @@ const News = () => {
                   />
                 </li>
               ))}
+              {newItem.audio && (
+                <li
+                  style={{
+                    padding: 20,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  <audio src={newItem.audio} controls />
+                </li>
+              )}
+              {newItem.video && (
+                <div
+                  style={{
+                    padding: 20,
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  <video controls style={{ width: 400 }}>
+                    <source src={"/video3.mp4"} type="video/mp4" />
+                  </video>
+                </div>
+              )}
             </ul>
           </div>
         ))}

@@ -22,13 +22,20 @@ const Contatti = () => (
       <h2>Anno 2022</h2>
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>
-          Graglia M. (2022).{" "}
-          <strong>Congresso FIMP (Federazione italiana medici pediatri)</strong>{" "}
-          &ldquo;A grandi passi la pediatria di famiglia cresce e &hellip;.
-          accoglie&rdquo;, sessione &ldquo;L&rsquo;esperienza della morte nel
-          bambino e nell&rsquo;adolescente&rdquo; con una relazione su{" "}
-          <em>La morte per rinascere: disforia di genere e cambio di sesso,</em>{" "}
-          Riva del Garda, 13 ottobre.
+          <p>
+            Graglia M. (2022).&nbsp;
+            <em>
+              La morte per rinascere: disforia di genere e cambio di
+              sesso.&nbsp;
+            </em>
+            <strong>
+              Congresso FIMP (Federazione italiana medici pediatri)
+            </strong>
+            &nbsp;&ldquo;A grandi passi la pediatria di famiglia cresce e
+            &hellip;. accoglie&rdquo;, sessione &ldquo;L&rsquo;esperienza della
+            morte nel bambino e nell&rsquo;adolescente&rdquo;&nbsp;<em>,</em>
+            &nbsp;Riva del Garda, 13 ottobre.
+          </p>
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2022).{" "}
@@ -166,19 +173,12 @@ const Contatti = () => (
           di orientamento sessuale, identit&agrave; di genere,
           &ldquo;razza&rdquo; ed origine etnica nella societ&agrave; e
           nell&rsquo;avvocatura&rdquo;.{" "}
-          <strong>Consiglio Nazionale Forense</strong>, Roma.
-          <Link
-            to={"/media"}
-            style={{
-              fontSize: `var(--font-md)`,
-              padding: `0 var(--space-4)`,
-              textDecoration: `none`,
-              color: `var( --color-primary)`,
-              fontWeight: 700,
-            }}
-          >
-            LINK
-          </Link>
+          <strong>Consiglio Nazionale Forense</strong>, Roma.&nbsp;
+          <button>
+            <a style={{ textDecoration: "none" }} href={"/video"}>
+              LINK
+            </a>
+          </button>
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2020). VIII Commissione Consiliare Speciale &ldquo;Diritti
@@ -192,20 +192,13 @@ const Contatti = () => (
           basate sull&rsquo;identit&agrave; di genere e l&rsquo;orientamento
           sessuale,{" "}
           <strong>Commissione Giustizia della Camera dei Deputati</strong>,
-          Roma.
+          Roma.&nbsp;
+          <button>
+            <a style={{ textDecoration: "none" }} href={"/video"}>
+              LINK
+            </a>
+          </button>
         </li>
-        <Link
-          to={"/media"}
-          style={{
-            fontSize: `var(--font-md)`,
-            padding: `0 var(--space-4)`,
-            textDecoration: `none`,
-            color: `var( --color-primary)`,
-            fontWeight: 700,
-          }}
-        >
-          LINK
-        </Link>
         <li className={style.listItemConferenze}>
           Graglia M. (2020).
           <em>
@@ -233,7 +226,7 @@ const Contatti = () => (
           del Comune di Reggio Emilia, convegno "Genere e R-Esistenze in
           Movimento. Soggettivit&agrave;, Azioni, Prospettive",{" "}
           <strong>Centro Interdipartimentale Studi di Genere</strong>,{" "}
-          <strong>Universit&agrave; di Trento, </strong>
+          <strong>Universit&agrave; di Trento&nbsp;</strong>
           <button
             onClick={() =>
               window.open(
@@ -455,19 +448,19 @@ const Contatti = () => (
           Graglia M. (2017). Sottoscrizione del Protocollo di Intesa
           Interistituzionale per il contrasto
           all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione delle
-          persone LGBT, Comune di Reggio Emilia, 17 maggio.
+          persone LGBT, Comune di Reggio Emilia, 17 maggio.&nbsp;
+          <button
+            onClick={() =>
+              window.open(
+                "/5_Protocollo-per-LGBT.pdf",
+                "_blank",
+                "fullscreen=yes"
+              )
+            }
+          >
+            LINK
+          </button>
         </li>
-        <button
-          onClick={() =>
-            window.open(
-              "/5_Protocollo-per-LGBT.pdf",
-              "_blank",
-              "fullscreen=yes"
-            )
-          }
-        >
-          LINK
-        </button>
       </ul>
       <h2>Anno 2016</h2>
       <ul className={style.listConferenze}>
@@ -502,8 +495,8 @@ const Contatti = () => (
           <em>
             &ldquo;Misure di contrasto all'omofobia e
             all'omonegativit&agrave;&rdquo;,
-          </em>{" "}
-          23 giugno 2016.
+          </em>
+          &nbsp; 23 giugno
         </li>
 
         <li className={style.listItemConferenze}>
@@ -513,8 +506,9 @@ const Contatti = () => (
           nazionale, <strong>Unar</strong> (Ufficio Nazionale
           Antidiscriminazioni Razziali presso il Dipartimento Pari
           Opportunit&agrave; della Presidenza del Consiglio dei Ministri)
-          <strong> e Ready </strong>(Rete nazionale delle Regioni e degli Enti
-          pubblici per superare l&rsquo;omotransfobia).{" "}
+          e&nbsp;
+          <strong>Ready</strong>&nbsp;(Rete nazionale delle Regioni e degli Enti
+          pubblici per superare l&rsquo;omotransfobia).&nbsp;
           <em>
             La formazione antidiscriminatoria LGBT nelle Pubbliche
             amministrazioni: significato e valore.
@@ -530,7 +524,7 @@ const Contatti = () => (
             L&rsquo;inclusione nutre il talento&rdquo; Partecipazione alla
             tavola rotonda{" "}
             <em>Lesbiche e visibilit&agrave; nei luoghi di lavoro, </em>
-            Associazione <strong>Parks &ndash; Liberi e uguali</strong>,Milano,
+            Associazione <strong>Parks &ndash; Liberi e</strong> uguali, Milano,
             26 Giugno.
           </em>
         </li>
@@ -662,7 +656,7 @@ const Contatti = () => (
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2011). &ldquo;Psicoterapeuti e pazienti gay e lesbiche:
-          quale rapporto?&rdquo;.
+          quale rapporto?&rdquo;.&nbsp;
           <em>
             Convegno de-generi(s): Riflessioni critiche
             sull&rsquo;identit&agrave; di genere, l&rsquo;orientamento sessuale
@@ -688,7 +682,8 @@ const Contatti = () => (
         <li className={style.listItemConferenze}>
           Graglia M. (2010). &ldquo;La formazione degli operatori&rdquo;.
           Convegno Internazionale <strong>ONIG </strong>(Osservatorio Nazionale
-          Identit&agrave; di Genere): <em>Sanitario, sociale, culturale:</em>
+          Identit&agrave; di Genere):{" "}
+          <em>Sanitario, sociale, culturale:&nbsp;</em>
           <em>
             dalle reti di integrazione all&rsquo;integrazione delle reti.{" "}
           </em>
@@ -782,7 +777,7 @@ const Contatti = () => (
       <h2>Anno 2005</h2>
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>
-          Graglia M., (2005) &ldquo;Risultati del campione femminile&rdquo;.{" "}
+          Graglia M. (2005) &ldquo;Risultati del campione femminile&rdquo;.{" "}
           <em>
             Convegno Modidi: sesso e salute di lesbiche, gay e bisessuali oggi
             in Italia
@@ -793,13 +788,10 @@ const Contatti = () => (
       <h2>Anno 2004</h2>
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>
-          <strong>
-            Graglia M. (2004). &ldquo;Gli adolescenti omosessuali&rdquo;.
-            Convegno{" "}
-            <em>L&rsquo;ombelico del mondo giovanile&hellip; e dintorni</em>{" "}
-            promosso dalla Cooperativa sociale Eumeo, dal Comune, Provincia e
-            dall&rsquo;Ausl di Parma<strong>.</strong>
-          </strong>
+          Graglia M. (2004). &ldquo;Gli adolescenti omosessuali&rdquo;. Convegno{" "}
+          <em>L&rsquo;ombelico del mondo giovanile&hellip; e dintorni</em>&nbsp;
+          promosso dalla Cooperativa sociale Eumeo, dal Comune, Provincia e
+          dall&rsquo;Ausl di Parma.
         </li>
       </ul>
       <h2>Anno 2003</h2>

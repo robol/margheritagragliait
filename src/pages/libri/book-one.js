@@ -70,17 +70,20 @@ const BookOne = () => (
           si prefiguri, nella sua realizzazione piena, come valorizzazione delle
           differenze.
           <strong>Il volume è rivolto</strong> a quanti lavorano nei contesti
-          psicosociosanitari ed educativi, nelle Pubbliche Amministrazioni e a{" "}
-          <strong>
-            <br />
-            <br />
-            tutte le persone interessate a orientarsi in un panorama sociale
-            variegato e cangiante
-          </strong>
-          .
+          psicosociosanitari ed educativi, nelle{" "}
+          <p>
+            Pubbliche Amministrazioni e a&nbsp;
+            <strong>
+              tutte le persone interessate a orientarsi in un panorama sociale
+              variegato e cangiante
+            </strong>
+            .
+          </p>
         </p>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <h3 style={{ textTransform: "uppercase", fontSize: "var(--font-sm)" }}>
+          <h3
+            style={{ textTransform: "uppercase", fontSize: "var(--font-sm)" }}
+          >
             Titolo disponibile per l'acquisto su:{" "}
           </h3>
           <div style={{ display: "flex" }}>

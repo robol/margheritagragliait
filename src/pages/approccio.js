@@ -124,18 +124,13 @@ const Approccio = () => {
             </p>
             <p>
               Il raggiungimento degli obiettivi inclusivi prefissati implica
-              necessariamente la costruzione di una
-            </p>
-            <p>
-              nuova, pi&ugrave; ampia e articolata mappa di significati, di
-              mondi possibili e di strumenti per poterli rendere
-            </p>
-            <p>
-              abitabili da tutte, tutti e tutt*. Una formazione che mette in
-              moto dei processi che &egrave; auspicabile continuino anche oltre
-              le attivit&agrave; specifiche dell&rsquo;iniziativa formativa.
-              Lavorando in una comunit&agrave; di apprendimento, i partecipanti
-              possono infatti sviluppare{" "}
+              necessariamente la costruzione di una nuova, pi&ugrave; ampia e
+              articolata mappa di significati, di mondi possibili e di strumenti
+              per poterli rendere abitabili da tutte, tutti e tutt*. Una
+              formazione che mette in moto dei processi che &egrave; auspicabile
+              continuino anche oltre le attivit&agrave; specifiche
+              dell&rsquo;iniziativa formativa. Lavorando in una comunit&agrave;
+              di apprendimento, i partecipanti possono infatti sviluppare{" "}
               <strong>nuove consapevolezze e competenze</strong> e diventare
               autonomi nel portare avanti gli obiettivi dell&rsquo;inclusione.
               La tappa finale della formazione &egrave; pertanto mirata a
@@ -150,7 +145,7 @@ const Approccio = () => {
           L&rsquo;approccio maieutico fin qui delineato trae spunto dalla mia
           pratica di psicoterapeuta e di formatrice. A livello istituzionale
           questo metodo &egrave; stato sperimentato e messo a punto in vari
-          ambiti{" "}
+          ambiti :
         </p>
         {!readMore2 && (
           <button
@@ -176,11 +171,8 @@ const Approccio = () => {
               n. 90 del 1&deg; Dicembre 2003 e in vari altri corsi formativi
               rivolti a operatori psico-socio-sanitari, educativi, delle Forze
               dell&rsquo;ordine e delle Pubbliche amministrazioni e in
-              particolare.
-            </p>
-            <p>
-              L&rsquo;approccio maieutico trova la sua versione pi&ugrave;
-              completa, articolata e sistematica nelle azioni del{" "}
+              particolare. L&rsquo;approccio maieutico trova la sua versione
+              pi&ugrave; completa, articolata e sistematica nelle azioni del{" "}
               <em>
                 Tavolo interistituzionale per il contrasto
                 all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione
