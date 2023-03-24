@@ -147,7 +147,7 @@ const Biografia = () => {
               orientamento sessuale, identit&agrave; di genere,
               &ldquo;razza&rdquo; ed origine etnica nella societ&agrave; e
               nell&rsquo;avvocatura&rdquo;,&nbsp;
-              <Link to={"/media"}>
+              <Link to={"/video"}>
                 <strong>Consiglio Nazionale Forense</strong>
               </Link>
               , Roma.
