@@ -250,13 +250,16 @@ const Contatti = () => (
           </em>
           . Convegno &ldquo;Per la dignit&agrave; delle persone. Contro la
           violenza omotransfobica&rdquo;, <strong>Camera dei deputati</strong>,
-          Roma.
-          <a
-            target="_blank"
-            href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
-          >
-            LINK
-          </a>
+          Roma.&nbsp;
+          <button>
+            <a
+              style={{ textDecoration: "none" }}
+              target="_blank"
+              href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
+            >
+              LINK
+            </a>
+          </button>
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2019).{" "}
