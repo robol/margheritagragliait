@@ -213,13 +213,13 @@
 }
 
 .typewriter h1 {
-  color: white;
+  color: var(--color-primary);
   padding-left: 15px;
   font-size: 42px;
 }
 ._typewriter h1 {
   padding-left: 10px;
-  color: white;
+  color: var(--color-primary);
   font-size: 42px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid var(--color-text-white); /* The typwriter cursor */

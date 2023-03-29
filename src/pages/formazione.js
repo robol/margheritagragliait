@@ -22,7 +22,7 @@ const Supervisione = () => {
           Formazione
         </h2>
       </div>
-       <div style={{ padding: 45, paddingBottom: 0 }}>
+      <div style={{ padding: 45, paddingBottom: 0 }}>
         <>
           <>
             <h3>Obiettivi</h3>
@@ -97,7 +97,7 @@ const Supervisione = () => {
               presentati e un&rsquo;elaborazione pi&ugrave; approfondita e
               condivisa, organizzata intorno a momenti di lavoro di gruppo,
               discussione di casi e role playing. In particolare, la metodologia
-              si basa sull&rsquo;approccio maieutico{" "}
+              si basa sull&rsquo;{" "}
               <Link
                 to={"/approccio"}
                 style={{
@@ -108,7 +108,7 @@ const Supervisione = () => {
                   fontWeight: 700,
                 }}
               >
-                Approccio Maieutico
+                approccio maieutico
               </Link>{" "}
               che consente di attivare un coinvolgimento personale e un
               confronto collaborativo fra tutti i partecipanti.

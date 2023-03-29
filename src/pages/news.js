@@ -29,7 +29,7 @@ const News = () => {
       video: "/video3.mp4",
     },
     {
-      title: "Intervista gr1",
+      title: "Intervista gr1 “Pupi Avati sull’omosessualità di Lucio Dalla”",
       entity: "Radio1",
       location: "Trento",
       data: "2 marzo",
@@ -62,7 +62,7 @@ const News = () => {
             }}
           >
             <h2>Evento: {newItem.title}</h2>
-            <h3>{newItem.entity && `Instituto: ${newItem.entity}`}</h3>
+            <h3>{newItem.entity && `Ente: ${newItem.entity}`}</h3>
             <h3>Dove: {newItem.location}</h3>
             <h3>Quando: {newItem.data}</h3>
             <ul style={{ display: "flex", flexDirection: "column" }}>

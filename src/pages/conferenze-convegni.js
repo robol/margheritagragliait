@@ -33,7 +33,7 @@ const Contatti = () => (
             </strong>
             &nbsp;&ldquo;A grandi passi la pediatria di famiglia cresce e
             &hellip;. accoglie&rdquo;, sessione &ldquo;L&rsquo;esperienza della
-            morte nel bambino e nell&rsquo;adolescente&rdquo;&nbsp;<em>,</em>
+            morte nel bambino e nell&rsquo;adolescente&rdquo;<em>,</em>
             &nbsp;Riva del Garda, 13 ottobre.
           </p>
         </li>
@@ -369,7 +369,7 @@ const Contatti = () => (
           Graglia M. (2018). &ldquo;L&rsquo;omotransfobia &egrave; il problema.
           Vuoi far parte del rimedio?&rdquo;, Presentazione di{" "}
           <strong>DE-OMOFOBINA</strong>, Associazione Geco, Fiorfood Coop,
-          Torino
+          Torino&nbsp;
           <button
             onClick={() =>
               window.open("/3_DE-OMOFOBINA.jpg", "_blank", "fullscreen=yes")
@@ -499,7 +499,7 @@ const Contatti = () => (
             &ldquo;Misure di contrasto all'omofobia e
             all'omonegativit&agrave;&rdquo;,
           </em>
-          &nbsp; 23 giugno
+          &nbsp; 23 giugno.
         </li>
 
         <li className={style.listItemConferenze}>
@@ -527,7 +527,7 @@ const Contatti = () => (
             L&rsquo;inclusione nutre il talento&rdquo; Partecipazione alla
             tavola rotonda{" "}
             <em>Lesbiche e visibilit&agrave; nei luoghi di lavoro, </em>
-            Associazione <strong>Parks &ndash; Liberi e</strong> uguali, Milano,
+            Associazione <strong>Parks &ndash; Liberi e uguali</strong>, Milano,
             26 Giugno.
           </em>
         </li>
@@ -672,7 +672,7 @@ const Contatti = () => (
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>
           Graglia M. (2010). &ldquo;Educazione e identit&agrave;
-          sessuale&rdquo;. XXVIII Congresso Nazionale <strong>CIS</strong>
+          sessuale&rdquo;. XXVIII Congresso Nazionale CIS
           <em>. Sessualit&agrave;, benessere sessuale e sessuologia</em>.
           Firenze, 16-17 ottobre.
         </li>
@@ -684,9 +684,8 @@ const Contatti = () => (
         </li>
         <li className={style.listItemConferenze}>
           Graglia M. (2010). &ldquo;La formazione degli operatori&rdquo;.
-          Convegno Internazionale <strong>ONIG </strong>(Osservatorio Nazionale
-          Identit&agrave; di Genere):{" "}
-          <em>Sanitario, sociale, culturale:&nbsp;</em>
+          Convegno Internazionale ONIG (Osservatorio Nazionale Identit&agrave;
+          di Genere): <em>Sanitario, sociale, culturale:&nbsp;</em>
           <em>
             dalle reti di integrazione all&rsquo;integrazione delle reti.{" "}
           </em>

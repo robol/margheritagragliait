@@ -169,7 +169,7 @@ const Biografia = () => {
             </p>
             <p>
               E&apos; autrice per le edizioni Carocci di{" "}
-              <em>Le differenze di sesso, genere e orientamento</em> (2019)
+              <em>Le differenze di sesso, genere e orientamento</em> (2019)&nbsp;
               <em>
                 Omofobia. Strumenti di analisi e di intervento
               </em> (2012), <em>Psicoterapia e omosessualit&agrave;</em> (2009)

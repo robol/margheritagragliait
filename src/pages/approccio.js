@@ -26,7 +26,7 @@ const Approccio = () => {
           L&rsquo;approccio maieutico crea le condizioni per l&rsquo;incontro ed
           &egrave; centrato sull&rsquo;<strong>ascolto</strong> e sull&rsquo;
           <strong>interazione</strong>. Il suo principale strumento &egrave; la
-          domanda che instaura una dimensione paritetica e dialogica{" "}
+          domanda che instaura una dimensione paritetica e dialogica.
         </p>
         <p>
           Il termine &ldquo;maieutica&rdquo; origina dal greco antico
@@ -170,8 +170,8 @@ const Approccio = () => {
               studi provinciali e in seguito dal MIUR ai sensi della Direttiva
               n. 90 del 1&deg; Dicembre 2003 e in vari altri corsi formativi
               rivolti a operatori psico-socio-sanitari, educativi, delle Forze
-              dell&rsquo;ordine e delle Pubbliche amministrazioni e in
-              particolare. L&rsquo;approccio maieutico trova la sua versione
+              dell&rsquo;ordine e delle Pubbliche amministrazioni. In
+              particolare, L&rsquo;approccio maieutico trova la sua versione
               pi&ugrave; completa, articolata e sistematica nelle azioni del{" "}
               <em>
                 Tavolo interistituzionale per il contrasto
