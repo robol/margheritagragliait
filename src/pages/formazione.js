@@ -97,20 +97,20 @@ const Supervisione = () => {
               presentati e un&rsquo;elaborazione pi&ugrave; approfondita e
               condivisa, organizzata intorno a momenti di lavoro di gruppo,
               discussione di casi e role playing. In particolare, la metodologia
-              si basa sull&rsquo;{" "}
+              si basa sull&rsquo;&nbsp;
               <Link
                 to={"/approccio"}
                 style={{
                   fontSize: `var(--font-md)`,
-                  padding: `0 var(--space-4)`,
+
                   textDecoration: `none`,
                   color: `var( --color-primary)`,
                   fontWeight: 700,
                 }}
               >
                 approccio maieutico
-              </Link>{" "}
-              che consente di attivare un coinvolgimento personale e un
+              </Link>
+              &nbsp;che consente di attivare un coinvolgimento personale e un
               confronto collaborativo fra tutti i partecipanti.
             </p>
           </>

@@ -60,10 +60,7 @@
 .intro a {
   color: var(--color-text-white);
 }
-.introInfo {
-  max-width: 50%;
-  text-align: justify;
-}
+
 .sectionsContainer {
   display: flex;
   justify-content: space-between;
@@ -120,6 +117,9 @@
   width: 100%;
   justify-content: space-between;
 }
+.introInfo {
+  text-align: justify;
+}
 @media screen and (max-width: 480px) {
   .bioContainer {
     flex-wrap: wrap;
@@ -134,6 +134,15 @@
   .bioIndexer {
     display: none !important;
   }
+  .intro h2 {
+    font-size: var(--font-xl);
+  }
+  .intro p {
+    font-size: var(--font-lg);
+  }
+  .infoTitle {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 480px) {
   .mobileOnly {
@@ -141,6 +150,10 @@
   }
   .headerContainer {
     height: 90px;
+  }
+  .introInfo {
+    max-width: 50%;
+    text-align: justify;
   }
 }
 .booksPageContainer {
