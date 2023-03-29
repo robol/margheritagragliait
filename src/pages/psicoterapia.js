@@ -215,7 +215,6 @@ const Psicoterapia = () => {
             </>
           )}
           <p>
-            <br />
             <h4>Psicoterapia e consulenza per le persone LGBTQUIA+</h4>
             {!readMore4 && (
               <button
@@ -255,18 +254,20 @@ const Psicoterapia = () => {
                   <strong>
                     l&rsquo;intersessualit&agrave;, le identit&agrave;
                     transgender e gli orientamenti omosessuali, bisessuali e
-                    asessuali
+                    asessuali.
                   </strong>
                 </p>
-                . Nello specifico gli interventi sono indirizzati a fornire:
+                Nello specifico gli interventi sono indirizzati a fornire:
               </p>
               <ul>
                 <li>
                   <p>
                     • Consulenza psicologica alle&nbsp;
-                    <strong>persone intersex</strong>&nbsp; (esplorazione della
-                    propria identit&agrave;; coming out; integrazione della
-                    propria immagine corporea; supporto ai genitori)
+                    <strong>persone intersex</strong>
+                    <br />
+                    (esplorazione della propria identit&agrave;; coming out;
+                    integrazione della propria immagine corporea; supporto ai
+                    genitori)
                   </p>
                 </li>
               </ul>
@@ -275,6 +276,7 @@ const Psicoterapia = () => {
                   <p>
                     • Consulenza psicologica alle&nbsp;
                     <strong>persone transgender</strong>
+                    <br />
                     (esplorazione dell&rsquo;identit&agrave; di genere nelle sue
                     varianti &ndash; ad esempio quelle non binarie &ndash;
                     nell&rsquo;et&agrave; adolescenziale e in quella adulta;

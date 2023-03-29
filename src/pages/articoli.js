@@ -34,8 +34,19 @@ const Articoli = () => {
                 Pratica sanitaria e identit&agrave; transgender. Buone prassi
                 per l&rsquo;assistenza sanitaria agli/alle utenti transgender
               </em>
-              , Ausl-IRCSS di Reggio Emilia. ISBN: 979-12-210-0891-3. PDF6
+              , Ausl-IRCSS di Reggio Emilia. ISBN: 979-12-210-0891-3.&nbsp;
             </em>
+            <button
+              onClick={() =>
+                window.open(
+                  "/6_Pratica-sanitaria-e-identità-transgender_Graglia.pdf",
+                  "_blank",
+                  "fullscreen=yes"
+                )
+              }
+            >
+              LINK
+            </button>
           </li>
         </ul>
         <h2>Anno 2020</h2>
@@ -70,12 +81,15 @@ const Articoli = () => {
             contro le discriminazioni basate sull&rsquo;identit&agrave; di
             genere e sull&rsquo;orientamento sessuale, Commissione Giustizia
             della Camera dei Deputati, Roma.&nbsp;
-            <a
-              target="_blank"
-              href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf"
-            >
-              LINK
-            </a>
+            <button>
+              <a
+                href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf"
+                target="_blank"
+                style={{ textDecoration: "none" }}
+              >
+                LINK
+              </a>
+            </button>
           </li>
           <li className={style.listItemConferenze}>
             Graglia M. (2020). Contrastare gli stereotipi di genere
@@ -95,7 +109,7 @@ const Articoli = () => {
               all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione delle
               persone LGBT
             </em>{" "}
-            del Comune di Reggio Emilia,in&ldquo;Prospettive sui generis.
+            del Comune di Reggio Emilia, in &ldquo;Prospettive sui generis.
             Sguardi psicosociali sulle varianze di genere&rdquo;, Graglia M. (a
             cura), 44 (1), pp. 61-73, <em>Rivista di Sessuologia</em>.
           </li>
@@ -335,7 +349,8 @@ const Articoli = () => {
             Rigliano P., Graglia M. (a cura)&nbsp;(2012),&nbsp;
             <em>Homosexuels en psychoth&eacute;rapie</em>, De Boeck, Bruxelles -
             Traduzione di Rigliano P., Graglia M, (2006),&nbsp;
-            <em>Psicoterapia con gay e lesbiche</em>, Raffello Cortina, Milano
+            <em>Psicoterapia con gay e lesbiche</em>, Raffello Cortina,
+            Milano&nbsp;
             <button>
               <a
                 href="https://www.deboecksuperieur.com/ouvrage/9782804169206-l-homosexualite-dans-les-psychotherapies"
@@ -448,15 +463,11 @@ const Articoli = () => {
             &nbsp;(2005),&nbsp;
             <em>
               Modidi: sesso e salute di lesbiche, gay e bisessuali oggi in
-              Italia. Principali risultati sociosanitari
+              Italia. Principali risultati sociosanitari&nbsp;
             </em>
             <button
               onClick={() =>
-                window.open(
-                  "/2_convegno-CSG-trento-2020-Graglia.pdf",
-                  "_blank",
-                  "fullscreen=yes"
-                )
+                window.open("/modidi_opuscolo.pdf", "_blank", "fullscreen=yes")
               }
             >
               LINK
