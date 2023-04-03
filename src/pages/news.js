@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as style from "../components/index.module.css"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -59,7 +60,7 @@ const News = () => {
       >
         <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>News</h2>
       </div>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className={style.newsWrapper}>
         {news.map(newItem => (
           <div
             style={{
@@ -73,32 +74,25 @@ const News = () => {
             <h3>{newItem.entity && `Ente: ${newItem.entity}`}</h3>
             <h3>Dove: {newItem.location}</h3>
             <h3>Quando: {newItem.data}</h3>
-            <ul style={{ display: "flex", flexDirection: "column" }}>
+            <ul
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                marginLeft: 0,
+              }}
+            >
               {newItem.images?.map(url => (
-                <li>
-                  <img
-                    style={{
-                      width: 400,
-                      cursor: "pointer",
-                      border: "1px solid black",
-                    }}
-                    src={url}
-                    onClick={e => toggleFullScreen(e)}
-                  />
-                </li>
+                <img
+                  style={{
+                    width: 400,
+                    cursor: "pointer",
+                    border: "1px solid black",
+                  }}
+                  src={url}
+                  onClick={e => toggleFullScreen(e)}
+                />
               ))}
               {newItem.audio && (
-                <li
-                  style={{
-                    padding: 20,
-                    display: "flex",
-                    justifyContent: "center",
-                  }}
-                >
-                  <audio src={newItem.audio} controls />
-                </li>
-              )}
-              {newItem.video && (
                 <div
                   style={{
                     padding: 20,
@@ -106,7 +100,20 @@ const News = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <video controls style={{ width: 400 }}>
+                  <audio src={newItem.audio} controls />
+                </div>
+              )}
+              {newItem.video && (
+                <div
+                  style={{
+                    padding: 20,
+                    display: "flex",
+                    justifyContent: "center",
+                    width: "100%",
+                    height: "100%",
+                  }}
+                >
+                  <video controls style={{ width: "inherit" }}>
                     <source src={"/video3.mp4"} type="video/mp4" />
                   </video>
                 </div>

@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as style from "../components/index.module.css"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -22,7 +23,7 @@ const Supervisione = () => {
           Formazione
         </h2>
       </div>
-      <div style={{ padding: 45, paddingBottom: 0 }}>
+      <div className={style.paddingWrapper}>
         <>
           <>
             <h3>Obiettivi</h3>

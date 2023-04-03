@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as style from "../components/index.module.css"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -21,7 +22,7 @@ const Approccio = () => {
           Approccio maieutico
         </h2>
       </div>
-      <div style={{ padding: 45, paddingBottom: 0 }}>
+      <div className={style.paddingWrapper}>
         <p>
           L&rsquo;approccio maieutico crea le condizioni per l&rsquo;incontro ed
           &egrave; centrato sull&rsquo;<strong>ascolto</strong> e sull&rsquo;

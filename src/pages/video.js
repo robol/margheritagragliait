@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as style from "../components/index.module.css"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -15,7 +16,10 @@ const Video = () => (
     >
       <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>VIDEO</h2>
     </div>
-    <ul style={{ textAlign: "center", padding: 40, paddingBottom: 0 }}>
+    <ul
+      className={style.paddingWrapper}
+      style={{ textAlign: "center", marginLeft: 0 }}
+    >
       <li>
         <p style={{}}>
           Audizione in merito alle proposte di legge contro le discriminazioni
@@ -25,14 +29,24 @@ const Video = () => (
           <strong>Commissione Giustizia della Camera dei Deputati</strong>, Roma
           27/05/2020
         </p>
-        <div style={{ padding: 20, display: "flex", justifyContent: "center" }}>
-          <video controls>
+        <div
+          style={{
+            padding: 20,
+            display: "flex",
+            justifyContent: "center",
+          }}
+          className={style.videoWrapper}
+        >
+          <video controls style={{ width: "inherit" }}>
             <source src={"/video1.mp4"} type="video/mp4" />
           </video>
         </div>
         <br />
         <br />
-        <div style={{ width: "100%", borderBottom: "1px solid black" }}></div>
+        <div
+          className={style.desktopOnly}
+          style={{ width: "100%", borderBottom: "1px solid black" }}
+        ></div>
       </li>
       <li>
         <p>
@@ -53,7 +67,10 @@ const Video = () => (
         <br />
         <br />
         <br />
-        <div style={{ width: "100%", borderBottom: "1px solid black" }}></div>
+        <div
+          className={style.desktopOnly}
+          style={{ width: "100%", borderBottom: "1px solid black" }}
+        ></div>
       </li>
       <li>
         <p style={{}}>
@@ -65,8 +82,15 @@ const Video = () => (
           <strong>Consiglio Nazionale Forense</strong>, Roma, 06/11/2020
         </p>
 
-        <div style={{ padding: 20, display: "flex", justifyContent: "center" }}>
-          <video controls>
+        <div
+          style={{
+            padding: 20,
+            display: "flex",
+            justifyContent: "center",
+          }}
+          className={style.videoWrapper}
+        >
+          <video controls style={{ width: "inherit" }}>
             <source
               src={"/inclusione e la non discriminazione delle persone.mp4"}
               type="video/mp4"
@@ -75,7 +99,10 @@ const Video = () => (
         </div>
         <br />
         <br />
-        <div style={{ width: "100%", borderBottom: "1px solid black" }}></div>
+        <div
+          className={style.desktopOnly}
+          style={{ width: "100%", borderBottom: "1px solid black" }}
+        ></div>
       </li>
       <li>
         <p style={{}}>
@@ -87,8 +114,7 @@ const Video = () => (
         <br />
 
         <iframe
-          width="710"
-          height="400"
+          className={style.iframeWrapper}
           src="https://www.youtube.com/embed/o7amnx89X-0"
           title="Margherita Graglia_Che cos’è l’identità di genere?"
           frameborder="0"
@@ -99,7 +125,10 @@ const Video = () => (
         <br />
         <br />
         <br />
-        <div style={{ width: "100%", borderBottom: "1px solid black" }}></div>
+        <div
+          className={style.desktopOnly}
+          style={{ width: "100%", borderBottom: "1px solid black" }}
+        ></div>
       </li>
       <li>
         <p style={{}}>
@@ -111,8 +140,7 @@ const Video = () => (
         <br />
 
         <iframe
-          width="710"
-          height="400"
+          className={style.iframeWrapper}
           src="https://www.youtube.com/embed/1-5KyqLK4aM"
           title="Margherita Graglia_Che cos’è l’orientamento sessuale?"
           frameborder="0"
@@ -123,7 +151,10 @@ const Video = () => (
         <br />
         <br />
         <br />
-        <div style={{ width: "100%", borderBottom: "1px solid black" }}></div>
+        <div
+          className={style.desktopOnly}
+          style={{ width: "100%", borderBottom: "1px solid black" }}
+        ></div>
       </li>
       <li>
         <p style={{}}>
@@ -134,8 +165,7 @@ const Video = () => (
         <br />
 
         <iframe
-          width="710"
-          height="400"
+          className={style.iframeWrapper}
           src="https://www.youtube.com/embed/MaOHDO7ARy0"
           title="Margherita Graglia_Coltivare la speranza attraverso le domande"
           frameborder="0"

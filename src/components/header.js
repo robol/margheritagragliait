@@ -12,6 +12,13 @@ const Header = ({ siteTitle }) => {
 
   const navigationLinks = [
     {
+      text: "Home",
+      url: "/",
+      badge: false,
+      description: "Home di Margherita Graglia",
+      subsections: null,
+    },
+    {
       text: "Biografia",
       url: "/biografia",
       badge: false,
@@ -130,8 +137,8 @@ const Header = ({ siteTitle }) => {
                         textDecoration: `none`,
                         color: "var(--color-text-white)",
                       }}
-                      key={section.url}
-                      to={section.url}
+                      key={subsection.url}
+                      to={subsection.url}
                     >
                       {subsection.text.toUpperCase()}
                     </Link>
