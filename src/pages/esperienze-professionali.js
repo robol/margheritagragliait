@@ -21,7 +21,7 @@ const experienceData = [
     role: `docente`,
   },
   {
-    title: `Progetto europeo &nbsp <i>"Supporting Wellbeing and Integration of Transgender victims in Care environments with Holistic approach</i>”`,
+    title: `Progetto europeo &nbsp <i>"Supporting Wellbeing and Integration of Transgender victims in Care environments with Holistic approach</i>"`,
     entity: `Ausl di Reggio Emilia`,
     year: `2021-2022`,
     role: `consulente esperta sui temi dell’identità transgender (progettazione, formazione, autrice)`,
@@ -81,7 +81,7 @@ const experienceDataReadMore = [
     title: `Corso di formazione “LGBTI+ Leadership Enhancement Program”`,
     entity: `EDGE Excellence & Diversity by GLBT Executives`,
     year: `2022`,
-    role: `docente.`,
+    role: `docente`,
   },
   {
     title: `Seminario “Il buio oltre l’arcobaleno. Maltrattamenti intrafamiliari sui minori LGBTQIA*. Difficoltà genitoriali e interventi di aiuto a famiglie e minorenni”`,

@@ -45,6 +45,7 @@ const HeroBanner = () => {
           justifyContent: "space-around",
           marginTop: "50px",
           flexWrap: "wrap",
+          textAlignLast: "center",
         }}
       >
         {bookPageLinks.map(book => (
