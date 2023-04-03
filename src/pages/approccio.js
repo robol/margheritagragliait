@@ -170,9 +170,10 @@ const Approccio = () => {
               studi provinciali e in seguito dal MIUR ai sensi della Direttiva
               n. 90 del 1&deg; Dicembre 2003 e in vari altri corsi formativi
               rivolti a operatori psico-socio-sanitari, educativi, delle Forze
-              dell&rsquo;ordine e delle Pubbliche amministrazioni. In
-              particolare, L&rsquo;approccio maieutico trova la sua versione
-              pi&ugrave; completa, articolata e sistematica nelle azioni del{" "}
+              dell&rsquo;ordine e delle Pubbliche amministrazioni.
+              <br /> In particolare, L&rsquo;approccio maieutico trova la sua
+              versione pi&ugrave; completa, articolata e sistematica nelle
+              azioni del{" "}
               <em>
                 Tavolo interistituzionale per il contrasto
                 all&rsquo;omotransnegativit&agrave; e per l&rsquo;inclusione

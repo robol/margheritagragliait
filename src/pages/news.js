@@ -35,6 +35,14 @@ const News = () => {
       data: "2 marzo",
       audio: "/audio1.mpeg",
     },
+    {
+      title:
+        "“Lo psicoterapeuta di fronte all’incongruenza di genere e al trattamento ormonale in età evolutiva””",
+      entity: "SITCCC",
+      location: " Firenze",
+      data: "13 maggio 2023",
+      images: ["/Invito_SITCCday_page-1.jpg", "/Invito_SITCCday_page-2.jpg"],
+    },
   ]
   const toggleFullScreen = e => {
     console.log(e)

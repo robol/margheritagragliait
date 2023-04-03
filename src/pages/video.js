@@ -80,7 +80,7 @@ const Video = () => (
       <li>
         <p style={{}}>
           Prima pillola di conoscenza LGBT: &ldquo;Che cos&rsquo;&egrave;
-          l&rsquo;identit&agrave; di genere?
+          l&rsquo;identit&agrave; di genere?"
           <br />
           <strong>Comune di Reggio Emilia,</strong>10/05/2020
         </p>
@@ -103,8 +103,8 @@ const Video = () => (
       </li>
       <li>
         <p style={{}}>
-          Seconda pillola di conoscenza LGBT: Che cos&rsquo;&egrave;
-          l&rsquo;orientamento sessuale?
+          Seconda pillola di conoscenza LGBT: "Che cos&rsquo;&egrave;
+          l&rsquo;orientamento sessuale?"
           <br />
           <strong>Comune di Reggio Emilia</strong>, 16/06/2020
         </p>

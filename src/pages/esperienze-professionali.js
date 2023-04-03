@@ -81,7 +81,7 @@ const experienceDataReadMore = [
     title: `Corso di formazione “LGBTI+ Leadership Enhancement Program”`,
     entity: `EDGE Excellence & Diversity by GLBT Executives`,
     year: `2022`,
-    role: `docente.`,
+    role: `docente`,
   },
   {
     title: `Seminario “Il buio oltre l’arcobaleno. Maltrattamenti intrafamiliari sui minori LGBTQIA*. Difficoltà genitoriali e interventi di aiuto a famiglie e minorenni”`,
