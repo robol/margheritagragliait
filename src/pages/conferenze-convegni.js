@@ -18,7 +18,7 @@ const Contatti = () => (
         Conferenze e convegni
       </h2>
     </div>
-    <div style={{ padding: 45, paddingBottom: 0 }}>
+    <div className={style.generalWrapper}>
       <h2>Anno 2022</h2>
       <ul className={style.listConferenze}>
         <li className={style.listItemConferenze}>

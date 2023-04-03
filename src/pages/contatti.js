@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as style from "../components/index.module.css"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -21,7 +22,10 @@ const Contatti = () => (
         display: "flex",
       }}
     >
-      <div style={{ width: 300, alignSelf: "center", margin: 40 }}>
+      <div
+        style={{ width: 300, alignSelf: "center", margin: 40 }}
+        className={style.desktopOnly}
+      >
         <StaticImage //TODO: EVALUATE THIS
           src="../images/foto1.jpg"
           loading="eager"

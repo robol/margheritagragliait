@@ -12,6 +12,13 @@ const Header = ({ siteTitle }) => {
 
   const navigationLinks = [
     {
+      text: "Home",
+      url: "/",
+      badge: false,
+      description: "Home di Margherita Graglia",
+      subsections: null,
+    },
+    {
       text: "Biografia",
       url: "/biografia",
       badge: false,
@@ -95,18 +102,49 @@ const Header = ({ siteTitle }) => {
             textAlign: "center",
           }}
         >
-          {navigationLinks?.map((link, i) => (
-            <li>
-              <Link
-                style={{
-                  textDecoration: `none`,
-                }}
-                key={link.url}
-                to={link.url}
-              >
-                {link.text.toUpperCase()}
-              </Link>
-            </li>
+          {navigationLinks?.map((section, i) => (
+            <>
+              <li>
+                <Link
+                  style={{
+                    textDecoration: `none`,
+                  }}
+                  key={section.url}
+                  to={section.url}
+                >
+                  {section.text.toUpperCase()}
+                </Link>
+                {section.subsections?.length && (
+                  <button
+                    style={{ border: "none" }}
+                    onClick={() => section.toggleDropdown()}
+                  >
+                    {section.showKey ? "▲" : "▼"}
+                  </button>
+                )}
+              </li>
+              {section.showKey &&
+                section.subsections?.map(subsection => (
+                  <li
+                    style={{
+                      textDecoration: `none`,
+                      backgroundColor: "var(--color-primary)",
+                      color: "var(--color-text-white) !important;",
+                    }}
+                  >
+                    <Link
+                      style={{
+                        textDecoration: `none`,
+                        color: "var(--color-text-white)",
+                      }}
+                      key={subsection.url}
+                      to={subsection.url}
+                    >
+                      {subsection.text.toUpperCase()}
+                    </Link>
+                  </li>
+                ))}
+            </>
           ))}
         </ul>
       )}

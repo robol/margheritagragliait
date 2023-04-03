@@ -42,7 +42,9 @@ const Footer = () => {
       }}
     >
       <h1 style={{ color: "white" }}>Margherita Graglia</h1>
-      <h2 style={{ color: "white" }}>Psicoterapeuta – Formatrice – Saggista</h2>
+      <h2 className={styles.infoTitle} style={{ color: "white" }}>
+        Psicoterapeuta – Formatrice – Saggista
+      </h2>
       <div
         className={styles.desktopOnly}
         style={{
