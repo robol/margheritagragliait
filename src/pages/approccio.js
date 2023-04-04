@@ -140,7 +140,7 @@ const Approccio = () => {
           </>
         )}
         <h3 style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}>
-          L&rsquo;approccio maieutico in pratica
+          l&rsquo;approccio maieutico in pratica
         </h3>
         <p>
           L&rsquo;approccio maieutico fin qui delineato trae spunto dalla mia
@@ -172,7 +172,7 @@ const Approccio = () => {
               n. 90 del 1&deg; Dicembre 2003 e in vari altri corsi formativi
               rivolti a operatori psico-socio-sanitari, educativi, delle Forze
               dell&rsquo;ordine e delle Pubbliche amministrazioni.
-              <br /> In particolare, L&rsquo;approccio maieutico trova la sua
+              <br /> In particolare, l&rsquo;approccio maieutico trova la sua
               versione pi&ugrave; completa, articolata e sistematica nelle
               azioni del{" "}
               <em>
