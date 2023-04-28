@@ -16,7 +16,7 @@ const BookTwo = () => (
         }}
       >
         <StaticImage
-          src="../../images/th_omofobia.jpeg"
+          src="/th_omofobia.jpeg"
           loading="eager"
           width={500}
           quality={100}

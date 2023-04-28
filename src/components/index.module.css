@@ -198,6 +198,7 @@
 }
 .esperienzeItemInfo {
   display: flex;
+  padding-bottom: 1em;
 }
 .esperienzeItemTitle {
   display: flex;
@@ -243,6 +244,16 @@
   width: 710px;
   height: 400px;
 }
+.newsImage {
+  width: 400px;
+  cursor: "pointer";
+  border: "1px solid black";
+}
+.rainbowImage {
+  height: 300;
+  float: right;
+  margin: 20px;
+}
 @media screen and (max-width: 480px) {
   .typewriter {
     width: 100%;
@@ -271,6 +282,16 @@
   .iframeWrapper {
     width: 90%;
     height: 100%;
+  }
+  .newsImage {
+    width: 80%;
+  }
+  .newsContainer {
+    align-items: center;
+  }
+  .rainbowImage {
+    height: 90%;
+    margin: 0 auto;
   }
 }
 
