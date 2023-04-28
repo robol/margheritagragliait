@@ -16,7 +16,7 @@ const experienceData = [
   },
   {
     title: `Seminario di credito “Identità di genere, orientamenti sessuali e professioni psicologiche: buone pratiche per la promozione del benessere”`,
-    entity: `Università degli studi di Trento</strong>, Dipartimento di psicologia e scienze cognitive, sede di `,
+    entity: `Università degli studi di Trento</strong>, Dipartimento di psicologia e scienze cognitive`,
     year: `2022`,
     role: `docente`,
   },

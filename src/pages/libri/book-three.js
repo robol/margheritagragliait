@@ -16,7 +16,7 @@ const BookThree = () => (
         }}
       >
         <StaticImage
-          src="../../images/th_psicoterapia.jpeg"
+          src="/th_psicoterapia.jpeg"
           loading="eager"
           width={500}
           quality={95}

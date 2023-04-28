@@ -12,28 +12,28 @@ const EsperienzeItem = ({ title, year, entity, role, description }) => {
         {year && (
           <span className={styles.esperienzeItemInfo}>
             <strong>Anno:&nbsp;</strong>
-            <p dangerouslySetInnerHTML={{ __html: year }}></p>
+            <span dangerouslySetInnerHTML={{ __html: year }}></span>
           </span>
         )}
         {entity && (
           <span className={styles.esperienzeItemInfo}>
             <strong>Ente:&nbsp;</strong>
-            <p dangerouslySetInnerHTML={{ __html: entity }}></p>
+            <span dangerouslySetInnerHTML={{ __html: entity }}></span>
           </span>
         )}
         {role && (
           <span className={styles.esperienzeItemInfo}>
             <strong>Ruolo:&nbsp;</strong>{" "}
-            <p dangerouslySetInnerHTML={{ __html: role }}></p>
+            <span dangerouslySetInnerHTML={{ __html: role }}></span>
           </span>
         )}
         {description && (
           <>
             <br />
-            <p
+            <span
               className={styles.esperienzeItemInfo}
               dangerouslySetInnerHTML={{ __html: description }}
-            ></p>
+            ></span>
           </>
         )}
       </div>

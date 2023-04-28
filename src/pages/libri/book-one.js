@@ -16,7 +16,7 @@ const BookOne = () => (
         }}
       >
         <StaticImage
-          src="../../images/th_differenze.jpeg"
+          src="/th_differenze.jpeg"
           loading="eager"
           width={500}
           quality={95}

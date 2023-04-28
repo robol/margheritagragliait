@@ -140,7 +140,7 @@ const Approccio = () => {
           </>
         )}
         <h3 style={{ paddingBottom: "15px", borderBottom: "1px solid black" }}>
-          l&rsquo;approccio maieutico in pratica
+          L&rsquo;approccio maieutico in pratica
         </h3>
         <p>
           L&rsquo;approccio maieutico fin qui delineato trae spunto dalla mia

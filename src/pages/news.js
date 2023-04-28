@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as style from "../components/index.module.css"
+import * as styles from "../components/index.module.css"
 
 import Layout from "../components/layout"
 import { Link } from "gatsby"
@@ -60,7 +60,7 @@ const News = () => {
       >
         <h2 style={{ color: "var(--color-text-white)", margin: 0 }}>News</h2>
       </div>
-      <div className={style.newsWrapper}>
+      <div className={styles.newsWrapper}>
         {news.map(newItem => (
           <div
             style={{
@@ -80,14 +80,11 @@ const News = () => {
                 flexDirection: "column",
                 marginLeft: 0,
               }}
+              className={styles.newsContainer}
             >
               {newItem.images?.map(url => (
                 <img
-                  style={{
-                    width: 400,
-                    cursor: "pointer",
-                    border: "1px solid black",
-                  }}
+                  className={styles.newsImage}
                   src={url}
                   onClick={e => toggleFullScreen(e)}
                 />
