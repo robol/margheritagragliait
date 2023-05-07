@@ -9,11 +9,27 @@ const News = () => {
   const news = [
     {
       title:
+        "“Quanti generi di diversità?“",
+      entity: "Università degli Studi di Firenze",
+      location: "Firenze",
+      data: "17 maggio 2023",
+      images: ["/quanti_generi.jpg"],
+    },
+    {
+      title:
         "“Lo psicoterapeuta di fronte all’incongruenza di genere e al trattamento ormonale in età evolutiva”",
       entity: "SITCC",
       location: " Firenze",
       data: "13 maggio 2023",
       images: ["/Invito_SITCCday_page-1.jpg", "/Invito_SITCCday_page-2.jpg"],
+    },
+    {
+      title:
+        "“Aggiornamenti FISS in sessuologia”",
+      entity: "Federazione italiana sessuologia scientifica",
+      location: "Da remoto",
+      data: "5 maggio 2023",
+      images: ["/aggiornamenti_fiss.jpeg"],
     },
     {
       title: "Valorizzare le differenze a scuola: percorsi e strumenti",
