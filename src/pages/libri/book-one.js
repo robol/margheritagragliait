@@ -15,13 +15,9 @@ const BookOne = () => (
           backgroundColor: "#eff1e9",
         }}
       >
-        <StaticImage
+        <img
           src="/th_differenze.jpeg"
-          loading="eager"
-          width={500}
-          quality={95}
-          formats={["auto", "webp", "avif"]}
-          alt=""
+          style={{ width: "500px" }}
         />
       </div>
       <div style={{ width: "70%", height: "100%", marginLeft: "40px" }}>

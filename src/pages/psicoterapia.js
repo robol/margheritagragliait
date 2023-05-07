@@ -282,7 +282,11 @@ const Psicoterapia = () => {
                     genere; redazione della certificazione per la rettificazione
                     anagrafica; sostegno ai genitori e ai familiari; supporto
                     nei vari contesti sociali, come ad esempio quello
-                    scolastico) Margherita Graglia &egrave; componente della
+                    scolastico)
+                  </p>
+
+                  <p style={{ textAlign: "justify" }}>
+                    Margherita Graglia &egrave; componente della
                     commissione antidiscriminazione della societ&agrave;
                     scientifica SIGIS (Societ&agrave; italiana genere,
                     identit&agrave; e salute)
