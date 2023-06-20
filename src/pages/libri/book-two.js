@@ -2,7 +2,6 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
 
 const BookTwo = () => (
   <Layout>
@@ -92,7 +91,7 @@ const BookTwo = () => (
               href={
                 "https://www.amazon.it/Omofobia-Strumenti-analisi-intervento-Margherita/dp/8874666454"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src="/amazon-button.png" style={{ height: "50px" }} />
             </a>
@@ -100,7 +99,7 @@ const BookTwo = () => (
               href={
                 "https://www.ibs.it/omofobia-strumenti-di-analisi-di-libro-margherita-graglia/e/9788874666454"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="/fibs-logo.png"
@@ -109,7 +108,7 @@ const BookTwo = () => (
             </a>
             <a
               href={"https://www.carocci.it/prodotto/omofobia"}
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="/carocci-logo.png"

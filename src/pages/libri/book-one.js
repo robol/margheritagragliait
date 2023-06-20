@@ -2,7 +2,6 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
 
 const BookOne = () => (
   <Layout>
@@ -87,7 +86,7 @@ const BookOne = () => (
               href={
                 "https://www.amazon.it/differenze-sesso-genere-orientamento/dp/8874668082"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src="/amazon-button.png" style={{ height: "50px" }} />
             </a>
@@ -95,7 +94,7 @@ const BookOne = () => (
               href={
                 "https://www.ibs.it/differenze-di-sesso-genere-orientamento-libro-margherita-graglia/e/9788874668083"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="/fibs-logo.png"
@@ -106,7 +105,7 @@ const BookOne = () => (
               href={
                 "https://www.carocci.it/prodotto/le-differenze-di-sesso-genere-e-orientamento"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="/carocci-logo.png"

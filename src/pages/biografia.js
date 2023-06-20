@@ -88,7 +88,7 @@ const Biografia = () => {
 
             <p>
               Affianca all&apos;attivit&agrave; clinica quella di&nbsp;
-              <Link target="_blank" to="/formazione">
+              <Link target="_blank" rel="noreferrer" to="/formazione">
                 formatrice e consulente
               </Link>
               &nbsp;presso universit&agrave;, aziende USL, enti pubblici,
@@ -133,7 +133,7 @@ const Biografia = () => {
               <a
                 href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
                 rel="noopener noreferrer"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <strong>Camera dei deputati</strong>
               </a>
@@ -158,7 +158,7 @@ const Biografia = () => {
               <a
                 href="https://www.comune.re.it/argomenti/pari-opportunita/tavoli-interistituzionali/tavolo-interistituzionale-per-il-contrasto-all2019omotransnegativita-e-per-l2019inclusione-delle-persone-lgbt"
                 rel="noopener noreferrer"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <strong>
                   Tavolo interistituzionale per il contrasto
@@ -183,8 +183,8 @@ const Biografia = () => {
           </div>
         </div>
         <div className={styles.bioImage}>
-          <StaticImage //TODO: EVALUATE THIS
-            src="../images/foto1.jpg"
+          <StaticImage
+            src="../../static/foto1.jpg"
             loading="eager"
             quality={95}
             objectFit="cover"

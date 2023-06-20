@@ -26,8 +26,8 @@ const Contatti = () => (
         style={{ width: 300, alignSelf: "center", margin: 40 }}
         className={style.desktopOnly}
       >
-        <StaticImage //TODO: EVALUATE THIS
-          src="../images/foto1.jpg"
+        <StaticImage
+          src="../../static/foto1.jpg"
           loading="eager"
           quality={95}
           objectFit="cover"
@@ -49,7 +49,7 @@ const Contatti = () => (
           </strong>
         </p>
         <p>
-          <a target="_blank" href="mailto:graglia.margherita@gmail.com">
+          <a target="_blank" rel="noreferrer" href="mailto:graglia.margherita@gmail.com">
             graglia.margherita@gmail.com
           </a>
         </p>
@@ -60,7 +60,7 @@ const Contatti = () => (
         </p>
         <div style={{ display: "flex", alignItems: "center" }}>
           <StaticImage
-            src="../images/contatti-in.png"
+            src="../../static/contatti-in.png"
             loading="eager"
             formats={["auto", "webp", "avif"]}
             alt=""
@@ -76,7 +76,7 @@ const Contatti = () => (
         <div style={{ display: "flex", alignItems: "center" }}>
           {" "}
           <StaticImage
-            src="../images/contatti-fb.png"
+            src="../../static/contatti-fb.png"
             loading="eager"
             formats={["auto", "webp", "avif"]}
             alt=""
@@ -92,7 +92,7 @@ const Contatti = () => (
         <div style={{ display: "flex", alignItems: "center" }}>
           {" "}
           <StaticImage
-            src="../images/contatti-tw.png"
+            src="../../static/contatti-tw.png"
             loading="eager"
             formats={["auto", "webp", "avif"]}
             alt=""
@@ -105,7 +105,7 @@ const Contatti = () => (
         <div style={{ display: "flex", alignItems: "center" }}>
           {" "}
           <StaticImage
-            src="../images/contatti-ig.png"
+            src="../../static/contatti-ig.png"
             loading="eager"
             formats={["auto", "webp", "avif"]}
             alt="https://www.instagram.com/graglia_margherita/"

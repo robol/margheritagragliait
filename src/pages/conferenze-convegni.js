@@ -254,7 +254,7 @@ const Contatti = () => (
           <button>
             <a
               style={{ textDecoration: "none" }}
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
             >
               LINK

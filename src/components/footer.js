@@ -83,7 +83,7 @@ const Footer = () => {
           }}
         >
           <StaticImage
-            src="../images/linkedin50.png"
+            src="../../static/linkedin50.png"
             loading="eager"
             formats={["auto", "webp", "avif"]}
             alt=""

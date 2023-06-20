@@ -14,7 +14,7 @@ const BookListItem = ({ year, text, image, aboutLink }) => {
         <div style={{ display: "flex", flexDirection: "column" }}>
           <span className={styles.bookListItemText}>{text}</span>
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href={aboutLink}
             className={styles.bookListItemAboutlink}
           >

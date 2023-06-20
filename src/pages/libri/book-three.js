@@ -2,7 +2,6 @@ import * as React from "react"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
 
 const BookThree = () => (
   <Layout>
@@ -90,7 +89,7 @@ const BookThree = () => (
               href={
                 "https://www.amazon.it/Psicoterapia-omosessualit%C3%A0-Margherita-Graglia/dp/8874665695"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src="/amazon-button.png" style={{ height: "50px" }} />
             </a>
@@ -98,7 +97,7 @@ const BookThree = () => (
               href={
                 "https://www.ibs.it/psicoterapia-omosessualita-libro-margherita-graglia/e/9788874665693"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="/fibs-logo.png"
@@ -109,7 +108,7 @@ const BookThree = () => (
               href={
                 "https://www.carocci.it/prodotto/psicoterapia-e-omosessualita"
               }
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src="/carocci-logo.png"

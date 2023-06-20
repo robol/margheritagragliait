@@ -84,7 +84,7 @@ const Articoli = () => {
             <button>
               <a
                 href="https://www.camera.it/application/xmanager/projects/leg18/attachments/upload_file_doc_acquisiti/pdfs/000/003/636/Margherita_Graglia.pdf"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -181,7 +181,7 @@ const Articoli = () => {
             <button>
               <a
                 href="https://www.rivistailmulino.it/news/newsitem/index/Item/News:NEWS_ITEM:4363?fbclid=IwAR0EbsVjl8hj_xbB0EiLFAnqtQElIj8QA8r4Zcbh5dUlsnaGmIjM9vKIuLI"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -197,7 +197,7 @@ const Articoli = () => {
             <button>
               <a
                 href="https://ricerca.repubblica.it/repubblica/archivio/repubblica/2018/05/21/la-legge-sullomofobia-e-lesperienza-di-reggio-emiliaBologna03.html"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -290,7 +290,7 @@ const Articoli = () => {
             <button>
               <a
                 href="https://www.academia.edu/30440987/Omofobia_contemporanea_la_pressione_sociale_allinvisibilità_e_la_contrarietà_verso_lomogenitorialità "
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -337,7 +337,7 @@ const Articoli = () => {
             <button>
               <a
                 href="http://rivista.edaforum.it/numero19/buonepratiche_graglia.html"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -354,7 +354,7 @@ const Articoli = () => {
             <button>
               <a
                 href="https://www.deboecksuperieur.com/ouvrage/9782804169206-l-homosexualite-dans-les-psychotherapies"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -434,7 +434,7 @@ const Articoli = () => {
             <button>
               <a
                 href="https://www.coe.int/t/Commissioner/Source/LGBT/LGBTStudy2011_en.pdf"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
@@ -562,7 +562,7 @@ const Articoli = () => {
             <button>
               <a
                 href="http://www.psychomedia.it/pm/lifecycle/gender/graglia.htm"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ textDecoration: "none" }}
               >
                 LINK
