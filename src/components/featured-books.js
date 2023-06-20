@@ -1,8 +1,5 @@
 import * as React from "react"
 
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 const HeroBanner = () => {
   const bookPageLinks = [
     {
@@ -56,7 +53,7 @@ const HeroBanner = () => {
                 style={{ height: "300px", border: "1px solid black" }}
               />
             </a>
-            <a href={book.amazonLink} target="_blank">
+            <a href={book.amazonLink} target="_blank" rel="noreferrer">
               <img src="/amazon-button.png" style={{ height: "50px" }} />
             </a>
           </div>

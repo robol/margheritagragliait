@@ -235,7 +235,7 @@ const Header = ({ siteTitle }) => {
         <div className={styles.mobileOnly}>
           <div onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
             <StaticImage
-              src="../images/hamburger.png"
+              src="../../static/hamburger.png"
               loading="eager"
               formats={["auto", "webp", "avif"]}
               alt=""

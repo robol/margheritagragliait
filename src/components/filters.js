@@ -10,7 +10,7 @@ const Filters = ({ filterItems, handleFilter }) => {
     <>
       {filterItems.map(filter => {
         return filter.link ? (
-          <a href={filter.link} target="_blank">
+          <a href={filter.link} target="_blank" rel="noreferrer">
             <h3>{filter.label}</h3>
           </a>
         ) : (

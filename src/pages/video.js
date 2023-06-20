@@ -58,7 +58,7 @@ const Video = () => (
         <button>
           <a
             href="https://www.radioradicale.it/scheda/593379/per-la-dignita-delle-persone-contro-la-violenza-omotransfobica?i=4076662"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             style={{ textDecoration: "none" }}
           >
             LINK
