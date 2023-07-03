@@ -7,6 +7,14 @@ import Seo from "../components/seo"
 
 const News = () => {
   const news = [
+     {
+      title:
+        "Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT",
+      entity: "Comune di Nichelino",
+      location: "Nichelino",
+      data: "12 giugno 2023",
+      images: ["/protocollo.jpg"],
+    },
       {
       title:
         "“Periferie in carriera. Carriera alias e pratiche inclusive nelle amministrazioni pubbliche”",
