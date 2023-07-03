@@ -7,6 +7,14 @@ import Seo from "../components/seo"
 
 const News = () => {
   const news = [
+      {
+      title:
+        "“Periferie in carriera. Carriera alias e pratiche inclusive nelle amministrazioni pubbliche”",
+      entity: "Città metropolitana di Torino",
+      location: "Nichelino",
+      data: "30 giugno 2023",
+      images: ["/carriera.jpg"],
+    },
     {
       title:
         "“Quanti generi di diversità?“",
