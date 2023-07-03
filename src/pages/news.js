@@ -13,7 +13,7 @@ const News = () => {
       entity: "Comune di Nichelino",
       location: "Nichelino",
       data: "12 giugno 2023",
-      images: ["/protocollo.jpg"],
+      images: ["/protocollo.png"],
     },
       {
       title:
