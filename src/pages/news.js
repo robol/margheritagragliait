@@ -19,7 +19,7 @@ const News = () => {
       title:
         ""Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT"",
       entity: "Comune di Nichelino",
-      location: "Nichelino",
+      location: "Telegiornale Rai Piemonte",
       data: "12 giugno 2023",
       images: ["/tgr.mp4"],
     },
