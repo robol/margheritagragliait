@@ -21,7 +21,7 @@ const News = () => {
       entity: "Telegiornale Rai Piemonte",
       location: "Nichelino",
       data: "12 giugno 2023",
-      video: "/video3.mp4",
+      video: "/tgr.mp4",
     },
       {
       title:
