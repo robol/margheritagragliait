@@ -2,12 +2,11 @@ import * as React from "react"
 import * as styles from "../components/index.module.css"
 
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import Seo from "../components/seo"
 
 const News = () => {
   const news = [
-     {
+    {
       title:
         "“Periferie in carriera. Carriera alias e pratiche inclusive nelle amministrazioni pubbliche”",
       entity: "Città metropolitana di Torino",
@@ -15,15 +14,15 @@ const News = () => {
       data: "30 giugno 2023",
       images: ["/carriera.jpg"],
     },
-       {
+    {
       title:
         "“Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT“",
       entity: "Telegiornale Rai Piemonte",
       location: "Nichelino",
       data: "12 giugno 2023",
-      video: "/tgr.mp4",
+      video: "/omotransnegativita.mp4",
     },
-      {
+    {
       title:
         "Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT",
       entity: "Comune di Nichelino",
@@ -151,7 +150,7 @@ const News = () => {
                   }}
                 >
                   <video controls style={{ width: "inherit" }}>
-                    <source src={"/video3.mp4"} type="video/mp4" />
+                    <source src={newItem.video} type="video/mp4" />
                   </video>
                 </div>
               )}
