@@ -17,11 +17,11 @@ const News = () => {
     },
        {
       title:
-        ""Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT"",
+        "“Sottoscrizione del Protocollo operativo del Tavolo interistituzionale per il contrasto all’omotransnegatività e per l’inclusione delle persone LGBT“",
       entity: "Telegiornale Rai Piemonte",
       location: "Nichelino",
       data: "12 giugno 2023",
-      images: ["/tgr.mp4"],
+      video: "/video3.mp4",
     },
       {
       title:
