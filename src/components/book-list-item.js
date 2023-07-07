@@ -10,7 +10,7 @@ const BookListItem = ({ year, text, image, aboutLink }) => {
     <>
       <span className={styles.bookListItemYear}>{year}</span>
       <div className={styles.bookListItemContainer}>
-        <img src={image} className={styles.bookListItemImage} />
+        <img alt='' src={image} className={styles.bookListItemImage} />
         <div style={{ display: "flex", flexDirection: "column" }}>
           <span className={styles.bookListItemText}>{text}</span>
           <a

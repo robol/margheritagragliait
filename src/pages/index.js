@@ -1,8 +1,6 @@
 import * as React from "react"
 import * as styles from "../components/index.module.css"
 
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
-
 import FeaturedBooks from "../components/featured-books"
 import HeroBanner from "../components/hero-banner"
 import Layout from "../components/layout"

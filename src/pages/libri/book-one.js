@@ -14,7 +14,7 @@ const BookOne = () => (
           backgroundColor: "#eff1e9",
         }}
       >
-        <img
+        <img alt=''
           src="/th_differenze.webp"
           style={{ width: "500px" }}
         />
@@ -88,7 +88,7 @@ const BookOne = () => (
               }
               target="_blank" rel="noreferrer"
             >
-              <img src="/amazon-button.png" style={{ height: "50px" }} />
+              <img alt='' width={'100%'} height={'50px'} src="/amazon-button.webp" style={{ height: "50px" }} />
             </a>
             <a
               href={
@@ -96,7 +96,7 @@ const BookOne = () => (
               }
               target="_blank" rel="noreferrer"
             >
-              <img
+              <img alt=''
                 src="/fibs-logo.png"
                 style={{ height: "50px", marginLeft: "30px" }}
               />
@@ -107,7 +107,7 @@ const BookOne = () => (
               }
               target="_blank" rel="noreferrer"
             >
-              <img
+              <img alt=''
                 src="/carocci-logo.png"
                 style={{ height: "50px", marginLeft: "30px" }}
               />

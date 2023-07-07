@@ -14,7 +14,7 @@ const BookTwo = () => (
           backgroundColor: "#eff1e9",
         }}
       >
-        <img
+        <img alt=''
           src="/th_omofobia.webp"
           style={{ width: "500px" }}
         />
@@ -93,7 +93,7 @@ const BookTwo = () => (
               }
               target="_blank" rel="noreferrer"
             >
-              <img src="/amazon-button.png" style={{ height: "50px" }} />
+              <img alt='' width={'100%'} height={'50px'} src="/amazon-button.webp" style={{ height: "50px" }} />
             </a>
             <a
               href={
@@ -101,7 +101,7 @@ const BookTwo = () => (
               }
               target="_blank" rel="noreferrer"
             >
-              <img
+              <img alt=''
                 src="/fibs-logo.png"
                 style={{ height: "50px", marginLeft: "30px" }}
               />
@@ -110,7 +110,7 @@ const BookTwo = () => (
               href={"https://www.carocci.it/prodotto/omofobia"}
               target="_blank" rel="noreferrer"
             >
-              <img
+              <img alt=''
                 src="/carocci-logo.png"
                 style={{ height: "50px", marginLeft: "30px" }}
               />

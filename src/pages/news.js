@@ -122,7 +122,7 @@ const News = () => {
               className={styles.newsContainer}
             >
               {newItem.images?.map(url => (
-                <img
+                <img alt=''
                   className={styles.newsImage}
                   src={url}
                   onClick={e => toggleFullScreen(e)}

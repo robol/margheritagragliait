@@ -2,7 +2,6 @@ import * as React from "react"
 import * as style from "../components/index.module.css"
 
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import Seo from "../components/seo"
 import { useState } from "react"
 
@@ -11,8 +10,6 @@ const Psicoterapia = () => {
   const [readMore2, setReadMore2] = useState(false)
   const [readMore3, setReadMore3] = useState(false)
   const [readMore4, setReadMore4] = useState(false)
-  const [readMore5, setReadMore5] = useState(false)
-  const [readMore6, setReadMore6] = useState(false)
   return (
     <Layout>
       <div
@@ -234,7 +231,7 @@ const Psicoterapia = () => {
           </p>
           {readMore4 && (
             <>
-              <img src="/img_1.webp" className={style.rainbowImage} />
+              <img alt='' src="/img_1.webp" className={style.rainbowImage} />
               <p style={{ textAlign: "justify" }}>
                 Il sesso, il genere e l&rsquo;orientamento sessuale sono
                 dimensioni nucleari dell&rsquo;identit&agrave; umana e possono

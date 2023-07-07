@@ -4,12 +4,8 @@ import * as style from "../components/index.module.css"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Seo from "../components/seo"
-import { useState } from "react"
 
 const Supervisione = () => {
-  const [readMore1, setReadMore1] = useState(false)
-  const [readMore2, setReadMore2] = useState(false)
-
   return (
     <Layout>
       <div
