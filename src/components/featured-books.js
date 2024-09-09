@@ -34,7 +34,7 @@ const HeroBanner = () => {
           marginTop: "50px",
         }}
       >
-        LIBRI IN VETRINA
+        LIBRI IN VETRINAa
       </h1>
       <div
         style={{
