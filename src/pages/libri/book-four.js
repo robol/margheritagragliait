@@ -3,7 +3,7 @@ import * as React from "react"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
-const BookThree = () => (
+const BookFour = () => (
   <Layout>
     <div style={{ display: "flex", margin: "40px" }}>
       <div
