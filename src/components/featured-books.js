@@ -7,7 +7,8 @@ const HeroBanner = () => {
       url: "/libri/book-four",
       image: "/th_incongruenza_sm.webp",
       description: "Libro 4",
-      amazonLink:        "https://www.amazon.it/Lincongruenza-genere-adolescenza-Margherita-Graglia/dp/8874669968/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oAwbcWtDxzcFng13lIB-m7-A1neiTFY75qpkq0EXbYZ0mapeUc3fW8VWR7Lfi59RXjOKUsEydwV2-9vc75acHg.GfzszsW6hiiFS-C2e3FEgK9vIQH7DE5dBEewqymgC78&dib_tag=se&keywords=graglia+margherita&qid=1725642954&sr=8-1",
+      amazonLink:
+        "https://www.amazon.it/Lincongruenza-genere-adolescenza-Margherita-Graglia/dp/8874669968/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oAwbcWtDxzcFng13lIB-m7-A1neiTFY75qpkq0EXbYZ0mapeUc3fW8VWR7Lfi59RXjOKUsEydwV2-9vc75acHg.GfzszsW6hiiFS-C2e3FEgK9vIQH7DE5dBEewqymgC78&dib_tag=se&keywords=graglia+margherita&qid=1725642954&sr=8-1",
     },
     {
       text: "Libro 1",
