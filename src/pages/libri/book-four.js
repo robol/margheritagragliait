@@ -15,7 +15,7 @@ const BookFour = () => (
         }}
       >
         <img alt=''
-          src="/th_psicoterapia.webp"
+          src="/th_incongruenza.webp"
           style={{ width: "500px" }}
         />
       </div>
