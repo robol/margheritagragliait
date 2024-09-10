@@ -40,7 +40,7 @@ const BookThree = () => (
               margin: 0,
             }}
           >
-            Carocci Faber editore 2009
+            Carocci Faber editore 2024
           </h3>
         </div>
         <p>
