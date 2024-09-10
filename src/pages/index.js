@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className={styles.textCenter}>
       <HeroBanner />
       <div className={styles.intro}>
-        <h2>Psicoterapeuta,  formatrice e saggista</h2>
+        <h2>Psicoterapeuta formatrice e saggista</h2>
         <div className={styles.introInfo}>
           <p>
             Affianca all'attività clinica, come psicoterapeuta e sessuologa
