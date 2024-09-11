@@ -11,13 +11,13 @@ const IndexPage = () => (
     <div className={styles.textCenter}>
       <HeroBanner />
       <div className={styles.intro}>
-        <h2>Psicoterapeuta formatrice e saggista</h2>
+        <h2>Psicoterapeuta, formatrice e saggista</h2>
         <div className={styles.introInfo}>
           <p>
             Affianca all'attività clinica, come psicoterapeuta e sessuologa
             clinica, quella di formatrice e consulente sui temi dell'identità
             sessuale (sesso, genere e orientamento) in vari ambiti: sanitari,
-            pubbliche amministrazioni, educativi, privati e associativi.
+            pubbliche amministrazioni, educativi privati e associativi.
           </p>
         </div>
         <br />
