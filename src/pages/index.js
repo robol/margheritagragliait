@@ -17,7 +17,7 @@ const IndexPage = () => (
             Affianca all'attività clinica, come psicoterapeuta e sessuologa
             clinica, quella di formatrice e consulente sui temi dell'identità
             sessuale (sesso, genere e orientamento) in vari ambiti: sanitari,
-            pubbliche amministrazioni, educativi privati e associativi.
+            pubbliche amministrazioni, educativi, privati e associativi.
           </p>
         </div>
         <br />
