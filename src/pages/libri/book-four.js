@@ -125,23 +125,23 @@ const BookFour = () => (
         4. Il genere. Strumento di conoscenza e campo di conflitto sociale. di <em>Chiara Bertone</em> <br /> <br />
         5. Transnegatività <br /> <br />
         <h3>
-          Parte seconda<br />
-          Aspetti applicativi<br />
+        Parte seconda<br />
+        Aspetti applicativi<br />
         </h3>
         <div style={{ marginLeft: "15px" }}>
-          6. Contesti di sviluppo<br /> <br />
-          7. Incongruenza di genere e neurodiversità. di <em>Angela Caldarera</em> <br /> <br />
-          8. Promuovere l’inclusione istituzionale <br /> <br />
-          9. La co-costruzione del genere nei contesti educativi 0-6 anni. di <em>Alessandra Braglia</em> e <em>Elena Maccaferri</em> <br /> <br />
-          10. Controversie e conflitti etici nell’incongruenza di genere: una disamina bioetica. di <em>Elena Nave</em> e <em>Matteo Cresti</em> <br /> <br />
+        6. Contesti di sviluppo<br /> <br />
+        7. Incongruenza di genere e neurodiversità. di <em>Angela Caldarera</em> <br /> <br />
+        8. Promuovere l’inclusione istituzionale <br /> <br />
+        9. La co-costruzione del genere nei contesti educativi 0-6 anni. di <em>Alessandra Braglia</em> e <em>Elena Maccaferri</em> <br /> <br />
+        10. Controversie e conflitti etici nell’incongruenza di genere: una disamina bioetica. di <em>Elena Nave</em> e <em>Matteo Cresti</em> <br /> <br />
         <h3>
-          Conclusioni<br />
-          Bibliografia<br />
-          Materiali on line<br />
+        Conclusioni<br />
+        Bibliografia<br />
+        Materiali on line<br />
         </h3>
         <div style={{ marginLeft: "15px" }}>
-          11. La presa in carico psicologica di <em>Chiara Baietto</em><br /> <br />
-          12. Corpo a corpo. L’identità di genere del terapeuta. di <em>Julien Montecchi</em> <br /> <br />
+        11. La presa in carico psicologica di <em>Chiara Baietto</em><br /> <br />
+        12. Corpo a corpo. L’identità di genere del terapeuta. di <em>Julien Montecchi</em> <br /> <br />
           </div>
         </div>
       </div>
