@@ -56,7 +56,7 @@ const BookFour = () => (
           <h3
             style={{ textTransform: "uppercase", fontSize: "var(--font-sm)" }}
           >
-            Titolo disponibile per la aquisizione su:{" "}
+            Titolo disponibile per l'acquisto su:{" "}
           </h3>
           <div style={{ display: "flex" }}>
             <a
@@ -134,12 +134,14 @@ const BookFour = () => (
           8. Promuovere l’inclusione istituzionale <br /> <br />
           9. La co-costruzione del genere nei contesti educativi 0-6 anni. di <em>Alessandra Braglia</em> e <em>Elena Maccaferri</em> <br /> <br />
           10. Controversie e conflitti etici nell’incongruenza di genere: una disamina bioetica. di <em>Elena Nave</em> e <em>Matteo Cresti</em> <br /> <br />
-          <strong>Conclusioni</strong>
-          <strong>Bibliografia</strong>
-          <strong>Materiali on line</strong>
-          <div style={{ marginLeft: "15px" }}>
-            11. La presa in carico psicologica di <em>Chiara Baietto</em><br /> <br />
-            12. Corpo a corpo. L’identità di genere del terapeuta. di <em>Julien Montecchi</em> <br /> <br />
+        <h3>
+          Conclusioni<br />
+          Bibliografia<br />
+          Materiali on line<br />
+        </h3>
+        <div style={{ marginLeft: "15px" }}>
+          11. La presa in carico psicologica di <em>Chiara Baietto</em><br /> <br />
+          12. Corpo a corpo. L’identità di genere del terapeuta. di <em>Julien Montecchi</em> <br /> <br />
           </div>
         </div>
       </div>
