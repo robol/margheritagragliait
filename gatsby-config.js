@@ -12,7 +12,7 @@ module.exports = {
     title: `Margherita Graglia`,
     description: `Margherita Graglia description placeholder`,
     author: `Emilia Rodriguez Gimenez`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://www.margheritagraglia.it`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -26,6 +26,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {},
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        policy: [{ userAgent: "*", allow: "/" }],
+        sitemap: "https://www.margheritagraglia.it/sitemap-index.xml",
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
