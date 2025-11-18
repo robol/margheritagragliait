@@ -89,7 +89,7 @@ const Footer = () => {
             alt=""
             style={{ marginRight: 7 }}
           />
-          <text
+          <span
             style={{
               lineHeight: 1,
               fontWeight: 800,
@@ -99,7 +99,7 @@ const Footer = () => {
             }}
           >
             Follow me on linkedin
-          </text>
+          </span>
         </div>
       </a>
       <a

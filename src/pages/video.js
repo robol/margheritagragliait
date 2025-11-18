@@ -119,7 +119,7 @@ const Video = () => (
           title="Margherita Graglia_Che cos’è l’identità di genere?"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <br />
         <br />
