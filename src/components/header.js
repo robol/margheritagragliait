@@ -163,13 +163,12 @@ const Header = ({ siteTitle }) => {
             {siteTitle.toUpperCase()}
           </Link>
           <div className={styles.sectionsContainer}>
-            {navigationLinks.map((link, i) => (
-              <>
-                {link.subsections ? (
+            {navigationLinks.map((link, i) => link.subsections ? (
                   <div
                     onMouseEnter={() => link.toggleDropdown()}
                     onMouseLeave={() => link.toggleDropdown()}
                     className={styles.headerItems}
+                    key={"navigation-link-" + link.url}
                   >
                     <Link
                       key={link.url}
@@ -227,9 +226,8 @@ const Header = ({ siteTitle }) => {
                   >
                     {link.text.toUpperCase()}
                   </Link>
-                )}
-              </>
-            ))}
+                )
+            )}
           </div>
         </div>
         <div className={styles.mobileOnly}>

@@ -41,6 +41,7 @@ const HeroBanner = () => {
         style={{
           marginTop: "50px",
         }}
+        key="featured-books-title"
       >
         LIBRI IN VETRINA
       </div>
@@ -52,9 +53,10 @@ const HeroBanner = () => {
           flexWrap: "wrap",
           textAlignLast: "center",
         }}
+        key="featured-books-container"
       >
         {bookPageLinks.map(book => (
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", flexDirection: "column" }} key={"featured-book-" + book.url}>
             <a href={book.url} target="_blank" rel="noreferrer">
               <img alt=''
                width={'100%'} height={'300px'} 
