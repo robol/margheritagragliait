@@ -41,7 +41,7 @@ const Footer = () => {
         marginTop: "var(--space-6)",
       }}
     >
-      <h1 style={{ color: "white" }}>Margherita Graglia</h1>
+      <div className="h1" style={{ color: "white" }}>Margherita Graglia</div>
       <h2 className={styles.infoTitle} style={{ color: "white" }}>
         Psicoterapeuta – Formatrice – Saggista
       </h2>

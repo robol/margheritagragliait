@@ -37,13 +37,13 @@ const HeroBanner = () => {
   ]
   return (
     <>
-      <h1
+      <div className="h1"
         style={{
           marginTop: "50px",
         }}
       >
         LIBRI IN VETRINA
-      </h1>
+      </div>
       <div
         style={{
           display: "flex",
