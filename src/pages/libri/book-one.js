@@ -192,6 +192,6 @@ const BookOne = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="BookOne" />
+export const Head = () => <Seo title="LE DIFFERENZE DI SESSO, GENERE E ORIENTAMENTO - Buone pratiche per l'inclusione" />
 
 export default BookOne

@@ -21,7 +21,7 @@ const BookThree = () => (
       </div>
       <div style={{ width: "70%", height: "100%", marginLeft: "40px" }}>
         <div style={{ textAlign: "center", marginBottom: "35px" }}>
-          <h1 style={{ margin: 0 }}>PSICOTERAPIA E OMOSESSUALITA'</h1>
+          <h1 style={{ margin: 0 }}>PSICOTERAPIA E OMOSESSUALIT&Agrave;</h1>
           <h2
             style={{
               color: "#8a9a5b",
@@ -168,6 +168,6 @@ const BookThree = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="BookThree" />
+export const Head = () => <Seo title="PSICOTERAPIA E OMOSESSUALIT&Agrave; - Un'attenta analisi del rapporto tra psicoterapeuti e pazienti gay e lesbiche" />
 
 export default BookThree

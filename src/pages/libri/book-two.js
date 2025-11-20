@@ -192,6 +192,6 @@ const BookTwo = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="BookTwo" />
+export const Head = () => <Seo title="Omofobia - Strumenti di analisi e di intervento" />
 
 export default BookTwo
